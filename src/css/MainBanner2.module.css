@@ -1,0 +1,58 @@
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 658px;
+  height: 663px;
+}
+.groupIcon {
+  position: absolute;
+  top: 688px;
+  left: 318px;
+  width: 42px;
+  height: 10px;
+}
+.tensor21,
+.tensor21Copy11,
+.tvCopy11,
+.tvCopy12 {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 658px;
+  height: 619px;
+  object-fit: cover;
+  display: none;
+}
+.tensor21,
+.tensor21Copy11,
+.tvCopy12 {
+  left: -180px;
+  width: 928px;
+}
+.tensor21,
+.tensor21Copy11 {
+  left: 0;
+  width: 658px;
+  height: 601px;
+}
+.tensor21Copy11 {
+  top: -14px;
+  left: -25px;
+  width: 673px;
+  height: 677.48px;
+}
+.tensorBanner2FinalCopy1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 658px;
+  height: 638px;
+  object-fit: cover;
+}
+.mainBanner2Div {
+  position: relative;
+  width: 100%;
+  height: 698px;
+}

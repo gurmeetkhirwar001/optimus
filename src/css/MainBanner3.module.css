@@ -1,0 +1,67 @@
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 658px;
+  height: 663px;
+}
+.groupIcon {
+  position: absolute;
+  top: 688px;
+  left: 318px;
+  width: 42px;
+  height: 10px;
+}
+.tensor21,
+.tvCopy11,
+.tvCopy12 {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 658px;
+  height: 619px;
+  object-fit: cover;
+  display: none;
+}
+.tensor21,
+.tvCopy12 {
+  left: -180px;
+  width: 928px;
+}
+.tensor21 {
+  left: 0;
+  width: 658px;
+  height: 601px;
+}
+.banner31 {
+  top: 0;
+  left: 0;
+  width: 663px;
+  height: 663px;
+  display: none;
+}
+.banner31,
+.banner32,
+.banner33 {
+  position: absolute;
+  object-fit: cover;
+}
+.banner32 {
+  top: 14px;
+  left: 0;
+  width: 649px;
+  height: 649px;
+  display: none;
+}
+.banner33 {
+  top: 12px;
+  left: 4px;
+  width: 639px;
+  height: 639px;
+}
+.mainBanner3 {
+  position: relative;
+  width: 100%;
+  height: 698px;
+}

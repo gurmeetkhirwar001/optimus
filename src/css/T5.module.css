@@ -1,0 +1,211 @@
+.rectangleDiv {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  background-color: #f7faff;
+  width: 1440px;
+  height: 348px;
+}
+.tESTIMONIALSDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.testimonialsDiv {
+  position: absolute;
+  top: 51px;
+  left: 189px;
+  width: 120px;
+  height: 19px;
+  text-align: center;
+  font-size: 16px;
+}
+.trackAnyHashtags {
+  width: 32.15%;
+  top: calc(50% - 77.5px);
+  right: 54.72%;
+  left: 13.13%;
+  font-size: 36px;
+  letter-spacing: 0.3px;
+  line-height: 52px;
+  color: #1d2d3f;
+}
+.div,
+.dontWasteTimeOn,
+.trackAnyHashtags {
+  position: absolute;
+  display: inline-block;
+}
+.dontWasteTimeOn {
+  width: 18.82%;
+  top: calc(50% - -108.5px);
+  right: 68.06%;
+  left: 13.13%;
+  line-height: 32px;
+  color: #787878;
+}
+.div {
+  top: 0;
+  left: 740px;
+  font-size: 130px;
+  letter-spacing: 0.3px;
+  font-family: DM Sans;
+  color: #468cf6;
+}
+.star2,
+.star3,
+.star4,
+.starDiv,
+.starDiv1 {
+  position: absolute;
+  width: 14.75%;
+  top: calc(50% - 9px);
+  right: 85.25%;
+  left: 0;
+  display: inline-block;
+}
+.star2,
+.star3,
+.star4,
+.starDiv1 {
+  right: 63.93%;
+  left: 21.31%;
+}
+.star2,
+.star3,
+.star4 {
+  right: 42.62%;
+  left: 42.62%;
+}
+.star3,
+.star4 {
+  right: 21.31%;
+  left: 63.93%;
+}
+.star4 {
+  right: 0;
+  left: 85.25%;
+}
+.groupDiv1 {
+  position: absolute;
+  width: 27.42%;
+  top: calc(50% - 113px);
+  right: 71.46%;
+  left: 1.12%;
+  height: 18px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Font Awesome 5 Free;
+}
+.dontWasteTimeOn1 {
+  position: absolute;
+  width: 99.33%;
+  top: calc(50% - 81px);
+  right: 0;
+  left: 0.67%;
+  line-height: 30px;
+  display: inline-block;
+  color: #787878;
+}
+.digitalMarketingEx,
+.jaquonHartB {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.jaquonHartB {
+  width: 100%;
+  top: calc(50% - 28px);
+  right: 0;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.digitalMarketingEx {
+  width: 90.73%;
+  top: calc(50% - 0px);
+  right: 9.27%;
+  font-size: 16px;
+  line-height: 28px;
+  color: #787878;
+}
+.groupDiv,
+.groupDiv2 {
+  position: absolute;
+  width: 33.93%;
+  top: calc(50% - -57px);
+  right: 66.07%;
+  left: 0;
+  height: 56px;
+  color: #1d2d3f;
+}
+.groupDiv {
+  width: 31.94%;
+  top: calc(50% - 123.5px);
+  right: 12.99%;
+  left: 55.07%;
+  height: 226px;
+  color: #faad13;
+  font-family: DM Sans;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 305px;
+  left: 796px;
+  width: 10px;
+  height: 10px;
+}
+.ellipseIcon1,
+.ellipseIcon2,
+.ellipseIcon3,
+.ellipseIcon4 {
+  position: absolute;
+  top: 305px;
+  left: 814px;
+  width: 10px;
+  height: 10px;
+}
+.ellipseIcon2,
+.ellipseIcon3,
+.ellipseIcon4 {
+  left: 832px;
+}
+.ellipseIcon3,
+.ellipseIcon4 {
+  left: 850px;
+}
+.ellipseIcon4 {
+  left: 868px;
+}
+.groupIcon,
+.groupIcon1 {
+  position: absolute;
+  top: 152px;
+  left: 1172px;
+  width: 166px;
+  height: 166px;
+}
+.groupIcon1 {
+  left: 637px;
+}
+.t5Div,
+.testimonial2Div {
+  width: 1440px;
+  height: 351px;
+}
+.testimonial2Div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.t5Div {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: 20px;
+  color: #2e67bc;
+  font-family: Inter;
+}
