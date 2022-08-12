@@ -947,23 +947,23 @@ export const Page1Home: FunctionComponent = () => {
             <img
               className={styles.untitled1d2Icon}
               alt=""
-              src="untitled1d-2@2x.png"
+              src="about-us-copy.gif"
             />
-            <img className={styles.aboutUs1} alt="" src="about-us-1@2x.png" />
+            <img className={styles.aboutUs1} alt="" src="about-us-copy.gif" />
             <img
               className={styles.aboutUss11}
               alt=""
-              src="about-uss1-1@2x.png"
+              src="about-us-copy.gif"
             />
             <img
               className={styles.aboutUssFinal1}
               alt=""
-              src="about-uss-final-1@2x.png"
+              src="about-us-copy.gif"
             />
             <img
               className={styles.aboutUsFinall1}
               alt=""
-              src="about-us-finall-1@2x.png"
+              src="about-us-copy.gif"
             />
             <img
               className={styles.aboutUsFinall51}
