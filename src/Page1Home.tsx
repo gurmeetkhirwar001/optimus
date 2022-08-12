@@ -339,7 +339,7 @@ export const Page1Home: FunctionComponent = () => {
             <img
               className={styles.rectangleIcon}
               alt=""
-              src="rectangle-108@2x.png"
+              src="20220805-231349-1-1@2x.png"
             />
             <div className={styles.rectangleDiv4} />
             <div className={styles.createScreensDirectlyInMet2}>
@@ -352,7 +352,7 @@ export const Page1Home: FunctionComponent = () => {
             <img
               className={styles.rectangleIcon}
               alt=""
-              src="rectangle-110@2x.png"
+              src="2418-1-1@2x.png"
             />
             <div className={styles.rectangleDiv6} />
             <div className={styles.createScreensDirectlyInMet2}>
@@ -364,7 +364,7 @@ export const Page1Home: FunctionComponent = () => {
             <img
               className={styles.rectangleIcon}
               alt=""
-              src="rectangle-1081@2x.png"
+              src="img2022080916310601-1@2x.png"
             />
             <div className={styles.rectangleDiv4} />
             <div className={styles.createScreensDirectlyInMet2}>
@@ -544,7 +544,7 @@ export const Page1Home: FunctionComponent = () => {
         <img
           className={styles.aiReadingBooksCopy1}
           alt=""
-          src="8ai-reading-books-copy-1@2x.png"
+          src="eyes-eveywhere.gif"
         />
         <div className={styles.groupDiv28}>
           <div className={styles.optimusIsAStandaloneDevice}>
@@ -580,7 +580,7 @@ export const Page1Home: FunctionComponent = () => {
         <img
           className={styles.aiThinking1}
           alt=""
-          src="1ai-thinking-1@2x.png"
+          src="Ask-a-Question.gif"
         />
         <div className={styles.groupDiv31}>
           <div className={styles.aiParcelDeliveryCopy2} />
@@ -600,7 +600,7 @@ export const Page1Home: FunctionComponent = () => {
           <img
             className={styles.aiCapturingDatas21}
             alt=""
-            src="5ai-capturing-datas-2-1@2x.png"
+            src="voice-asistant.gif"
           />
         </div>
         <div className={styles.groupDiv33}>
@@ -968,20 +968,20 @@ export const Page1Home: FunctionComponent = () => {
             <img
               className={styles.aboutUsFinall51}
               alt=""
-              src="about-us-finall5-1@2x.png"
+              src="about-us-copy.gif"
             />
           </div>
         </div>
         <img
           className={styles.aiParcelDeliveryCopy1}
           alt=""
-          src="3ai-parcel-delivery-copy-1@2x.png"
+          src="Design-your-assistant.gif"
         />
-        <img className={styles.aiHello1} alt="" src="4ai-hello-1@2x.png" />
+        <img className={styles.aiHello1} alt="" src="greeting-companion.gif" />
         <img
           className={styles.aiTranslatesLanguages1}
           alt=""
-          src="6ai-translates-languages-1@2x.png"
+          src="multilingual.gif"
         />
       </div>
       {isT2Open && (
