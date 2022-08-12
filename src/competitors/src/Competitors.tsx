@@ -87,58 +87,58 @@ export const Competitors: FunctionComponent = () => {
       <div className={styles.groupDiv3}>
         <div className={styles.baseDiv} />
         <div className={styles.startDiv}>SI Assistant</div>
-        <div className={styles.div1}></div>
-        <div className={styles.div2}></div>
-        <div className={styles.div3}></div>
-        <div className={styles.div4}></div>
-        <div className={styles.div5}></div>
-        <div className={styles.div6}></div>
-        <div className={styles.div7}></div>
-        <div className={styles.div8}></div>
-        <div className={styles.div9}></div>
-        <div className={styles.div10}></div>
+        <div className={styles.div1}><img src="right.png" width="15"/></div>
+        <div className={styles.div2}><img src="right.png" width="15"/></div>
+        <div className={styles.div3}><img src="right.png" width="15"/></div>
+        <div className={styles.div4}><img src="right.png" width="15"/></div>
+        <div className={styles.div5}><img src="right.png" width="15"/></div>
+        <div className={styles.div6}><img src="right.png" width="15"/></div>
+        <div className={styles.div7}><img src="right.png" width="15"/></div>
+        <div className={styles.div8}><img src="right.png" width="15"/></div>
+        <div className={styles.div9}><img src="right.png" width="15"/></div>
+        <div className={styles.div10}><img src="right.png" width="15"/></div>
       </div>
       <div className={styles.groupDiv4}>
         <div className={styles.baseDiv} />
         <div className={styles.startDiv}>Google Assistant</div>
-        <div className={styles.div1}></div>
-        <div className={styles.div2}></div>
-        <div className={styles.div13}></div>
-        <div className={styles.div4}></div>
-        <div className={styles.div5}></div>
-        <div className={styles.div6}></div>
-        <div className={styles.div7}></div>
-        <div className={styles.div18}></div>
+        <div className={styles.div1}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div2}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div13}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div4}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div5}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div6}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div7}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div18}><img src="wrong.png" width="13"/></div>
       </div>
       <div className={styles.groupDiv5}>
         <div className={styles.baseDiv} />
         <div className={styles.startDiv}>Alexa</div>
-        <div className={styles.div13}></div>
-        <div className={styles.div3}></div>
-        <div className={styles.div5}></div>
-        <div className={styles.div6}></div>
-        <div className={styles.div8}></div>
+        <div className={styles.div13}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div3}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div5}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div6}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div8}><img src="wrong.png" width="13"/></div>
       </div>
       <div className={styles.groupDiv6}>
         <div className={styles.baseDiv} />
         <div className={styles.startDiv}>Siri</div>
-        <div className={styles.div1}></div>
-        <div className={styles.div13}></div>
-        <div className={styles.div5}></div>
-        <div className={styles.div8}></div>
+        <div className={styles.div1}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div13}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div5}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div8}><img src="wrong.png" width="13"/></div>
       </div>
       <div className={styles.groupDiv7}>
         <div className={styles.baseDiv} />
         <div className={styles.startDiv}>Bixby</div>
-        <div className={styles.div6}></div>
-        <div className={styles.div7}></div>
-        <div className={styles.div8}></div>
+        <div className={styles.div6}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div7}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div8}><img src="wrong.png" width="13"/></div>
       </div>
       <div className={styles.groupDiv8}>
         <div className={styles.baseDiv} />
         <div className={styles.startDiv}>Cortana</div>
-        <div className={styles.div2}></div>
-        <div className={styles.div5}></div>
+        <div className={styles.div2}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div5}><img src="wrong.png" width="13"/></div>
       </div>
       <div className={styles.footerDiv}>
         <div className={styles.rectangleDiv} />
