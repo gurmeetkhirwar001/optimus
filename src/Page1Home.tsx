@@ -968,7 +968,7 @@ export const Page1Home: FunctionComponent = () => {
             <img
               className={styles.aboutUsFinall51}
               alt=""
-              src="about-us-finall5-1@2x.png"
+              src="about-us-copy.gif"
             />
           </div>
         </div>
