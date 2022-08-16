@@ -1,5 +1,5 @@
 import { FunctionComponent, useCallback } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import styles from "./css/Payment.module.css";
 
 export const Payment: FunctionComponent = () => {
@@ -364,7 +364,7 @@ export const Payment: FunctionComponent = () => {
         </div>
         <div className={styles.pRODUCTDiv}>PRODUCT</div>
         <div className={styles.cOMPANYDiv}>COMPANY</div>
-        <b className={styles.lOGOB}>LOGO</b>
+        <Link to="/"><b className={styles.lOGOB}>LOGO</b></Link>
       </div>
     </div>
   );

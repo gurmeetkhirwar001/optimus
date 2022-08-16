@@ -1,5 +1,6 @@
 import { FunctionComponent, useCallback } from "react";
 import styles from "./css/DownloadScreen.module.css";
+import { Link } from "react-router-dom";
 
 export const DownloadScreen: FunctionComponent = () => {
   const onCOMPETITORSTextClick = useCallback(() => {
@@ -268,7 +269,7 @@ export const DownloadScreen: FunctionComponent = () => {
         </div>
         <div className={styles.pRODUCTDiv}>PRODUCT</div>
         <div className={styles.cOMPANYDiv}>COMPANY</div>
-        <b className={styles.lOGOB}>LOGO</b>
+        <Link to="/"><b className={styles.lOGOB}>LOGO</b></Link>
       </div>
     </div>
   );
