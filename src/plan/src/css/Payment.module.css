@@ -1,0 +1,1209 @@
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  width: 1440px;
+  height: 97px;
+  display: none;
+}
+.rectangleDiv1,
+.rectangleDiv2,
+.rectangleDiv3,
+.rectangleDiv4,
+.rectangleDiv5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e07373;
+  width: 1547px;
+  height: 250px;
+}
+.rectangleDiv2,
+.rectangleDiv3,
+.rectangleDiv4,
+.rectangleDiv5 {
+  top: 334px;
+}
+.rectangleDiv3,
+.rectangleDiv4,
+.rectangleDiv5 {
+  top: 672px;
+}
+.rectangleDiv4,
+.rectangleDiv5 {
+  top: 1004px;
+}
+.rectangleDiv5 {
+  top: 1339px;
+  display: none;
+}
+.rectangleDiv6 {
+  position: absolute;
+  top: 4835px;
+  left: 0;
+  background-color: #f7faff;
+  width: 1455px;
+  height: 453px;
+}
+.groupDiv,
+.rectangleDiv7 {
+  position: absolute;
+  top: 1913px;
+  left: 0;
+  width: 1547px;
+  height: 5288px;
+  display: none;
+}
+.rectangleDiv7 {
+  top: -826px;
+  left: -92px;
+  background-color: #2e67bc;
+  width: 586px;
+  height: 896px;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+}
+.groupIcon,
+.image48Div {
+  position: absolute;
+  top: 0;
+  left: 303px;
+  width: 96px;
+  height: 40px;
+}
+.image48Div {
+  top: 203.63px;
+  left: -6px;
+  border-radius: 30px;
+  background-color: #fff;
+  border: 6px solid #0a014c;
+  box-sizing: border-box;
+  width: 312px;
+  height: 662px;
+}
+.groupIcon1,
+.iconlyLightNotification {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+}
+.groupIcon1 {
+  height: 89.26%;
+  width: 77.33%;
+  top: 8.42%;
+  right: 11.33%;
+  bottom: 2.33%;
+  left: 11.33%;
+  opacity: 0.5;
+}
+.iconlyLightNotification {
+  height: 0.93%;
+  width: 7.81%;
+  top: 0;
+  right: 0;
+  bottom: 99.07%;
+  left: 92.19%;
+}
+.jumpStartDiv,
+.yourPortfolioLooksGreatTod {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.jumpStartDiv {
+  top: 241.63px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+.yourPortfolioLooksGreatTod {
+  top: 265.63px;
+  font-size: 10px;
+  color: #ababab;
+}
+.groupDiv2 {
+  position: absolute;
+  height: 32.3%;
+  width: 85.33%;
+  top: 0;
+  right: 7.33%;
+  bottom: 67.7%;
+  left: 7.33%;
+}
+.portfolioBalanceDiv {
+  top: 0;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+.div,
+.portfolioBalanceDiv,
+.vectorIcon {
+  position: absolute;
+  left: 0;
+}
+.div {
+  top: 20px;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  color: #373737;
+  display: inline-block;
+}
+.vectorIcon {
+  top: 5px;
+  width: 6px;
+  height: 3px;
+}
+.div1 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+.groupDiv5 {
+  position: absolute;
+  top: 51px;
+  left: 2px;
+  width: 80px;
+  height: 12px;
+  font-size: 10px;
+  color: #20cb5c;
+}
+.todayMay222021 {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  font-size: 9px;
+  letter-spacing: -0.01em;
+  color: #888da1;
+  display: inline-block;
+}
+.groupDiv4 {
+  position: absolute;
+  top: 262.89px;
+  left: 20px;
+  width: 102px;
+  height: 79px;
+  text-align: left;
+  font-size: 12px;
+  color: #353535;
+}
+.availableBalanceDiv,
+.div2 {
+  position: absolute;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+.availableBalanceDiv {
+  top: 0;
+  left: 0;
+  font-size: 12px;
+}
+.div2 {
+  top: 27px;
+  left: 32px;
+  font-weight: 500;
+  color: #35363d;
+}
+.vectorIcon1 {
+  position: absolute;
+  top: 4px;
+  left: 72px;
+  width: 6px;
+  height: 3px;
+}
+.groupDiv6,
+.groupDiv7 {
+  position: absolute;
+  top: 27px;
+  left: 156px;
+  width: 72px;
+  height: 13px;
+  color: #444;
+}
+.groupDiv6 {
+  top: 580.89px;
+  left: 20px;
+  width: 228px;
+  height: 40px;
+  text-align: left;
+  font-size: 11px;
+  color: #373737;
+}
+.rectangleDiv8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #5643eb;
+  width: 32px;
+  height: 20px;
+}
+.hDiv {
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  font-weight: 500;
+  display: inline-block;
+}
+.groupDiv8,
+.rectangleDiv9 {
+  position: absolute;
+  width: 32px;
+  height: 20px;
+}
+.groupDiv8 {
+  top: 530.89px;
+  left: 17px;
+  font-size: 12px;
+  color: #fefefe;
+}
+.rectangleDiv9 {
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  border: 1px solid #5643eb;
+  box-sizing: border-box;
+}
+.hDiv1 {
+  position: absolute;
+  top: 4px;
+  left: 6.5px;
+  display: inline-block;
+}
+.groupDiv9 {
+  position: absolute;
+  top: 530.89px;
+  left: 57px;
+  width: 32px;
+  height: 20px;
+}
+.wDiv {
+  position: absolute;
+  top: 4px;
+  left: 9.5px;
+  display: inline-block;
+}
+.groupDiv10,
+.groupDiv11 {
+  position: absolute;
+  top: 529.89px;
+  left: 97px;
+  width: 32px;
+  height: 20px;
+}
+.groupDiv11 {
+  top: 530.89px;
+  left: 137px;
+}
+.yDiv {
+  position: absolute;
+  top: 4px;
+  left: 10.5px;
+  display: inline-block;
+}
+.groupDiv12,
+.groupDiv13,
+.rectangleDiv14 {
+  position: absolute;
+  top: 530.89px;
+  left: 177px;
+  width: 32px;
+  height: 20px;
+}
+.groupDiv13,
+.rectangleDiv14 {
+  top: 529.89px;
+  left: 217px;
+}
+.rectangleDiv14 {
+  top: 564.89px;
+  left: 20px;
+  background: linear-gradient(
+    -90deg,
+    rgba(87, 68, 235, 0) 15.6%,
+    #5643eb 54.51%,
+    rgba(86, 67, 235, 0) 87.52%
+  );
+  width: 230px;
+  height: 1px;
+  opacity: 0.5;
+}
+.groupIcon2,
+.rectangleDiv15 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 22px;
+  height: 625.89px;
+}
+.rectangleDiv15 {
+  left: 0;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #4832f2, #5b46f4);
+  width: 110px;
+  height: 28px;
+}
+.sendDiv {
+  position: absolute;
+  top: 8px;
+  left: 43px;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+.groupDiv14,
+.rectangleDiv16 {
+  position: absolute;
+  width: 110px;
+  height: 28px;
+}
+.groupDiv14 {
+  top: 640.89px;
+  left: 20px;
+  color: #fff;
+}
+.rectangleDiv16 {
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #468cf6, #5797f9);
+}
+.withdrawDiv {
+  position: absolute;
+  top: 8px;
+  left: 33px;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+.groupDiv15 {
+  position: absolute;
+  top: 640.89px;
+  left: 140px;
+  width: 110px;
+  height: 28px;
+  color: #fff;
+}
+.groupIcon3 {
+  position: absolute;
+  top: 685.89px;
+  left: 125px;
+  width: 20px;
+  height: 20px;
+}
+.groupDiv3,
+.groupIcon4 {
+  position: absolute;
+  top: 321.55px;
+  left: 0;
+  width: 251px;
+  height: 214.84px;
+}
+.groupDiv3 {
+  top: 52.74px;
+  left: 15px;
+  height: 705.89px;
+  text-align: center;
+  font-size: 10px;
+  color: #5643eb;
+}
+.bluee011Icon,
+.groupDiv1 {
+  position: absolute;
+  top: -924.63px;
+  left: 363px;
+  width: 300px;
+  height: 859.63px;
+  display: none;
+}
+.bluee011Icon {
+  top: 190px;
+  left: 801px;
+  width: 643px;
+  height: 643px;
+  object-fit: cover;
+}
+.homeBannerDiv {
+  position: absolute;
+  top: 962px;
+  left: 946px;
+  width: 399px;
+  height: 40px;
+  font-size: 18px;
+  color: #353535;
+}
+.ezgif1Icon,
+.ezgif3Icon,
+.ezgif4Icon,
+.ezgif6Icon {
+  position: absolute;
+  top: 2553px;
+  left: 876px;
+  width: 268px;
+  height: 268px;
+  object-fit: cover;
+  display: none;
+}
+.ezgif3Icon,
+.ezgif4Icon,
+.ezgif6Icon {
+  top: 1890px;
+  left: 824px;
+}
+.ezgif4Icon,
+.ezgif6Icon {
+  top: 2190px;
+  left: 265px;
+  width: 333px;
+  height: 333px;
+}
+.ezgif6Icon {
+  top: 0;
+  left: 0;
+}
+.groupDiv16 {
+  position: absolute;
+  top: 3520px;
+  left: 265px;
+  width: 0;
+  height: 0;
+}
+.rectangleDiv17,
+.rectangleDiv18 {
+  position: absolute;
+  left: 0;
+  width: 1442px;
+}
+.rectangleDiv17 {
+  top: 0;
+  background-color: rgba(160, 164, 171, 0.1);
+  height: 395px;
+}
+.rectangleDiv18 {
+  top: 334px;
+  background-color: #ebbb3c;
+  border: 1px solid #ebbb3c;
+  box-sizing: border-box;
+  height: 63px;
+}
+.logoDiv {
+  position: absolute;
+  top: 49.49px;
+  left: 165.23px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #468cf6;
+  display: inline-block;
+  width: 120.17px;
+  height: 48.66px;
+}
+.copyright2022Div,
+.needAnswersNeedHelpJust,
+.transformingLivesOfPeopleA {
+  position: absolute;
+  top: 114.11px;
+  left: 165.23px;
+  line-height: 171.5%;
+  display: inline-block;
+  width: 255.35px;
+}
+.copyright2022Div,
+.needAnswersNeedHelpJust {
+  top: 100px;
+  left: 1021.42px;
+}
+.copyright2022Div {
+  top: 352px;
+  left: 655.91px;
+  font-weight: 600;
+  color: #fff;
+  width: 130.18px;
+}
+.companyDiv,
+.competitorsDiv,
+.contactDiv,
+.pricingDiv,
+.productDiv {
+  position: absolute;
+  top: 109px;
+  left: 451.63px;
+  line-height: 171.5%;
+  display: inline-block;
+  width: 255.35px;
+}
+.competitorsDiv,
+.contactDiv,
+.pricingDiv,
+.productDiv {
+  top: 152px;
+}
+.competitorsDiv,
+.contactDiv,
+.pricingDiv {
+  top: 195px;
+}
+.contactDiv,
+.pricingDiv {
+  top: 238px;
+}
+.contactDiv {
+  top: 281px;
+}
+.followUsDiv,
+.linksDiv {
+  top: 53px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0e0e2c;
+}
+.linksDiv {
+  position: absolute;
+  left: 454.63px;
+  line-height: 171.5%;
+  display: inline-block;
+  width: 255.35px;
+}
+.followUsDiv {
+  left: 736.02px;
+}
+.fbcomaaaDiv,
+.followUsDiv,
+.getInTouchWithUs {
+  position: absolute;
+  line-height: 171.5%;
+  display: inline-block;
+  width: 255.35px;
+}
+.getInTouchWithUs {
+  top: 53px;
+  left: 1021.42px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0e0e2c;
+}
+.fbcomaaaDiv {
+  top: 1px;
+  left: 36.05px;
+}
+.featherfacebookIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28.04px;
+  height: 28px;
+  overflow: hidden;
+}
+.groupDiv17 {
+  position: absolute;
+  top: 108px;
+  left: 736.02px;
+  width: 291.4px;
+  height: 28px;
+}
+.aaaDiv {
+  position: absolute;
+  top: 0;
+  left: 36.05px;
+  line-height: 171.5%;
+  display: inline-block;
+  width: 255.35px;
+}
+.groupDiv18,
+.groupDiv19 {
+  position: absolute;
+  top: 152px;
+  left: 736.02px;
+  width: 291.4px;
+  height: 28px;
+}
+.groupDiv19 {
+  top: 196px;
+}
+.helperTextDiv {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.labelDiv {
+  border-radius: 4px;
+  width: 252px;
+  display: none;
+  flex-direction: row;
+  padding: 2px 4px 2px 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  color: #0e0e2c;
+}
+.feathersearchIcon,
+.groupIcon5 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  display: none;
+}
+.feathersearchIcon {
+  overflow: hidden;
+}
+.labelDiv1 {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+.featherplusIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameDiv {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.feathersendIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.inputeDiv {
+  align-self: stretch;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #767676;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 16px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.helperTextDiv2 {
+  position: relative;
+  display: inline-block;
+}
+.helperTextDiv1 {
+  border-radius: 4px;
+  width: 252px;
+  display: none;
+  flex-direction: row;
+  padding: 2px 8px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 12px;
+}
+.xFormGroupDiv {
+  position: absolute;
+  top: 170px;
+  left: 1021.42px;
+  width: 252.35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+.footerDiv {
+  position: absolute;
+  top: 835px;
+  left: -1px;
+  width: 1442px;
+  height: 397px;
+  color: rgba(14, 14, 44, 0.8);
+  font-family: Poppins;
+}
+.b {
+  position: relative;
+  font-size: 40px;
+  display: inline-block;
+}
+.frameDiv1 {
+  position: absolute;
+  top: 32px;
+  left: calc(50% - 28px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  text-align: center;
+  font-size: 24px;
+}
+.visitorsDiv {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+}
+.frameDiv2,
+.pointsDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.frameDiv2 {
+  position: absolute;
+  top: 190px;
+  left: 36px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.downloadNowDiv {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+}
+.buttonDiv {
+  position: absolute;
+  bottom: 37px;
+  left: calc(50% - 111.5px);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: 18px 40px;
+  align-items: center;
+  justify-content: center;
+  color: #8f8f8f;
+}
+.categoryDiv {
+  position: absolute;
+  top: 6163px;
+  left: 1725px;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 40, 100, 0.25);
+  width: 328px;
+  height: 428px;
+  font-size: 18px;
+  color: #000;
+  font-family: Montserrat;
+}
+.rectangleDiv19 {
+  position: absolute;
+  top: 730px;
+  left: 192px;
+  border-radius: 14px;
+  background-color: #f7faff;
+  box-shadow: 0 35px 55px -12px rgba(57, 49, 117, 0.1);
+  width: 1058px;
+  height: 559px;
+}
+.trackAnyHashtags {
+  position: absolute;
+  width: 55.97%;
+  top: calc(50% - 3912px);
+  right: 22.92%;
+  left: 21.11%;
+  font-size: 36px;
+  letter-spacing: 0.3px;
+  line-height: 52px;
+  display: inline-block;
+}
+.premimumPlanWorth99WasSe {
+  position: absolute;
+  top: 224px;
+  left: calc(50% - 197px);
+  font-size: 25px;
+  line-height: 20px;
+  display: inline-block;
+  width: 528px;
+  height: 20px;
+}
+.rectangleDiv20 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 271px;
+  height: 71px;
+}
+.debitCreditCard {
+  position: absolute;
+  top: 25px;
+  left: calc(50% - 105.5px);
+  line-height: 20px;
+  display: inline-block;
+  width: 241px;
+  height: 20px;
+}
+.groupDiv21,
+.groupDiv22,
+.rectangleDiv22 {
+  position: absolute;
+  left: 0;
+  width: 271px;
+  height: 71px;
+}
+.groupDiv21 {
+  top: 0;
+  cursor: pointer;
+}
+.groupDiv22,
+.rectangleDiv22 {
+  top: 129px;
+}
+.rectangleDiv22 {
+  top: 0;
+  background-color: #fff;
+  width: 610px;
+  height: 329px;
+}
+.typeYourEMail {
+  position: absolute;
+  width: calc(100% - 77px);
+  top: calc(50% - -114.5px);
+  right: 14px;
+  left: 63px;
+  line-height: 28px;
+  display: inline-block;
+}
+.rectangleDiv23 {
+  position: absolute;
+  top: 287px;
+  left: 41px;
+  border: 1px solid #636e7b;
+  box-sizing: border-box;
+  width: 13px;
+  height: 13px;
+}
+.groupDiv23 {
+  position: absolute;
+  top: 0;
+  left: 291px;
+  width: 610px;
+  height: 329px;
+  font-size: 14px;
+  color: #636e7b;
+}
+.groupDiv24,
+.rectangleDiv25 {
+  position: absolute;
+  left: 0;
+  height: 71px;
+}
+.groupDiv24 {
+  top: 258px;
+  width: 271px;
+  cursor: pointer;
+}
+.rectangleDiv25 {
+  top: 129px;
+  background-color: #ffaf18;
+  width: 16px;
+}
+.baseDiv {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: 8px;
+  background-color: #468cf6;
+}
+.baseDiv,
+.buttonTextDiv,
+.elementsButtonsPrimary {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.buttonTextDiv {
+  height: 46.67%;
+  top: 26.67%;
+  bottom: 26.67%;
+  letter-spacing: -0.5px;
+  line-height: 28px;
+  font-weight: 600;
+  display: inline-block;
+}
+.elementsButtonsPrimary {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+.baseDiv1,
+.buttonDiv1 {
+  position: absolute;
+  height: 14.93%;
+  width: 25.52%;
+  top: 85.07%;
+  right: 0;
+  bottom: 0;
+  left: 74.48%;
+}
+.baseDiv1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  background-color: #eff2f6;
+}
+.typeYourEMail1 {
+  position: absolute;
+  width: calc(100% - 36px);
+  top: calc(50% - 14px);
+  right: 18px;
+  left: 18px;
+  letter-spacing: -0.4px;
+  line-height: 28px;
+  display: inline-block;
+}
+.inputDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.elementsInputsLarge60px,
+.inputDiv1 {
+  position: absolute;
+  height: 25%;
+  width: 49.21%;
+  top: 0;
+  right: 50.79%;
+  bottom: 75%;
+  left: 0;
+}
+.inputDiv1 {
+  top: 37.5%;
+  bottom: 37.5%;
+}
+.icon {
+  position: absolute;
+  top: 12px;
+  left: 236px;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.inputDiv2 {
+  position: absolute;
+  height: 25%;
+  width: 49.21%;
+  top: 75%;
+  right: 50.79%;
+  bottom: 0;
+  left: 0;
+}
+.elementsInputsLarge60px1,
+.elementsInputsLarge60px2,
+.elementsInputsLarge60px3 {
+  position: absolute;
+  height: 25%;
+  width: 49.21%;
+  top: 0;
+  right: 0;
+  bottom: 75%;
+  left: 50.79%;
+}
+.elementsInputsLarge60px2,
+.elementsInputsLarge60px3 {
+  top: 37.5%;
+  bottom: 37.5%;
+}
+.elementsInputsLarge60px3 {
+  top: 75%;
+  bottom: 0;
+}
+.inputDiv6,
+.typeYourEMail7 {
+  position: absolute;
+  display: none;
+}
+.typeYourEMail7 {
+  width: calc(100% - 36px);
+  top: calc(50% - -141px);
+  right: 18px;
+  left: 18px;
+  font-size: 14px;
+  line-height: 28px;
+}
+.inputDiv6 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.elementsInputsLarge60px4,
+.formDiv,
+.formDiv1 {
+  position: absolute;
+  height: 25%;
+  width: 100%;
+  top: 75%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.formDiv,
+.formDiv1 {
+  height: 59.7%;
+  width: 84.93%;
+  top: 0;
+  right: 15.07%;
+  bottom: 40.3%;
+  text-align: left;
+  color: #636e7b;
+}
+.formDiv {
+  height: 95.71%;
+  width: 68.23%;
+  top: 4.29%;
+  right: 0;
+  bottom: 0;
+  left: 31.77%;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+.androidPayLogo1Icon {
+  position: absolute;
+  top: 114px;
+  left: 835px;
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+}
+.googlePayLogo1Icon,
+.pxApplePayLogo1Icon {
+  position: absolute;
+  top: 28px;
+  left: 536px;
+  width: 65px;
+  height: 41px;
+  object-fit: cover;
+}
+.pxApplePayLogo1Icon {
+  left: 839px;
+  width: 31px;
+}
+.samsungPayIcon1,
+.venmoLogoPngVenmoAppTransIcon {
+  position: absolute;
+  top: 121px;
+  left: 548px;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.venmoLogoPngVenmoAppTransIcon {
+  top: 208px;
+  left: 834px;
+  width: 40px;
+  height: 40px;
+}
+.groupDiv20 {
+  position: absolute;
+  top: 287px;
+  left: 259px;
+  width: 982px;
+  height: 420px;
+  font-size: 25px;
+}
+.paymentSpan {
+  color: #8c8c8c;
+}
+.registrationPayment {
+  position: absolute;
+  width: calc(100% - 1159px);
+  top: calc(50% - 432px);
+  right: 578px;
+  left: 581px;
+  letter-spacing: -0.4px;
+  line-height: 28px;
+  display: inline-block;
+  color: #dadada;
+}
+.cONTACTDiv,
+.pRICINGDiv {
+  position: absolute;
+  top: 0;
+  left: 916px;
+  line-height: 30px;
+  display: inline-block;
+}
+.pRICINGDiv {
+  left: 788px;
+}
+.tESTIMONIALSDiv {
+  left: 607px;
+}
+.cOMPANYDiv,
+.cOMPETITORSDiv,
+.lOGOB,
+.pRODUCTDiv,
+.tESTIMONIALSDiv {
+  position: absolute;
+  top: 0;
+  line-height: 30px;
+  display: inline-block;
+}
+.cOMPETITORSDiv {
+  left: 463px;
+  cursor: pointer;
+}
+.cOMPANYDiv,
+.lOGOB,
+.pRODUCTDiv {
+  left: 322px;
+}
+.cOMPANYDiv,
+.lOGOB {
+  left: 178px;
+}
+.lOGOB {
+  top: 4px;
+  left: 0;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+  line-height: 22px;
+  font-family: Exo;
+  color: #f6da46;
+}
+.navBarDiv {
+  position: absolute;
+  top: 36px;
+  left: 135px;
+  width: 993px;
+  height: 30px;
+  color: #353535;
+}
+.paymentDiv {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1230px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #1d2d3f;
+  font-family: Inter;
+}

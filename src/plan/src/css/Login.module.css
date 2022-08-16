@@ -1,0 +1,940 @@
+.rectangleDiv {
+  position: absolute;
+  top: -826px;
+  left: -92px;
+  background-color: #2e67bc;
+  width: 586px;
+  height: 896px;
+  display: none;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+}
+.groupIcon,
+.image48Div {
+  position: absolute;
+  top: 0;
+  left: 303px;
+  width: 96px;
+  height: 40px;
+}
+.image48Div {
+  top: 200.04px;
+  left: -6px;
+  border-radius: 30px;
+  background-color: #fff;
+  border: 6px solid #0a014c;
+  box-sizing: border-box;
+  width: 312px;
+  height: 662px;
+}
+.groupIcon1,
+.iconlyLightNotification {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+}
+.groupIcon1 {
+  height: 88.4%;
+  width: 77.33%;
+  top: 9.26%;
+  right: 11.33%;
+  bottom: 2.34%;
+  left: 11.33%;
+  opacity: 0.5;
+}
+.iconlyLightNotification {
+  height: 1.03%;
+  width: 7.81%;
+  top: 0;
+  right: 0;
+  bottom: 98.97%;
+  left: 92.19%;
+}
+.jumpStartDiv,
+.yourPortfolioLooksGreatTod {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.jumpStartDiv {
+  top: 238.04px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+.yourPortfolioLooksGreatTod {
+  top: 262.04px;
+  font-size: 10px;
+  color: #ababab;
+}
+.groupDiv1 {
+  position: absolute;
+  height: 32.01%;
+  width: 85.33%;
+  top: 0;
+  right: 7.33%;
+  bottom: 67.99%;
+  left: 7.33%;
+}
+.portfolioBalanceDiv {
+  top: 0;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+.div,
+.portfolioBalanceDiv,
+.vectorIcon {
+  position: absolute;
+  left: 0;
+}
+.div {
+  top: 20px;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  color: #373737;
+  display: inline-block;
+}
+.vectorIcon {
+  top: 5px;
+  width: 6px;
+  height: 3px;
+}
+.div1 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+.groupDiv4 {
+  position: absolute;
+  top: 51px;
+  left: 2px;
+  width: 80px;
+  height: 12px;
+  font-size: 10px;
+  color: #20cb5c;
+}
+.todayMay222021 {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  font-size: 9px;
+  letter-spacing: -0.01em;
+  color: #888da1;
+  display: inline-block;
+}
+.groupDiv3 {
+  position: absolute;
+  top: 254.24px;
+  left: 20px;
+  width: 102px;
+  height: 79px;
+  text-align: left;
+  font-size: 12px;
+  color: #353535;
+}
+.availableBalanceDiv,
+.div2 {
+  position: absolute;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+.availableBalanceDiv {
+  top: 0;
+  left: 0;
+  font-size: 12px;
+}
+.div2 {
+  top: 27px;
+  left: 32px;
+  font-weight: 500;
+  color: #35363d;
+}
+.vectorIcon1 {
+  position: absolute;
+  top: 4px;
+  left: 72px;
+  width: 6px;
+  height: 3px;
+}
+.groupDiv5,
+.groupDiv6 {
+  position: absolute;
+  top: 27px;
+  left: 156px;
+  width: 72px;
+  height: 13px;
+  color: #444;
+}
+.groupDiv5 {
+  top: 572.24px;
+  left: 20px;
+  width: 228px;
+  height: 40px;
+  text-align: left;
+  font-size: 11px;
+  color: #373737;
+}
+.rectangleDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #5643eb;
+  width: 32px;
+  height: 20px;
+}
+.hDiv {
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  font-weight: 500;
+  display: inline-block;
+}
+.groupDiv7,
+.rectangleDiv2 {
+  position: absolute;
+  width: 32px;
+  height: 20px;
+}
+.groupDiv7 {
+  top: 522.24px;
+  left: 17px;
+  font-size: 12px;
+  color: #fefefe;
+}
+.rectangleDiv2 {
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  border: 1px solid #5643eb;
+  box-sizing: border-box;
+}
+.hDiv1 {
+  position: absolute;
+  top: 4px;
+  left: 6.5px;
+  display: inline-block;
+}
+.groupDiv8 {
+  position: absolute;
+  top: 522.24px;
+  left: 57px;
+  width: 32px;
+  height: 20px;
+}
+.wDiv {
+  position: absolute;
+  top: 4px;
+  left: 9.5px;
+  display: inline-block;
+}
+.groupDiv10,
+.groupDiv9 {
+  position: absolute;
+  top: 521.24px;
+  left: 97px;
+  width: 32px;
+  height: 20px;
+}
+.groupDiv10 {
+  top: 522.24px;
+  left: 137px;
+}
+.yDiv {
+  position: absolute;
+  top: 4px;
+  left: 10.5px;
+  display: inline-block;
+}
+.groupDiv11,
+.groupDiv12,
+.rectangleDiv7 {
+  position: absolute;
+  top: 522.24px;
+  left: 177px;
+  width: 32px;
+  height: 20px;
+}
+.groupDiv12,
+.rectangleDiv7 {
+  top: 521.24px;
+  left: 217px;
+}
+.rectangleDiv7 {
+  top: 556.24px;
+  left: 20px;
+  background: linear-gradient(
+    -90deg,
+    rgba(87, 68, 235, 0) 15.6%,
+    #5643eb 54.51%,
+    rgba(86, 67, 235, 0) 87.52%
+  );
+  width: 230px;
+  height: 1px;
+  opacity: 0.5;
+}
+.groupIcon2,
+.rectangleDiv8 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 22px;
+  height: 617.24px;
+}
+.rectangleDiv8 {
+  left: 0;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #4832f2, #5b46f4);
+  width: 110px;
+  height: 28px;
+}
+.sendDiv {
+  position: absolute;
+  top: 8px;
+  left: 43px;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+.groupDiv13,
+.rectangleDiv9 {
+  position: absolute;
+  width: 110px;
+  height: 28px;
+}
+.groupDiv13 {
+  top: 632.24px;
+  left: 20px;
+  color: #fff;
+}
+.rectangleDiv9 {
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #468cf6, #5797f9);
+}
+.withdrawDiv {
+  position: absolute;
+  top: 8px;
+  left: 33px;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+.groupDiv14 {
+  position: absolute;
+  top: 632.24px;
+  left: 140px;
+  width: 110px;
+  height: 28px;
+  color: #fff;
+}
+.groupIcon3 {
+  position: absolute;
+  top: 677.24px;
+  left: 125px;
+  width: 20px;
+  height: 20px;
+}
+.groupDiv2,
+.groupIcon4 {
+  position: absolute;
+  top: 312.9px;
+  left: 0;
+  width: 251px;
+  height: 214.84px;
+}
+.groupDiv2 {
+  top: 57.8px;
+  left: 15px;
+  height: 697.24px;
+  text-align: center;
+  font-size: 10px;
+  color: #5643eb;
+}
+.bluee011Icon,
+.groupDiv {
+  position: absolute;
+  top: -921.04px;
+  left: 363px;
+  width: 300px;
+  height: 856.04px;
+  display: none;
+}
+.bluee011Icon {
+  top: 190px;
+  left: 801px;
+  width: 643px;
+  height: 643px;
+  object-fit: cover;
+}
+.homeBannerDiv {
+  position: absolute;
+  top: 962px;
+  left: 946px;
+  width: 399px;
+  height: 40px;
+  font-size: 18px;
+}
+.ezgif6Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 333px;
+  height: 333px;
+  object-fit: cover;
+  display: none;
+}
+.groupDiv15,
+.rectangleDiv10 {
+  position: absolute;
+  top: 3520px;
+  left: 265px;
+  width: 0;
+  height: 0;
+}
+.rectangleDiv10 {
+  top: 914px;
+  left: 191px;
+  border-radius: 14px;
+  background-color: #f7faff;
+  box-shadow: 0 35px 55px -12px rgba(57, 49, 117, 0.1);
+  width: 1058px;
+  height: 742px;
+}
+.thankYouForChoosingThePla {
+  position: absolute;
+  top: 224px;
+  left: calc(50% - 197px);
+  font-size: 25px;
+  line-height: 20px;
+  display: inline-block;
+  color: #1d2d3f;
+  width: 528px;
+  height: 20px;
+}
+.cONTACTDiv,
+.pRICINGDiv {
+  position: absolute;
+  top: 0;
+  left: 916px;
+  line-height: 30px;
+  display: inline-block;
+}
+.pRICINGDiv {
+  left: 788px;
+}
+.tESTIMONIALSDiv {
+  left: 607px;
+}
+.cOMPANYDiv,
+.cOMPETITORSDiv,
+.lOGOB,
+.pRODUCTDiv,
+.tESTIMONIALSDiv {
+  position: absolute;
+  top: 0;
+  line-height: 30px;
+  display: inline-block;
+}
+.cOMPETITORSDiv {
+  left: 463px;
+  cursor: pointer;
+}
+.cOMPANYDiv,
+.lOGOB,
+.pRODUCTDiv {
+  left: 322px;
+}
+.cOMPANYDiv,
+.lOGOB {
+  left: 178px;
+}
+.lOGOB {
+  top: 4px;
+  left: 0;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+  line-height: 22px;
+  font-family: Exo;
+  color: #f6da46;
+}
+.navBarDiv {
+  position: absolute;
+  top: 36px;
+  left: 135px;
+  width: 993px;
+  height: 30px;
+}
+.rectangleDiv11,
+.rectangleDiv12 {
+  position: absolute;
+  left: 0;
+  width: 1520px;
+}
+.rectangleDiv11 {
+  top: 0;
+  background-color: rgba(160, 164, 171, 0.1);
+  height: 395px;
+}
+.rectangleDiv12 {
+  top: 334px;
+  background-color: #ebbb3c;
+  border: 1px solid #ebbb3c;
+  box-sizing: border-box;
+  height: 63px;
+}
+.logoDiv {
+  position: absolute;
+  top: 49.49px;
+  left: 165px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #468cf6;
+  display: inline-block;
+  width: 120px;
+  height: 48.66px;
+}
+.copyright2022Div,
+.needAnswersNeedHelpJust,
+.transformingLivesOfPeopleA {
+  position: absolute;
+  top: 114.11px;
+  left: 165px;
+  line-height: 171.5%;
+  display: inline-block;
+  width: 255px;
+}
+.copyright2022Div,
+.needAnswersNeedHelpJust {
+  top: 100px;
+  left: 1020px;
+}
+.copyright2022Div {
+  top: 352px;
+  left: 654px;
+  font-weight: 600;
+  color: #fff;
+  width: 133px;
+}
+.companyDiv,
+.competitorsDiv,
+.contactDiv,
+.pricingDiv,
+.productDiv {
+  position: absolute;
+  top: 109px;
+  left: 451px;
+  line-height: 171.5%;
+  display: inline-block;
+  width: 255px;
+}
+.competitorsDiv,
+.contactDiv,
+.pricingDiv,
+.productDiv {
+  top: 152px;
+}
+.competitorsDiv,
+.contactDiv,
+.pricingDiv {
+  top: 195px;
+}
+.contactDiv,
+.pricingDiv {
+  top: 238px;
+}
+.contactDiv {
+  top: 281px;
+}
+.followUsDiv,
+.linksDiv {
+  top: 53px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0e0e2c;
+}
+.linksDiv {
+  position: absolute;
+  left: 454px;
+  line-height: 171.5%;
+  display: inline-block;
+  width: 255px;
+}
+.followUsDiv {
+  left: 735px;
+}
+.fbcomaaaDiv,
+.followUsDiv,
+.getInTouchWithUs {
+  position: absolute;
+  line-height: 171.5%;
+  display: inline-block;
+  width: 255px;
+}
+.getInTouchWithUs {
+  top: 53px;
+  left: 1020px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0e0e2c;
+}
+.fbcomaaaDiv {
+  top: 1px;
+  left: 36px;
+}
+.featherfacebookIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.groupDiv16 {
+  position: absolute;
+  top: 108px;
+  left: 735px;
+  width: 291px;
+  height: 28px;
+}
+.aaaDiv {
+  position: absolute;
+  top: 0;
+  left: 36px;
+  line-height: 171.5%;
+  display: inline-block;
+  width: 255px;
+}
+.groupDiv17,
+.groupDiv18 {
+  position: absolute;
+  top: 152px;
+  left: 735px;
+  width: 291px;
+  height: 28px;
+}
+.groupDiv18 {
+  top: 196px;
+}
+.helperTextDiv {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.labelDiv {
+  border-radius: 4px;
+  width: 252px;
+  display: none;
+  flex-direction: row;
+  padding: 2px 4px 2px 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  color: #0e0e2c;
+}
+.feathersearchIcon,
+.groupIcon5 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  display: none;
+}
+.feathersearchIcon {
+  overflow: hidden;
+}
+.labelDiv1 {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+.featherplusIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameDiv {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.feathersendIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.inputeDiv {
+  align-self: stretch;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #767676;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 16px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.helperTextDiv2 {
+  position: relative;
+  display: inline-block;
+}
+.helperTextDiv1 {
+  border-radius: 4px;
+  width: 252px;
+  display: none;
+  flex-direction: row;
+  padding: 2px 8px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 12px;
+}
+.xFormGroupDiv {
+  position: absolute;
+  top: 170px;
+  left: 1020px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+.footerDiv {
+  position: absolute;
+  top: 1019px;
+  left: 0;
+  width: 1520px;
+  height: 397px;
+  color: rgba(14, 14, 44, 0.8);
+  font-family: Poppins;
+}
+.groupDiv20,
+.rectangleDiv13 {
+  position: absolute;
+  left: 0;
+  width: 908px;
+  height: 509px;
+}
+.rectangleDiv13 {
+  top: 0;
+  background-color: #fff;
+}
+.groupDiv20 {
+  top: 104px;
+}
+.baseDiv,
+.buttonTextDiv {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.baseDiv {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: 8px;
+  background-color: #468cf6;
+}
+.buttonTextDiv {
+  height: 46.67%;
+  top: 26.67%;
+  bottom: 26.67%;
+  letter-spacing: -0.5px;
+  line-height: 28px;
+  font-weight: 600;
+  display: inline-block;
+}
+.elementsButtonsPrimary {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.baseDiv1,
+.buttonDiv,
+.elementsButtonsPrimary {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.buttonDiv {
+  height: 8.47%;
+  width: 18.29%;
+  top: 91.53%;
+  left: 81.71%;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+}
+.baseDiv1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  background-color: #eff2f6;
+}
+.typeYourEMail {
+  position: absolute;
+  width: calc(100% - 36px);
+  top: calc(50% - 14px);
+  right: 18px;
+  left: 18px;
+  letter-spacing: -0.4px;
+  line-height: 28px;
+  display: inline-block;
+}
+.elementsInputsLarge60px,
+.elementsInputsLarge60px1 {
+  position: absolute;
+  height: 10.47%;
+  width: 48.58%;
+  top: 21.29%;
+  right: 51.42%;
+  bottom: 68.24%;
+  left: 0;
+}
+.elementsInputsLarge60px1 {
+  top: 38.22%;
+  bottom: 51.31%;
+}
+.elementsInputsLarge60px2,
+.elementsInputsLarge60px3,
+.elementsInputsLarge60px4 {
+  position: absolute;
+  height: 10.47%;
+  width: 48.58%;
+  top: 72.43%;
+  right: 51.42%;
+  bottom: 17.1%;
+  left: 0;
+}
+.elementsInputsLarge60px3,
+.elementsInputsLarge60px4 {
+  top: 89.53%;
+  bottom: 0;
+}
+.elementsInputsLarge60px4 {
+  top: 55.32%;
+  bottom: 34.21%;
+}
+.elementsInputsLarge60px5,
+.elementsInputsLarge60px6 {
+  position: absolute;
+  height: 10.47%;
+  width: 48.58%;
+  top: 21.29%;
+  right: 0;
+  bottom: 68.24%;
+  left: 51.42%;
+}
+.elementsInputsLarge60px6 {
+  top: 38.22%;
+  bottom: 51.31%;
+}
+.elementsInputsLarge60px7 {
+  top: 72.43%;
+  bottom: 17.1%;
+}
+.baseDiv9,
+.elementsInputsLarge60px7,
+.elementsInputsLarge60px8 {
+  position: absolute;
+  height: 10.47%;
+  width: 48.58%;
+  right: 0;
+  left: 51.42%;
+}
+.baseDiv9 {
+  top: 89.53%;
+  bottom: 0;
+  border-radius: 8px;
+  background-color: #eff2f6;
+}
+.elementsInputsLarge60px8 {
+  top: 55.32%;
+  bottom: 34.21%;
+}
+.payment {
+  color: #dadada;
+}
+.registrationPayment {
+  position: absolute;
+  width: calc(100% - 563px);
+  top: calc(50% - 286.5px);
+  right: 270px;
+  left: 293px;
+  font-size: 16px;
+  letter-spacing: -0.4px;
+  line-height: 28px;
+  display: inline-block;
+  color: #8c8c8c;
+}
+.formDiv1 {
+  position: absolute;
+  height: 80.93%;
+  width: 90.27%;
+  top: 0;
+  right: 9.73%;
+  bottom: 19.07%;
+  left: 0;
+}
+.typeYourEMail9 {
+  position: absolute;
+  width: calc(100% - 561px);
+  top: calc(50% - -175px);
+  right: 109px;
+  left: 452px;
+  letter-spacing: -0.4px;
+  line-height: 28px;
+  display: inline-block;
+}
+.formDiv {
+  position: absolute;
+  height: 100%;
+  width: 96.39%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 3.61%;
+}
+.groupDiv19 {
+  position: absolute;
+  top: 183px;
+  left: 252px;
+  width: 970px;
+  height: 708px;
+  font-size: 20px;
+  color: #636e7b;
+}
+.loginDiv {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1416px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+  font-size: 16px;
+  color: #353535;
+  font-family: Inter;
+}
