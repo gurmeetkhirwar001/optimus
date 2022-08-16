@@ -16,8 +16,7 @@ import {Payment} from "./payment/src/Payment";
 import {Payment1} from "./payment/src/Payment1";
 import {Payment2} from "./payment/src/Payment2";
 import {DownloadScreen} from "./payment/src/DownloadScreen";
-//const product = require("C:/optimus/home/node_modules/product/src");
-//console.log(product.generate());
+import { ProceedPaymentFree } from "./plan/src/ProceedPaymentFree";
 
 function App() {
   const action = useNavigationType();
@@ -40,15 +39,15 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/main-banner-3":
+      case "/mainbanner3":
         title = "";
         metaDescription = "";
         break;
-      case "/frame-111":
+      case "/frameComponent":
         title = "";
         metaDescription = "";
         break;
-      case "/main-banner2":
+      case "/mainbanner2":
         title = "";
         metaDescription = "";
         break;
@@ -72,11 +71,11 @@ function App() {
     <Routes>
       <Route path="/" element={<Page1Home />} />
 
-      <Route path="/main-banner-3" element={<MainBanner3 />} />
+      <Route path="/mainbanner3" element={<MainBanner3 />} />
 
-      <Route path="/frame-111" element={<FrameComponent />} />
+      <Route path="/FrameComponent" element={<FrameComponent />} />
 
-      <Route path="/main-banner2" element={<MainBanner2 />} />
+      <Route path="/mainbanner2" element={<MainBanner2 />} />
 
       <Route path="/product" element= {<Product/>} />
 
@@ -91,6 +90,8 @@ function App() {
       <Route path="/payment2" element= {<Payment2/>} />
 
       <Route path="/downloadscreen" element= {<DownloadScreen/>} />
+
+      <Route path="/ProceedPaymentFree" element={<ProceedPaymentFree/>} />
       
     </Routes>
   );

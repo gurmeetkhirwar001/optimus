@@ -17,6 +17,7 @@ export const Page1Home: FunctionComponent = () => {
   const [isT6Open, setT6Open] = useState(false);
   const [isT21Open, setT21Open] = useState(false);
   const [isCompanyOpen, setCompanyOpen] = useState(false);
+  const [isHovering, setIsHovering] = useState(false);
 
   const onRectangleRectangle18Click = useCallback(() => {
     const anchor = document.querySelector("[data-scroll-to='groupContainer']");
@@ -55,6 +56,14 @@ export const Page1Home: FunctionComponent = () => {
     <Link to="/competitors"/>
     // Please sync "Competitors" to the project
   }, []);
+
+  const handleMouseOver = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseOut = () => {
+    setIsHovering(false);
+  };
 
   const onPRODUCTTextClick = useCallback(() => {
     const anchor = document.querySelector("[data-scroll-to='aboutContainer']");
@@ -699,7 +708,7 @@ export const Page1Home: FunctionComponent = () => {
                 </div>
               </div>
               <div className={styles.groupDiv36}>
-                <div className={styles.rectangleDiv20} />
+                <Link to="/ProceedPaymentFree"><div className={styles.rectangleDiv20} /></Link>
                 <div className={styles.downloadDiv}>Download</div>
               </div>
             </div>
@@ -804,10 +813,12 @@ export const Page1Home: FunctionComponent = () => {
           </div>
           <div className={styles.groupDiv40}>
             <div className={styles.groupDiv41}>
-              <div className={styles.tVDiv}>TV</div>
+              <div className={styles.tVDiv} >TV</div>
+              {isHovering && <img src="frame.png" alt="left" height="110" width="680"/>}
             </div>
-            <img className={styles.tv21} alt="" src="tv-2-1.svg" />
+            <img className={styles.tv21} alt="" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}  src="tv-2-1.svg"  />
           </div>
+          
         </div>
         <b className={styles.omnipresentInYourHome}>Omnipresent in Your Home</b>
         <div className={styles.dEVICESYOUCANUSE}>DEVICES YOU CAN USE</div>
@@ -947,23 +958,23 @@ export const Page1Home: FunctionComponent = () => {
             <img
               className={styles.untitled1d2Icon}
               alt=""
-              src="about-us-copy.gif"
+              src="untitled1d-2@2x.png"
             />
-            <img className={styles.aboutUs1} alt="" src="about-us-copy.gif" />
+            <img className={styles.aboutUs1} alt="" src="about-us-1@2x.png" />
             <img
               className={styles.aboutUss11}
               alt=""
-              src="about-us-copy.gif"
+              src="about-uss1-1@2x.png"
             />
             <img
               className={styles.aboutUssFinal1}
               alt=""
-              src="about-us-copy.gif"
+              src="about-uss-final-1@2x.png"
             />
             <img
               className={styles.aboutUsFinall1}
               alt=""
-              src="about-us-copy.gif"
+              src="about-us-finall-1@2x.png"
             />
             <img
               className={styles.aboutUsFinall51}
