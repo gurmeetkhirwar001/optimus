@@ -1,10 +1,11 @@
-import { FunctionComponent, useCallback } from "react";
+import { FunctionComponent, useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./css/Competitors.module.css";
 import {Link} from "react-router-dom"
 
 export const Competitors: FunctionComponent = () => {
   const navigate = useNavigate();
+  const [isHovering, setIsHovering] = useState(false);
 
   const onCOMPETITORSTextClick = useCallback(() => {
     navigate("/competitors");
@@ -13,6 +14,14 @@ export const Competitors: FunctionComponent = () => {
   const onLOGOTextClick = useCallback(() => {
     // Please sync "Page 1 Home" to the project
   }, []);
+
+  const handleMouseOver = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseOut = () => {
+    setIsHovering(false);
+  };
 
   return (
     <div className={styles.competitorsDiv}>
@@ -73,72 +82,72 @@ export const Competitors: FunctionComponent = () => {
       <b className={styles.smartAssistantsInMarket}>
         Smart Assistants in Market
       </b>
+      <div className={styles.textDiv2}>Accuracy</div>
+      <div className={styles.textDiv}>Human Feel</div>
       <div className={styles.text3Div}>Security</div>
-      <div className={styles.text5Div}>Volume</div>
       <div className={styles.text4Div}>Connectivity</div>
+      <div className={styles.textDiv3}>Compatibility</div>
+      <div className={styles.textDiv1}>Advancement</div>
+      <div className={styles.text5Div}>Volume</div>
       <div className={styles.text6Div}>Response</div>
       <div className={styles.text7Div}>Plugging</div>
       <div className={styles.text8Div}>Reliability</div>
-      <div className={styles.textDiv}>Human Feel</div>
-      <div className={styles.textDiv1}>Advancement</div>
-      <div className={styles.textDiv2}>Accuracy</div>
-      <div className={styles.textDiv3}>Compatibility</div>
       <b className={styles.usageB}>Parameter</b>
       <div className={styles.groupDiv3}>
         <div className={styles.baseDiv} />
         <div className={styles.startDiv}>SI Assistant</div>
-        <div className={styles.div1}><img src="right.png" width="15"/></div>
-        <div className={styles.div2}><img src="right.png" width="15"/></div>
-        <div className={styles.div3}><img src="right.png" width="15"/></div>
-        <div className={styles.div4}><img src="right.png" width="15"/></div>
-        <div className={styles.div5}><img src="right.png" width="15"/></div>
-        <div className={styles.div6}><img src="right.png" width="15"/></div>
-        <div className={styles.div7}><img src="right.png" width="15"/></div>
-        <div className={styles.div8}><img src="right.png" width="15"/></div>
-        <div className={styles.div9}><img src="right.png" width="15"/></div>
-        <div className={styles.div10}><img src="right.png" width="15"/></div>
+        <div className={styles.div1}><a title="Volume adjustability and noise &#013; evasion are two key features of Optimus"><img src="right.png" width="15"/></a></div>
+        <div className={styles.div2}><a title="Optimus can use alternative &#013; sources of plugging"><img src="right.png" width="15"/></a></div>
+        <div className={styles.div3}><a title="The chances of Optimus not &#013; responding are negligible"><img src="right.png" width="15"/></a></div>
+        <div className={styles.div4}><a title="Optimus comes with certain &#013; levels of authorization"><img src="right.png" width="15"/></a></div>
+        <div className={styles.div5}><a title="Connectivity will be the &#013; least concern for Optimus."><img src="right.png" width="15"/></a></div>
+        <div className={styles.div6}><a title="Optimus can fit &#013; into various devices"><img src="right.png" width="15"/></a></div>
+        <div className={styles.div7}><a title="It uses Computer Vision &#013; driven NLP making it more advanced"><img src="right.png" width="15"/></a></div>
+        <div className={styles.div8}><a title="Optimus is constantly"><img src="right.png" width="15"/></a></div>
+        <div className={styles.div9}><a title="You will feel the human &#013; emotion using Optimus"><img src="right.png" width="15"/></a></div>
+        <div className={styles.div10}><a title="Optimus is programmed to &#013; take the inputs accurately"><img src="right.png" width="15"/></a></div>
       </div>
       <div className={styles.groupDiv4}>
         <div className={styles.baseDiv} />
         <div className={styles.startDiv}>Google Assistant</div>
-        <div className={styles.div1}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div2}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div13}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div4}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div5}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div6}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div7}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div18}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div1}><a title="Playing music or communicating &#013; with Google can be louder."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div2}><a title="It needs to be plugged into &#013; power outlets to work continuously."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div13}><a title="Has trouble interpreting &#013; your voice from afar."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div4}><a title="Recording your voice on Google &#013; Assistant may cause Privacy concerns."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div5}><a title="You rquire a strong internet connection &#013; to be able to use OK Google."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div6}><a title="Google Home may not pair with &#013; every smart device in the house."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div7}><a title="Early stages of Google assistant &#013; require more upgrades."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div18}><a title="Robotic Voice lacks the &#013; feeling of human interaction"><img src="wrong.png" width="13"/></a></div>
       </div>
       <div className={styles.groupDiv5}>
         <div className={styles.baseDiv} />
         <div className={styles.startDiv}>Alexa</div>
-        <div className={styles.div13}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div3}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div5}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div6}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div8}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div13}><a title="Alexa sometimes substitutes &#013; something else for your voice input"><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div3}><a title="Users have lately blamed the updated &#013; version of Alexa for being alow."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div5}><a title="Alexa may lose connection with your &#013; clock sometimes due to poor connection."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div6}><a title="It may mishear your request for &#013; a song or might have streaming issues."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div8}><a title="Often, you'll have to delete &#013; all the routine and start over."><img src="wrong.png" width="13"/></a></div>
       </div>
       <div className={styles.groupDiv6}>
         <div className={styles.baseDiv} />
         <div className={styles.startDiv}>Siri</div>
-        <div className={styles.div1}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div13}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div5}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div8}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div1}><a title="Siri ignores silent mode.However low &#013; the volume, Siri is always be audible."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div13}><a title="It is sometimes necessary to repeat &#013; commands in order for Siri to respond."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div5}><a title="It needs a constant Web connection &#013; to commands that might not need it."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div8}><a title="Navigational capabilities are &#013; limited to English and only for locations in USA."><img src="wrong.png" width="13"/></a></div>
       </div>
       <div className={styles.groupDiv7}>
         <div className={styles.baseDiv} />
         <div className={styles.startDiv}>Bixby</div>
-        <div className={styles.div6}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div7}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div8}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div6}><a title="Samsung Bixby's serverless &#013; computing skills are very limited."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div7}><a title="Another limitation of Bixby is &#013; the absence of an open NLP-AI platform."><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div8}><a title="It is poor in image processing, &#013; speech or video analytics and others."><img src="wrong.png" width="13"/></a></div>
       </div>
       <div className={styles.groupDiv8}>
         <div className={styles.baseDiv} />
         <div className={styles.startDiv}>Cortana</div>
-        <div className={styles.div2}><img src="wrong.png" width="13"/></div>
-        <div className={styles.div5}><img src="wrong.png" width="13"/></div>
+        <div className={styles.div2}><a title="Hey Cortana uses only battery power"><img src="wrong.png" width="13"/></a></div>
+        <div className={styles.div5}><a title="Anyone can issue voice commands, &#013; even when it is locked. It's a risk"><img src="wrong.png" width="13"/></a></div>
       </div>
       <div className={styles.footerDiv}>
         <div className={styles.rectangleDiv} />
