@@ -485,11 +485,11 @@ export const Page1Home: FunctionComponent = () => {
             />
             <div className={styles.downloadNowDiv}>Download Now</div>
           </div>
-          <img className={styles.bluee011Icon} alt="" src="banner.gif" />
+          <img className={styles.bluee011Icon} alt="" src="Banner.gif" />
           <img
             className={styles.blueMainBannerr2}
             alt=""
-            src="banner.gif"
+            src="Banner.gif"
           />
         </div>
         <div className={styles.navBarDiv}>
