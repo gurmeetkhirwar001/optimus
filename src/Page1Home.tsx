@@ -485,11 +485,11 @@ export const Page1Home: FunctionComponent = () => {
             />
             <div className={styles.downloadNowDiv}>Download Now</div>
           </div>
-          <img className={styles.bluee011Icon} alt="" src="bluee01-1@2x.png" />
+          <img className={styles.bluee011Icon} alt="" src="banner.gif" />
           <img
             className={styles.blueMainBannerr2}
             alt=""
-            src="blue-main-bannerr-2@2x.png"
+            src="banner.gif"
           />
         </div>
         <div className={styles.navBarDiv}>
@@ -816,7 +816,7 @@ export const Page1Home: FunctionComponent = () => {
               <div className={styles.tVDiv} >TV</div>
               {isHovering && <img src="frame.png" alt="left" height="110" width="680"/>}
             </div>
-            <img className={styles.tv21} alt="" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}  src="tv-2-1.svg"  />
+            <img className={styles.tv21} alt="left" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}  src="tv-2-1.svg"  />
           </div>
           
         </div>
@@ -929,11 +929,7 @@ export const Page1Home: FunctionComponent = () => {
                 Invite a genius to your home
               </b>
               <div className={styles.pRODUCTDiv1}>PRODUCT</div>
-              <div
-                className={styles.cOMPANYDiv1}
-                data-scroll-to="cOMPANYText"
-                onClick={openCompany}
-              >
+              <div className={styles.cOMPANYDiv1}>
                 COMPANY
               </div>
               <div className={styles.seeAndListenToOptimusThe}>

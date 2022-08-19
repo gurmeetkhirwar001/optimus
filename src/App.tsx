@@ -18,6 +18,8 @@ import {Payment2} from "./payment/src/Payment2";
 import {DownloadScreen} from "./payment/src/DownloadScreen";
 import { ProceedPaymentFree } from "./plan/src/ProceedPaymentFree";
 
+
+
 function App() {
   const action = useNavigationType();
   const location = useLocation();
