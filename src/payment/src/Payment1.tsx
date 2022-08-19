@@ -335,9 +335,9 @@ export const Payment1: FunctionComponent = () => {
         </div>
         <div className={styles.pRODUCTDiv}>PRODUCT</div>
         <div className={styles.cOMPANYDiv}>COMPANY</div>
-        <Link to="/"><b className={styles.lOGOB} onClick={onLOGOTextClick}>
+        <b className={styles.lOGOB} onClick={onLOGOTextClick}>
           LOGO
-          </b></Link>
+        </b>
       </div>
     </div>
   );
