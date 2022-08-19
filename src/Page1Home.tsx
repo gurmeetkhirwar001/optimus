@@ -275,7 +275,7 @@ export const Page1Home: FunctionComponent = () => {
             <div className={styles.infoaivectorsorgDiv}>
               <p
                 className={styles.ePanchavatiTownship}
-              >{`24-E, Panchavati Township, `}</p>
+              >{`E24, Panchavati Township, `}</p>
               <p className={styles.ePanchavatiTownship}>
                 Akkireddypalem, Sheelanagar,
               </p>
