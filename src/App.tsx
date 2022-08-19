@@ -16,7 +16,7 @@ import {Payment} from "./payment/src/Payment";
 import {Payment1} from "./payment/src/Payment1";
 import {Payment2} from "./payment/src/Payment2";
 import {DownloadScreen} from "./payment/src/DownloadScreen";
-import { ProceedPaymentFree } from "./plan/src/ProceedPaymentFree";
+import { ProceedPaymentFree } from "./payment/src/ProceedPaymentFree";
 
 
 
