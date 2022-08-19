@@ -354,7 +354,7 @@ export const Page1Home: FunctionComponent = () => {
             <div className={styles.createScreensDirectlyInMet2}>
               Swati Bansal
             </div>
-            <i className={styles.createScreensDirectlyInMet3}>Data Scientist</i>
+            <i className={styles.createScreensDirectlyInMet3}>Data Science Architect</i>
           </div>
           <div className={styles.groupDiv6}>
             <div className={styles.rectangleDiv5} />
