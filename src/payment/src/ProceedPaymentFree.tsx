@@ -7,7 +7,8 @@ import { FAQ4 } from "./FAQ4";
 import { FAQ1 } from "./FAQ1";
 import { FAQ5 } from "./FAQ5";
 import { FAQ3 } from "./FAQ3";
-//import { Premium } from "./Premium";
+import { Premium } from "./Premium";
+import { Advanced } from "./Advanced";
 import styles from "./css/ProceedPaymentFree.module.css";
 
 export const ProceedPaymentFree: FunctionComponent = () => {
@@ -19,6 +20,7 @@ export const ProceedPaymentFree: FunctionComponent = () => {
   const [isFAQ5Open, setFAQ5Open] = useState(false);
   const [isFAQ31Open, setFAQ31Open] = useState(false);
   const [isPremiumOpen, setPremiumOpen] = useState(false);
+  const [isAdvancedOpen, setAdvancedOpen] = useState(false);
 
   const onGroupContainer7Click = useCallback(() => {
     navigate("/login");
@@ -82,6 +84,14 @@ export const ProceedPaymentFree: FunctionComponent = () => {
 
   const closePremium = useCallback(() => {
     setPremiumOpen(false);
+  }, []);
+
+  const openAdvanced = useCallback(() => {
+    setAdvancedOpen(true);
+  }, []);
+
+  const closeAdvanced = useCallback(() => {
+    setAdvancedOpen(false);
   }, []);
 
   return (
@@ -841,11 +851,13 @@ export const ProceedPaymentFree: FunctionComponent = () => {
         <div className={styles.freePlanDiv}>
           <div className={styles.groupDiv20}>
             <div className={styles.groupDiv21}>
-              <div className={styles.premiumDiv} onClick={openPremium}>
+              <div className={styles.premiumDiv}>
                 Premium
               </div>
               <b className={styles.freeB}>Free</b>
-              <div className={styles.advancedDiv}>Advanced</div>
+              <div className={styles.advancedDiv} >
+                Advanced
+              </div>
             </div>
             <div className={styles.groupDiv22}>
               <div className={styles.groupDiv23}>
@@ -942,7 +954,7 @@ export const ProceedPaymentFree: FunctionComponent = () => {
           <FAQ3 onClose={closeFAQ31} />
         </PortalPopup>
       )}
-      {/*{isPremiumOpen && (
+      {isPremiumOpen && (
         <PortalPopup
           overlayColor="rgba(113, 113, 113, 0.3)"
           placement="Centered"
@@ -950,7 +962,16 @@ export const ProceedPaymentFree: FunctionComponent = () => {
         >
           <Premium onClose={closePremium} />
         </PortalPopup>
-      )}*/}
+      )}
+      {isAdvancedOpen && (
+        <PortalPopup
+          overlayColor="rgba(113, 113, 113, 0.3)"
+          placement="Centered"
+          onOutsideClick={closeAdvanced}
+        >
+          <Premium onClose={closeAdvanced} />
+        </PortalPopup>
+      )}
     </>
   );
 };

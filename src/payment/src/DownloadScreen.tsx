@@ -241,21 +241,19 @@ export const DownloadScreen: FunctionComponent = () => {
           </b>
           <div className={styles.clickOnTheLinkBelowOrSca}>
             <p className={styles.clickOnThe}>
-              Click on the link below or scan the code to download
+              Scan the code to download
             </p>
             <p className={styles.clickOnThe}></p>
           </div>
         </div>
       </div>
-      <b className={styles.httpsiconscoutcomallAsseB}>
-        https://iconscout.com/all-assets/robot?gclid=EAIaIQobChMIw4ao_s-b-
-      </b>
-      <img className={styles.download1Icon} alt="" src="download-1@2x.png" />
       <img
         className={styles.qRCodeForMobileEnglishWikIcon}
         alt=""
         src="qr-code-for-mobile-english-wikipedia-1@2x.png"
       />
+      <img className={styles.download1Icon} alt="" src="download-1@2x.png" />
+      
       <div className={styles.groupDiv22}>
         <div className={styles.sIAssistantIsACuttingEdge}>
           SI Assistant is a cutting edge Virtual Assistant that monitors
