@@ -152,15 +152,15 @@ export const Page1Home: FunctionComponent = () => {
             Artificial Intelligence and bringing those ideas alive in the form
             of valuable applications.z
           </div>
-          <div
+          <div 
             className={styles.needAnswersNeedHelpJust}
-          >{`Need Answers? Need help ? Just email us `}</div>
+          >{`Need Answers? Need help ? Just email us `}</div>          
           <div className={styles.copyright2022Div}>Copyright 2022</div>
           <div className={styles.companyDiv }>Company</div>
           <Link to="/product"><div className={styles.productDiv}>Product</div></Link>
           <Link to="/competitors"><div className={styles.competitorsDiv}>Competitors</div></Link>
-          <div className={styles.pricingDiv}>Pricing</div>
-          <div className={styles.contactDiv}>Contact</div>
+          <div className={styles.pricingDiv} onClick={onPRICINGText1Click}>Pricing</div>
+          <div className={styles.contactDiv} onClick={onCONTACTText1Click}>Contact</div>
           <div className={styles.linksDiv}>Links</div>
           <div className={styles.followUsDiv}>{`Follow Us `}</div>
           <div className={styles.getInTouchWithUs}>Get In touch with Us</div>
@@ -169,7 +169,7 @@ export const Page1Home: FunctionComponent = () => {
             <img
               className={styles.featherfacebookIcon}
               alt=""
-              src="featherfacebook.svg"
+              src="linkedin.svg"
             />
           </div>
           <div className={styles.groupDiv1}>
@@ -192,57 +192,7 @@ export const Page1Home: FunctionComponent = () => {
             <div className={styles.labelDiv}>
               <div className={styles.helperTextDiv}>Default Label</div>
             </div>
-            <div className={styles.inputeDiv}>
-              <img className={styles.groupIcon} alt="" src="group-210.svg" />
-              <img
-                className={styles.feathersearchIcon}
-                alt=""
-                src="feathersearch.svg"
-              />
-              <div className={styles.labelDiv1}>Your email</div>
-              <img
-                className={styles.feathersearchIcon}
-                alt=""
-                src="feathercalendar.svg"
-              />
-              <img
-                className={styles.feathersearchIcon}
-                alt=""
-                src="feathereyeoff.svg"
-              />
-              <img
-                className={styles.feathersearchIcon}
-                alt=""
-                src="feathereye.svg"
-              />
-              <img
-                className={styles.feathersearchIcon}
-                alt=""
-                src="featherchevrondown.svg"
-              />
-              <div className={styles.frameDiv}>
-                <img
-                  className={styles.featherplusIcon}
-                  alt=""
-                  src="featherplus.svg"
-                />
-                <img
-                  className={styles.featherplusIcon}
-                  alt=""
-                  src="featherminus.svg"
-                />
-              </div>
-              <img
-                className={styles.feathersearchIcon}
-                alt=""
-                src="featherminuscircle.svg"
-              />
-              <img
-                className={styles.feathersendIcon}
-                alt=""
-                src="feathersend.svg"
-              />
-            </div>
+            
             <div className={styles.helperTextDiv1}>
               <div className={styles.helperTextDiv2}>Helper text</div>
             </div>
@@ -251,11 +201,7 @@ export const Page1Home: FunctionComponent = () => {
         <div className={styles.rectangleDiv2} />
         <div className={styles.groupDiv3}>
           <div className={styles.socialDiv}>
-            <img
-              className={styles.elementsButtonsIcon48}
-              alt=""
-              src="elements--buttons--icon--48px-copy-2.svg"
-            />
+            
             <img
               className={styles.elementsButtonsIcon48}
               alt=""
@@ -268,23 +214,23 @@ export const Page1Home: FunctionComponent = () => {
             />
           </div>
           <div className={styles.emailDiv}>
-            <div className={styles.infoaivectorsorgDiv}>info@aivectors.org</div>
+            <div className={styles.infoaivectorsorgDiv}>admin@aitensors.org</div>
             <div className={styles.emailDiv1}>Email</div>
           </div>
           <div className={styles.emailDiv2}>
             <div className={styles.infoaivectorsorgDiv}>
               <p
                 className={styles.ePanchavatiTownship}
-              >{`E24, Panchavati Township, `}</p>
+              >{`455, E Eisenhower Pkwy, `}</p>
               <p className={styles.ePanchavatiTownship}>
-                Akkireddypalem, Sheelanagar,
+                Suite 300 PMB1084, 
               </p>
-              <p className={styles.thatHasA}> Vizag - 530012</p>
+              <p className={styles.thatHasA}>Ann Arbor ,MI 48108, USA</p>
             </div>
             <div className={styles.emailDiv3}>Address</div>
           </div>
           <div className={styles.phoneDiv}>
-            <b className={styles.b}>+1 234 567 89 10</b>
+            <b className={styles.b}>+1 248 567-2917</b>
             <div className={styles.phoneDiv1}>Phone</div>
           </div>
         </div>
@@ -354,7 +300,7 @@ export const Page1Home: FunctionComponent = () => {
             <div className={styles.createScreensDirectlyInMet2}>
               Swati Bansal
             </div>
-            <i className={styles.createScreensDirectlyInMet3}>Data Science Architect</i>
+            <i className={styles.createScreensDirectlyInMet3}>Architect</i>
           </div>
           <div className={styles.groupDiv6}>
             <div className={styles.rectangleDiv5} />
@@ -477,12 +423,9 @@ export const Page1Home: FunctionComponent = () => {
             home, Optimus will be your best ally to do your tasks and enjoy
             things better.
           </div>
-          <div className={styles.groupDiv23}>
+          <div className={styles.groupDiv23} onClick={onRectangleRectangle18Click}>
             <div className={styles.rectangleDiv18} />
-            <div
-              className={styles.rectangleDiv19}
-              onClick={onRectangleRectangle18Click}
-            />
+            <div className={styles.rectangleDiv19}/>
             <div className={styles.downloadNowDiv}>Download Now</div>
           </div>
           <img className={styles.bluee011Icon} alt="" src="Banner.gif" />
@@ -814,7 +757,7 @@ export const Page1Home: FunctionComponent = () => {
           <div className={styles.groupDiv40}>
             <div className={styles.groupDiv41}>
               <div className={styles.tVDiv} >TV</div>
-              {isHovering && <img src="frame.png" alt="left" height="110" width="680"/>}
+              {isHovering && <img src="frame.png" alt="left" margin-left="-500px" height="110" width="680"/>}
             </div>
             <img className={styles.tv21} alt="left" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}  src="tv-2-1.svg"  />
           </div>
@@ -940,11 +883,10 @@ export const Page1Home: FunctionComponent = () => {
                 latest grandchild of Artificial Intelligence will make your life
                 effective by adding more value to your vocals.
               </div>
-              <div className={styles.groupDiv48}>
-                <Link to="/product"><div className={styles.rectangleDiv25} onClick={onRectangleRectangle24Click}
-                /></Link>
+              <Link to="/product"><div className={styles.groupDiv48}>
+                <div className={styles.rectangleDiv25}/>
                 <div className={styles.downloadDiv}>know more</div>
-              </div>
+              </div></Link>
             </div>
             <img
               className={styles.untitled1d1Icon}
