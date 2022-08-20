@@ -721,7 +721,7 @@
   position: absolute;
   top: 835px;
   left: -1px;
-  width: 1521px;
+  width: 1440px;
   height: 397px;
   font-size: 16px;
   color: rgba(14, 14, 44, 0.8);
@@ -870,7 +870,7 @@
   object-fit: cover;
 }
 .qRCodeForMobileEnglishWikIcon {
-  top: 544px;
+  top: 400px;
   left: 341px;
   width: 206px;
   height: 206px;
