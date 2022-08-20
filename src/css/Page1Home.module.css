@@ -2182,7 +2182,7 @@
 .rectangleDiv25 {
   position: absolute;
   left: 0;
-  width: 185px;
+  width: 155px;
   height: 58px;
 }
 .rectangleDiv25 {
@@ -2190,6 +2190,7 @@
   border-radius: 8px;
   background-color: #0a2342;
   cursor: pointer;
+  left: 18px;
 }
 .groupDiv48 {
   top: 436px;
@@ -2259,7 +2260,7 @@
 .aboutUsFinall51 {
   top: 0;
   left: 8px;
-  width: 895px;
+  width: 835px;
   height: 659px;
 }
 .aboutDiv,
