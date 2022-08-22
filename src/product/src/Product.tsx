@@ -444,7 +444,7 @@ https://iconscout.com/icon/kakao-1884642
           <img
             className={styles.featherfacebookIcon}
             alt=""
-            src="featherfacebook.svg"
+            src="linkedin.svg"
           />
         </div>
         <div className={styles.groupDiv32}>
@@ -463,65 +463,7 @@ https://iconscout.com/icon/kakao-1884642
             src="feathertwitter.svg"
           />
         </div>
-        <div className={styles.xFormGroupDiv}>
-          <div className={styles.labelDiv}>
-            <div className={styles.helperTextDiv}>Default Label</div>
-          </div>
-          <div className={styles.inputeDiv}>
-            <img className={styles.groupIcon} alt="" src="group-210.svg" />
-            <img
-              className={styles.feathersearchIcon}
-              alt=""
-              src="feathersearch.svg"
-            />
-            <div className={styles.labelDiv1}>Your email</div>
-            <img
-              className={styles.feathersearchIcon}
-              alt=""
-              src="feathercalendar.svg"
-            />
-            <img
-              className={styles.feathersearchIcon}
-              alt=""
-              src="feathereyeoff.svg"
-            />
-            <img
-              className={styles.feathersearchIcon}
-              alt=""
-              src="feathereye.svg"
-            />
-            <img
-              className={styles.feathersearchIcon}
-              alt=""
-              src="featherchevrondown.svg"
-            />
-            <div className={styles.frameDiv}>
-              <img
-                className={styles.featherplusIcon}
-                alt=""
-                src="featherplus.svg"
-              />
-              <img
-                className={styles.featherplusIcon}
-                alt=""
-                src="featherminus.svg"
-              />
-            </div>
-            <img
-              className={styles.feathersearchIcon}
-              alt=""
-              src="featherminuscircle.svg"
-            />
-            <img
-              className={styles.feathersendIcon}
-              alt=""
-              src="feathersend.svg"
-            />
-          </div>
-          <div className={styles.helperTextDiv1}>
-            <div className={styles.helperTextDiv2}>Helper text</div>
-          </div>
-        </div>
+        
       </div>
       <img className={styles.productTv12} alt="" src="product-tv1-2@2x.png" />
       <img className={styles.growthLevel1Icon} alt="" src="growthlevel-1.svg" />
