@@ -1,4 +1,5 @@
 import { FunctionComponent, useState, useCallback } from "react";
+// {Container, Button, Form} from 'react-bootstrap';
 import { T2 } from "./T2";
 import { PortalPopup } from "./PortalPopup";
 import { T3 } from "./T3";
@@ -239,7 +240,7 @@ export const Page1Home: FunctionComponent = () => {
             <div className={styles.elementsButtonsPrimary}>
               <div className={styles.elementsButtonsPrimary}>
                 <div className={styles.baseDiv} />
-                <div className={styles.buttonTextDiv}>Send</div>
+                <div className={styles.buttonTextDiv} >Send</div>
               </div>
             </div>
           </div>
