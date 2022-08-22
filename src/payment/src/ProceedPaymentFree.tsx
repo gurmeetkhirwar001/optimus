@@ -131,7 +131,7 @@ export const ProceedPaymentFree: FunctionComponent = () => {
             <img
               className={styles.featherfacebookIcon}
               alt=""
-              src="featherfacebook2.svg"
+              src="linkedin.svg"
             />
           </div>
           <div className={styles.groupDiv2}>
@@ -150,65 +150,7 @@ export const ProceedPaymentFree: FunctionComponent = () => {
               src="feathertwitter2.svg"
             />
           </div>
-          <div className={styles.xFormGroupDiv}>
-            <div className={styles.labelDiv}>
-              <div className={styles.helperTextDiv}>Default Label</div>
-            </div>
-            <div className={styles.inputeDiv}>
-              <img className={styles.groupIcon} alt="" src="group-2102.svg" />
-              <img
-                className={styles.feathersearchIcon}
-                alt=""
-                src="feathersearch2.svg"
-              />
-              <div className={styles.labelDiv1}>Your email</div>
-              <img
-                className={styles.feathersearchIcon}
-                alt=""
-                src="feathercalendar2.svg"
-              />
-              <img
-                className={styles.feathersearchIcon}
-                alt=""
-                src="feathereyeoff2.svg"
-              />
-              <img
-                className={styles.feathersearchIcon}
-                alt=""
-                src="feathereye2.svg"
-              />
-              <img
-                className={styles.feathersearchIcon}
-                alt=""
-                src="featherchevrondown2.svg"
-              />
-              <div className={styles.frameDiv}>
-                <img
-                  className={styles.featherplusIcon}
-                  alt=""
-                  src="featherplus2.svg"
-                />
-                <img
-                  className={styles.featherplusIcon}
-                  alt=""
-                  src="featherminus8.svg"
-                />
-              </div>
-              <img
-                className={styles.feathersearchIcon}
-                alt=""
-                src="featherminuscircle2.svg"
-              />
-              <img
-                className={styles.feathersendIcon}
-                alt=""
-                src="feathersend2.svg"
-              />
-            </div>
-            <div className={styles.helperTextDiv1}>
-              <div className={styles.text02Div}>Helper text</div>
-            </div>
-          </div>
+          
         </div>
         <div className={styles.categoryDiv}>
           <div className={styles.frameDiv1}>

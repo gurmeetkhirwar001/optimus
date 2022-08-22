@@ -145,7 +145,7 @@ export const Payment1: FunctionComponent = () => {
           <img
             className={styles.featherfacebookIcon}
             alt=""
-            src="featherfacebook.svg"
+            src="linkedin.svg"
           />
         </div>
         <div className={styles.groupDiv18}>
@@ -164,65 +164,7 @@ export const Payment1: FunctionComponent = () => {
             src="feathertwitter.svg"
           />
         </div>
-        <div className={styles.xFormGroupDiv}>
-          <div className={styles.labelDiv}>
-            <div className={styles.helperTextDiv}>Default Label</div>
-          </div>
-          <div className={styles.inputeDiv}>
-            <img className={styles.groupIcon5} alt="" src="group-210.svg" />
-            <img
-              className={styles.feathersearchIcon}
-              alt=""
-              src="feathersearch.svg"
-            />
-            <div className={styles.labelDiv1}>Your email</div>
-            <img
-              className={styles.feathersearchIcon}
-              alt=""
-              src="feathercalendar.svg"
-            />
-            <img
-              className={styles.feathersearchIcon}
-              alt=""
-              src="feathereyeoff.svg"
-            />
-            <img
-              className={styles.feathersearchIcon}
-              alt=""
-              src="feathereye.svg"
-            />
-            <img
-              className={styles.feathersearchIcon}
-              alt=""
-              src="featherchevrondown.svg"
-            />
-            <div className={styles.frameDiv}>
-              <img
-                className={styles.featherplusIcon}
-                alt=""
-                src="featherplus.svg"
-              />
-              <img
-                className={styles.featherplusIcon}
-                alt=""
-                src="featherminus.svg"
-              />
-            </div>
-            <img
-              className={styles.feathersearchIcon}
-              alt=""
-              src="featherminuscircle.svg"
-            />
-            <img
-              className={styles.feathersendIcon}
-              alt=""
-              src="feathersend.svg"
-            />
-          </div>
-          <div className={styles.helperTextDiv1}>
-            <div className={styles.helperTextDiv2}>Helper text</div>
-          </div>
-        </div>
+        
       </div>
       <div className={styles.categoryDiv}>
         <div className={styles.frameDiv1}>
