@@ -5,14 +5,6 @@ import styles from "./css/Login.module.css";
 export const Login: FunctionComponent = () => {
   const navigate = useNavigate();
 
-  const onCOMPETITORSTextClick = useCallback(() => {
-    // Please sync "Competitors" to the project
-  }, []);
-
-  const onLOGOTextClick = useCallback(() => {
-    // Please sync "Page 1 Home" to the project
-  }, []);
-
   const onButtonContainer1Click = useCallback(() => {
     navigate("/payment1");
   }, [navigate]);
@@ -101,7 +93,7 @@ export const Login: FunctionComponent = () => {
       </div>
       <div className={styles.rectangleDiv10} />
       <b className={styles.thankYouForChoosingThePla}>
-        Thank you for choosing the plan
+      Let your Optimus Know Who you are
       </b>
       <div className={styles.navBarDiv}>
         <div className={styles.cONTACTDiv}>CONTACT</div>
@@ -112,19 +104,16 @@ export const Login: FunctionComponent = () => {
         </div></Link>
         <Link to="/product"><div className={styles.pRODUCTDiv}>PRODUCT</div></Link>
         <div className={styles.cOMPANYDiv}>COMPANY</div>
-        <Link to="/"><b className={styles.lOGOB} onClick={onLOGOTextClick}>
-          LOGO
-        </b></Link>
+        <Link to="/"><div className={styles.logomain}>
+          <img src="logo.png" height="50" width="50" />
+        </div></Link>
       </div>
       <div className={styles.footerDiv}>
         <div className={styles.rectangleDiv11} />
         <div className={styles.rectangleDiv12} />
-        <div className={styles.logoDiv}>Logo</div>
+        <div className={styles.logoDiv}><img src="logo.png" height="50" width="50" /></div>
         <div className={styles.transformingLivesOfPeopleA}>
-          Transforming lives of people across all walks of life with
-          out-of-the-box ideas peeking into the possibilities of today’s
-          Artificial Intelligence and bringing those ideas alive in the form of
-          valuable applications.
+        Transforming lives across the globe by adventuring Artificial Intelligence.
         </div>
         <div
           className={styles.needAnswersNeedHelpJust}
@@ -139,28 +128,20 @@ export const Login: FunctionComponent = () => {
         <div className={styles.followUsDiv}>{`Follow Us `}</div>
         <div className={styles.getInTouchWithUs}>Get In touch with Us</div>
         <div className={styles.groupDiv16}>
-          <div className={styles.fbcomaaaDiv}>fb.com/aaa</div>
-          <img
-            className={styles.featherfacebookIcon}
-            alt=""
-            src="linkedin.svg"
-          />
-        </div>
-        <div className={styles.groupDiv17}>
-          <div className={styles.aaaDiv}>@aaa</div>
-          <img
-            className={styles.featherfacebookIcon}
-            alt=""
-            src="featherinstagram3.svg"
-          />
+          <div className={styles.fbcomaaaDiv}>https://twitter.com/AiTensors</div>
+            <img
+              className={styles.featherfacebookIcon}
+              alt=""
+              src="twitter.svg"
+            />
         </div>
         <div className={styles.groupDiv18}>
-          <div className={styles.fbcomaaaDiv}>@aaa</div>
-          <img
-            className={styles.featherfacebookIcon}
-            alt=""
-            src="feathertwitter3.svg"
-          />
+          <div className={styles.fbcomaaaDiv}>https://www.linkedin.com/company/82789169/</div>
+            <img
+              className={styles.featherfacebookIcon}
+              alt=""
+              src="linkedin.svg"
+            />
         </div>
         
       </div>

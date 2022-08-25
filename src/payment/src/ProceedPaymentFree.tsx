@@ -107,12 +107,9 @@ export const ProceedPaymentFree: FunctionComponent = () => {
         <div className={styles.footerDiv}>
           <div className={styles.rectangleDiv5} />
           <div className={styles.rectangleDiv6} />
-          <div className={styles.logoDiv}>Logo</div>
+          <div className={styles.logoDiv}><img src="logo.png" height="50" width="50" /></div>
           <div className={styles.transformingLivesOfPeopleA}>
-            Transforming lives of people across all walks of life with
-            out-of-the-box ideas peeking into the possibilities of today’s
-            Artificial Intelligence and bringing those ideas alive in the form
-            of valuable applications.
+          Transforming lives across the globe by adventuring Artificial Intelligence.
           </div>
           <div
             className={styles.needAnswersNeedHelpJust}
@@ -127,27 +124,19 @@ export const ProceedPaymentFree: FunctionComponent = () => {
           <div className={styles.followUsDiv}>{`Follow Us `}</div>
           <div className={styles.getInTouchWithUs}>Get In touch with Us</div>
           <div className={styles.groupDiv1}>
-            <div className={styles.fbcomaaaDiv}>fb.com/aaa</div>
+            <div className={styles.fbcomaaaDiv}>https://twitter.com/AiTensors</div>
+            <img
+              className={styles.featherfacebookIcon}
+              alt=""
+              src="twitter.svg"
+            />
+          </div>
+          <div className={styles.groupDiv3}>
+            <div className={styles.fbcomaaaDiv}>https://www.linkedin.com/company/82789169/</div>
             <img
               className={styles.featherfacebookIcon}
               alt=""
               src="linkedin.svg"
-            />
-          </div>
-          <div className={styles.groupDiv2}>
-            <div className={styles.aaaDiv}>@aaa</div>
-            <img
-              className={styles.featherfacebookIcon}
-              alt=""
-              src="featherinstagram2.svg"
-            />
-          </div>
-          <div className={styles.groupDiv3}>
-            <div className={styles.fbcomaaaDiv}>@aaa</div>
-            <img
-              className={styles.featherfacebookIcon}
-              alt=""
-              src="feathertwitter2.svg"
             />
           </div>
           
@@ -788,7 +777,7 @@ export const ProceedPaymentFree: FunctionComponent = () => {
           </div>
           <div className={styles.pRODUCTDiv}>PRODUCT</div>
           <div className={styles.cOMPANYDiv}>COMPANY</div>
-          <Link to="/"><b className={styles.lOGOB}>LOGO</b></Link>
+          <Link to="/"><div className={styles.logomain}><img src="logo.png" height="50" width="50" /></div></Link>
         </div>
         <div className={styles.freePlanDiv}>
           <div className={styles.groupDiv20}>

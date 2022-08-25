@@ -107,12 +107,9 @@ export const DownloadScreen: FunctionComponent = () => {
       <div className={styles.footerDiv}>
         <div className={styles.rectangleDiv17} />
         <div className={styles.rectangleDiv18} />
-        <div className={styles.logoDiv}>Logo</div>
+        <div className={styles.logoDiv}><Link to="/"><img src="logo.png" height="50" width="50" /></Link></div>
         <div className={styles.transformingLivesOfPeopleA}>
-          Transforming lives of people across all walks of life with
-          out-of-the-box ideas peeking into the possibilities of today’s
-          Artificial Intelligence and bringing those ideas alive in the form of
-          valuable applications.
+        Transforming lives across the globe by adventuring Artificial Intelligence.
         </div>
         <div
           className={styles.needAnswersNeedHelpJust}
@@ -127,28 +124,20 @@ export const DownloadScreen: FunctionComponent = () => {
         <div className={styles.followUsDiv}>{`Follow Us `}</div>
         <div className={styles.getInTouchWithUs}>Get In touch with Us</div>
         <div className={styles.groupDiv17}>
-          <div className={styles.fbcomaaaDiv}>fb.com/aaa</div>
-          <img
-            className={styles.featherfacebookIcon}
-            alt=""
-            src="linkedin.svg"
-          />
-        </div>
-        <div className={styles.groupDiv18}>
-          <div className={styles.aaaDiv}>@aaa</div>
-          <img
-            className={styles.featherfacebookIcon}
-            alt=""
-            src="featherinstagram.svg"
-          />
+          <div className={styles.fbcomaaaDiv}>https://twitter.com/AiTensors</div>
+            <img
+              className={styles.featherfacebookIcon}
+              alt=""
+              src="twitter.svg"
+            />
         </div>
         <div className={styles.groupDiv19}>
-          <div className={styles.fbcomaaaDiv}>@aaa</div>
-          <img
-            className={styles.featherfacebookIcon}
-            alt=""
-            src="feathertwitter.svg"
-          />
+          <div className={styles.fbcomaaaDiv}>https://www.linkedin.com/company/82789169/</div>
+            <img
+              className={styles.featherfacebookIcon}
+              alt=""
+              src="linkedin.svg"
+            />
         </div>
         
       </div>
@@ -213,9 +202,9 @@ export const DownloadScreen: FunctionComponent = () => {
         </div>
         <div className={styles.pRODUCTDiv}>PRODUCT</div>
         <div className={styles.cOMPANYDiv}>COMPANY</div>
-        <Link to="/"><b className={styles.lOGOB} onClick={onLOGOTextClick}>
-          LOGO
-        </b></Link>
+        <Link to="/"><div className={styles.logomain}>
+          <img src="logo.png" height="50" width="50" />
+        </div></Link>
       </div>
     </div>
   );
