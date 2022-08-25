@@ -12,6 +12,15 @@ export const Product: FunctionComponent = () => {
     // Please sync "Page 1 Home" to the project
   }, []);
 
+  const onCONTACTText1Click = useCallback(() => {
+    const anchor = document.querySelector(
+      "[data-scroll-to='/hoempage/CONTACTContainer']"
+    );
+    if (anchor) {
+      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+  }, []);
+
   const navigate = useNavigate();
 
   return (
@@ -27,18 +36,18 @@ export const Product: FunctionComponent = () => {
         <div className={styles.groupDiv1}>
           <b className={styles.theFutureOfHumanMachineIn}>
             <p className={styles.theFutureOf}>
-              <span>{`The Future of `}</span>
+              <span>The Future of </span>
             </p>
             <p className={styles.humanMachineInteractionP}>
               <span>Human-Machine Interaction</span>
             </p>
+            
           </b>
           <div className={styles.itTakesLessThanAMinuteTo}>
-            It takes less than a minute to set up and to train your Optimus to
-            follow any accent or slang. With its natural language understanding
-            and machine learning capabilities, you will find its voice
-            interpretation to be the best, making interactions easier for
-            everyone.
+          Conversations with Optimus are practical, reasonable, 
+          and effective within the realms of the information fed into it. 
+          You will hardly feel that you are speaking to a machine when you
+           compare in terms of both logical and emotional responses.
           </div>
         </div>
       </div>
@@ -46,25 +55,15 @@ export const Product: FunctionComponent = () => {
         <div className={styles.groupDiv3}>
           <b className={styles.whatsMoreCombinationOfN}>
             <p className={styles.theFutureOf}>
-              What’s More.? Combination of NLP and Open CV
+            What’s More.? CV + NLP
             </p>
           </b>
           <div className={styles.theApplicationOfComputerVi}>
             <p className={styles.theFutureOf}>
-              The application of Computer Vision along with NLP to understand
-              the context of your conversations
+            Usually, the smart assistants come with Natural Language processing but Optimus is
+             designed using Natural Language Processing and also Computer Vision.
             </p>
-            <p className={styles.theFutureOf}>
-              {" "}
-              as well as your movements is one of the recent breakthroughs in
-              Artificial Intelligence. It also has
-            </p>
-            <p
-              className={styles.theFutureOf}
-            >{` an ever-growing library of tasks that it can perform for you. The best part is that you `}</p>
-            <p className={styles.dontHaveTo}>
-              don’t have to teach Optimus anything!
-            </p>
+            
           </div>
         </div>
       </div>
@@ -75,18 +74,11 @@ export const Product: FunctionComponent = () => {
         <div className={styles.naturalLanguageProcessingN}>
           <p className={styles.theFutureOf}>
             {" "}
-            Natural language processing (NLP) is the ability of a computer
-            program to understand human language as it is spoken and written --
-            referred to as natural language. It is a component of artificial
-            intelligence (AI).
+            Being able to speak and understand human language is something Optimus 
+            can do much better and this technology is called Natural Language 
+            Processing (NLP). NLP is a component of Artificial Intelligence. 
           </p>
-          <p className={styles.theFutureOf}>&nbsp;</p>
-          <p className={styles.theFutureOf}>
-            {" "}
-            It strives to build machines that understand and respond to text or
-            voice data—and respond with text or speech of their own—in much the
-            same way humans do.
-          </p>
+          
           <p className={styles.theFutureOf}></p>
           <p className={styles.dontHaveTo}>{`                   `}</p>
         </div>
@@ -94,39 +86,23 @@ export const Product: FunctionComponent = () => {
           <p className={styles.theFutureOf}>&nbsp;</p>
           <p className={styles.theFutureOf}>
             {" "}
-            Optimus has taken shape by the application of various technologies
-            of NLP
+            NLP strives to build machines that understand and respond to text or voice data—and respond with text or speech of their own—in much the same way humans do.
           </p>
-          <p className={styles.theFutureOf}>
-            {" "}
-            Speech Recognition, Parts of Speech tagging, Word Sense
-            Disambiguation, Named Entity Recognition, Conference Resolution,
-            Sentiment Analysis and Natural Language Generation.
-          </p>
-          <p className={styles.theFutureOf}></p>
-          <p className={styles.theFutureOf}>
-            {" "}
-            Optimus is the first intelligent virtual assistant that uses Natural
-            Language Processing as its core technology. Along with providing
-            solutions to your everyday tasks, SI Assistant is also available
-            24/7 for a more personal touch.
-          </p>
+          
         </div>
       </div>
       <div className={styles.groupDiv5}>
         <b className={styles.aWorldBetterWithAISmartA}>
-          A World Better With AI Smart Assistants
+          A World Better With Smart Assistants
         </b>
         <div className={styles.anIndividualsWorthIncrease}>
-          An individual's worth increases manifold when they have an assistant
-          who helps them fulfill their tasks in an efficient manner. Similarly,
-          organizations can use Smart Assistants as a tool for optimizing their
-          processes and workflows.
+        Whether you are a homemaker or a professional or a student or an entrepreneur,
+        having a Smart assistant certainly makes a difference to your lifestyle.
         </div>
       </div>
       <div className={styles.competitors2Div}>
         <b className={styles.letUsDiveDeepIntoWhatThe}>
-          Let Us Dive Deep Into What The “Super Intelligent” Assistant Can Do
+        Let us dive deep into what the “Super Intelligent” Optimus can do for you
         </b>
       </div>
       <div className={styles.competitors2Div1}>
@@ -192,12 +168,10 @@ https://iconscout.com/icon/kakao-1884642
       <div className={styles.groupDiv6}>
         <div className={styles.groupDiv7}>
           <b className={styles.youDontNeedAnyoneElse}>
-            You Don't Need Anyone Else
+          Keep Delegating
           </b>
           <div className={styles.noOneSaysYouNeedAHumanT}>
-            No one says you need a human to help you with everyday tasks. Why
-            not delegate them to Optimus? It will take care of it all while you
-            relax.
+          Optimus is more than a human when it comes to tirelessly helping you over and over in your tasks.
           </div>
         </div>
         <img
@@ -209,12 +183,11 @@ https://iconscout.com/icon/kakao-1884642
       <div className={styles.groupDiv8}>
         <div className={styles.groupDiv9}>
           <b className={styles.youDontNeedAnyoneElse}>
-            New-Age Tech, Old-Fashioned Care
+            New-Age Tech, Old-fashioned Care
           </b>
           <div className={styles.optimusCanDoAnythingFromC}>
-            Optimus can do anything from checking your email to turning off the
-            TV. It's like having a real-life personal assistant, without the
-            hassle of minding its moods or needs!
+          Optimus cares for you, your needs, and your wants 
+          and helps you in whatever way it can.
           </div>
         </div>
         <img className={styles.email1Icon} alt="" src="email-1.svg" />
@@ -222,13 +195,10 @@ https://iconscout.com/icon/kakao-1884642
       <div className={styles.groupDiv10}>
         <div className={styles.groupDiv11}>
           <b className={styles.youDontNeedAnyoneElse}>
-            The Most Human Smart Assistant There Is
+          The Most Human AI Assistant
           </b>
           <div className={styles.optimusCanDoAnythingFromC}>
-            At AIT, our mission is to make this Optimus as human as possible,
-            with the sole intention of helping you in one way or another. This
-            means that the assistant will understand you and respond to you with
-            emotions as much similar to a human being.
+            You are not speaking to just a box. Feel the human touch with Optimus.
           </div>
         </div>
         <img className={styles.help1Icon} alt="" src="help-1.svg" />
@@ -241,7 +211,7 @@ https://iconscout.com/icon/kakao-1884642
           </b>
           <div
             className={styles.optimusCanAccompanyYouThro}
-          >{`Optimus can accompany you through all sorts of activities, such as helping you decide what to wear, exploring restaurants on the go, or even helping predict your mood so that it can suggest the perfect playlist for all occasions! `}</div>
+          >{`Optimus is that companion who helps you with a range of many activities from setting up an alarm to making a purchase. `}</div>
         </div>
         <img className={styles.help2Icon} alt="" src="help-2.svg" />
         <img className={styles.thinking1Icon} alt="" src="thinking-1.svg" />
@@ -250,10 +220,7 @@ https://iconscout.com/icon/kakao-1884642
         <div className={styles.groupDiv15}>
           <b className={styles.stayOneStepAhead}>Stay One Step Ahead</b>
           <div className={styles.usingASmartAssistantLikeO}>
-            Using a Smart Assistant like Optimus, you have a great advantage
-            compared to others. Imagine comparing two people out of whom one
-            uses a Smartphone and the other doesn’t.! So, possessing a Smart
-            Assistant will be another level of that comparision.
+          With Optimus as your intelligent assistant, you stay one step ahead compared to those who don’t have it.
           </div>
         </div>
       </div>
@@ -264,9 +231,7 @@ https://iconscout.com/icon/kakao-1884642
             <p className={styles.dontHaveTo}> Eyes Closed</p>
           </b>
           <div className={styles.optimusCanDoAnythingFromC}>
-            All you have to do is talk. The AI-powered natural language
-            processing engine will process your speech input and respond
-            instantly in a friendly voice that understands what you need.
+          Imagine being able to do your regular tasks by just speaking to Optimus! 
           </div>
         </div>
         <img className={styles.kakao3Icon} alt="" src="kakao-3.svg" />
@@ -275,8 +240,7 @@ https://iconscout.com/icon/kakao-1884642
         <div className={styles.groupDiv19}>
           <b className={styles.youDontNeedAnyoneElse}>You're In Charge</b>
           <div className={styles.wereAllAboutGivingYouMor}>
-            We're all about giving you more control. You can command Optimus to
-            do practically anything you can do on electronic devices yourself!
+          Become the boss of an AI-built Optimus whose duty is to take instructions from and simply execute them.
           </div>
         </div>
         <img className={styles.kakao2Icon} alt="" src="kakao-2.svg" />
@@ -284,12 +248,10 @@ https://iconscout.com/icon/kakao-1884642
       <div className={styles.groupDiv20}>
         <div className={styles.groupDiv21}>
           <b className={styles.youDontNeedAnyoneElse}>
-            <p className={styles.theFutureOf}>No More Getting Lost In An</p>
-            <p className={styles.dontHaveTo}> Ocean Of Options</p>
+            <p className={styles.theFutureOf}>Lost in an Ocean of Options.?</p>
           </b>
           <div className={styles.optimusCanDoAnythingFromC}>
-            It's time for something new. Optimus will help you find what you
-            need at the click of a button, no matter what it is.
+          Confusion due to the abundance of unfiltered data should be your least concern when you have Optimus who understands your needs and addresses them appropriately.
           </div>
         </div>
         <img className={styles.click1Icon} alt="" src="click-1.svg" />
@@ -327,48 +289,39 @@ https://iconscout.com/icon/kakao-1884642
       </div>
       <div className={styles.groupDiv24}>
         <div className={styles.withTheHelpOfComputerVisi}>
-          Optimus is available on multiple devices like Phone, PC, Tablet etc,
-          so it will be your assistant round the clock and you can carry it
-          anywhere making your smart assistant in various places and at your
-          fingertips.
+        Optimus is digitally flexible to be connected to gadgets like smartphones or PC or
+         tablets. You can be in touch with Optimus even when going out of home or 
+         the workplace. Available to you round the clock as well.
         </div>
         <b className={styles.optimusHasEyes}>
-          Get What You Need, When You Need It
+        Super Flexible Availability
         </b>
       </div>
       <div className={styles.groupDiv25}>
         <div className={styles.withTheHelpOfComputerVisi}>
-          A service that gives you news flashes from different sources
-          automatically. Optimus is observing people's day-to-day activities.
-          Based on your movement and posture, it keeps greeting and giving you
-          updates when you are around.
+        Your one-stop service to know all the latest News Headlines. 
+        It gives you flashes of news from different sources automatically.
         </div>
         <b className={styles.optimusHasEyes}>
-          Want To Hear The Latest News Headlines.?
+        Latest News on the go
         </b>
       </div>
       <div className={styles.groupDiv26}>
         <div className={styles.withTheHelpOfComputerVisi}>
-          Optimus is small enough to fit in your hands with a big enough impact
-          that can solve any problem that comes its way. Don't worry about being
-          overwhelmed by the world's information – Make Optimus your personal
-          advisor.
+        Optimus is that personal advisor who is smaller in size but is bigger in its personality.
         </div>
         <b className={styles.optimusHasEyes}>Small Package, Big Impact</b>
       </div>
       <div className={styles.groupDiv27}>
         <div
           className={styles.withTheHelpOfComputerVisi}
-        >{`While you are busy working, Optimus will guard your family member who could be a child or disabled person, by watching out for any signs of danger and sounding an alarm - without the need for someone being present in the house. `}</div>
-        <b className={styles.optimusHasEyes}>The Guardian Angel In Your Home</b>
+        >{`Optimus will watch over your home and alerts you instantly if it sees a stranger. `}</div>
+        <b className={styles.optimusHasEyes}>Your Guardian Angel</b>
       </div>
       <div className={styles.groupDiv28}>
         <div className={styles.ourIntelligentOptimusHasBe}>
-          Our intelligent Optimus has been trained with a variety of skills,
-          from managing emails to scheduling meetings, making it a real
-          all-rounder. You don't need to take your hands off the work at all,
-          thanks to the revolutionary AI virtual assistant that can be called
-          through voice command.
+        Your hands are busy working somewhere? Then let your voice 
+        instruct the Optimus to do something else.
         </div>
         <b className={styles.stayHandsFreeB}>Stay Hands-Free</b>
       </div>
@@ -384,9 +337,7 @@ https://iconscout.com/icon/kakao-1884642
       <div className={styles.groupDiv29}>
         <div className={styles.groupDiv30}>
           <div className={styles.withTheHelpOfComputerVisi}>
-            From switching off your TV in time, switching off all electrical
-            devices when you leave the house, or setting alarms according to
-            your sleeping schedule. You name it and Optimus will do it for you.
+          Right after you meet Optimus, most of your daily tasks will be automatic.
           </div>
           <b className={styles.optimusHasEyes}>Automate Your Life</b>
         </div>
@@ -405,7 +356,7 @@ https://iconscout.com/icon/kakao-1884642
       <img className={styles.icon} alt="" src="65050443-1@2x.png" />
       <div className={styles.productTv11} />
       <div className={styles.navBarDiv}>
-        <div className={styles.cONTACTDiv}>CONTACT</div>
+        <Link to="/homepage#ContactDiv"><div className={styles.cONTACTDiv}>CONTACT</div></Link>
         <div className={styles.pRICINGDiv}>PRICING</div>
         <div className={styles.tESTIMONIALSDiv}>TESTIMONIALS</div>
         <Link to="/competitors"><div className={styles.cOMPETITORSDiv} onClick={onCOMPETITORSTextClick}>
@@ -413,19 +364,16 @@ https://iconscout.com/icon/kakao-1884642
         </div></Link>
         <div className={styles.pRODUCTDiv}>PRODUCT</div>
         <div className={styles.cOMPANYDiv}>COMPANY</div>
-        <Link to="/"><b className={styles.lOGOB} onClick={onLOGOTextClick}>
-          LOGO
-        </b></Link>
+        <Link to="/"><div className={styles.logomain}>
+          <img src="logo.png" height="50" width="50" />
+        </div></Link>
       </div>
       <div className={styles.footerDiv}>
         <div className={styles.rectangleDiv4} />
         <div className={styles.rectangleDiv5} />
-        <div className={styles.logoDiv}>Logo</div>
+        <div className={styles.logoDiv}><img src="logo.png" height="50" width="50" /> </div>
         <div className={styles.transformingLivesOfPeopleA}>
-          Transforming lives of people across all walks of life with
-          out-of-the-box ideas peeking into the possibilities of today’s
-          Artificial Intelligence and bringing those ideas alive in the form of
-          valuable applications.
+        Transforming lives across the globe by adventuring Artificial Intelligence.
         </div>
         <div
           className={styles.needAnswersNeedHelpJust}
@@ -440,28 +388,20 @@ https://iconscout.com/icon/kakao-1884642
         <div className={styles.followUsDiv}>{`Follow Us `}</div>
         <div className={styles.getInTouchWithUs}>Get In touch with Us</div>
         <div className={styles.groupDiv31}>
-          <div className={styles.fbcomaaaDiv}>fb.com/aaa</div>
-          <img
-            className={styles.featherfacebookIcon}
-            alt=""
-            src="linkedin.svg"
-          />
-        </div>
-        <div className={styles.groupDiv32}>
-          <div className={styles.aaaDiv}>@aaa</div>
-          <img
-            className={styles.featherfacebookIcon}
-            alt=""
-            src="featherinstagram.svg"
-          />
+          <div className={styles.fbcomaaaDiv}>https://twitter.com/AiTensors</div>
+            <img
+              className={styles.featherfacebookIcon}
+              alt=""
+              src="twitter.svg"
+            />
         </div>
         <div className={styles.groupDiv33}>
-          <div className={styles.fbcomaaaDiv}>@aaa</div>
-          <img
-            className={styles.featherfacebookIcon}
-            alt=""
-            src="feathertwitter.svg"
-          />
+          <div className={styles.fbcomaaaDiv}>https://www.linkedin.com/company/82789169/</div>
+            <img
+              className={styles.featherfacebookIcon}
+              alt=""
+              src="linkedin.svg"
+            />
         </div>
         
       </div>
