@@ -1382,3 +1382,12 @@
   color: #848484;
   font-family: Inter;
 }
+
+.logomain{
+  position: absolute;
+  display: inline-block;
+  padding-left: 28px;
+  padding-bottom: 50px; 
+  padding-right: 10px; 
+  padding-top: 1px; 
+}
