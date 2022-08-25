@@ -1,4 +1,4 @@
-import { FunctionComponent, useState, useCallback } from "react";
+import { FunctionComponent, useState, useCallback, useRef } from "react";
 // {Container, Button, Form} from 'react-bootstrap';
 import { T2 } from "./T2";
 import { PortalPopup } from "./PortalPopup";
@@ -9,6 +9,8 @@ import { T6 } from "./T6";
 import { Company } from "./Company";
 import styles from "./css/Page1Home.module.css";
 import { Link } from "react-router-dom";
+import emailjs from "emailjs-com";
+ 
 
 export const Page1Home: FunctionComponent = () => {
   const [isT2Open, setT2Open] = useState(false);
@@ -19,6 +21,44 @@ export const Page1Home: FunctionComponent = () => {
   const [isT21Open, setT21Open] = useState(false);
   const [isCompanyOpen, setCompanyOpen] = useState(false);
   const [isHovering, setIsHovering] = useState(false);
+  
+  //testing contact form
+  const [message, setMessage] = useState("")
+  interface FormDataType {message:string}
+  //const responseBody: FormDataType = {message: ""}
+
+  const [name, setName] = useState("")
+  interface FormDataType {name:string}
+  //const responseBody: FormDataType = {name: "", message:""}
+
+  const [email, setEmail] = useState("")
+  interface FormDataType {email:string}
+  const responseBody: FormDataType = {name: "", message:"", email:""}
+  
+  const contactusformid = useRef();
+
+  const onSubmitHandler = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    alert("Sucessfully send");
+    
+    console.log(event.target);
+    console.log(event.currentTarget);
+    console.log(event.currentTarget.reset);
+  
+      emailjs.sendForm('service_n6dvkka', 'template_tsey3fh', event.currentTarget, 'X2SUJkCJdcfm73hqB')
+          .then((response) => {
+
+              console.log('SUCCESS!', response.status, response.text);
+            }, (error) => {
+              console.log(error.text);
+          });
+      //Form submission happens here
+      }
+
+  const inputChangeHandler = (setFunction: React.Dispatch<React.SetStateAction<string>>, event: React.ChangeEvent<HTMLInputElement>) => {
+    setFunction(event.target.value)
+  }
+
 
   const onRectangleRectangle18Click = useCallback(() => {
     const anchor = document.querySelector("[data-scroll-to='groupContainer']");
@@ -26,7 +66,8 @@ export const Page1Home: FunctionComponent = () => {
       anchor.scrollIntoView({ block: "start", behavior: "smooth" });
     }
   }, []);
-
+  
+  
   const onCONTACTText1Click = useCallback(() => {
     const anchor = document.querySelector(
       "[data-scroll-to='CONTACTContainer']"
@@ -58,6 +99,7 @@ export const Page1Home: FunctionComponent = () => {
     // Please sync "Competitors" to the project
   }, []);
 
+  
   const handleMouseOver = () => {
     setIsHovering(true);
   };
@@ -146,12 +188,10 @@ export const Page1Home: FunctionComponent = () => {
         <div className={styles.footerDiv}>
           <div className={styles.rectangleDiv} />
           <div className={styles.rectangleDiv1} />
-          <div className={styles.logoDiv}>Logo</div>
+          <a href="https://www.aitensors.org/"><div className={styles.logoDiv}>
+            <img src="logo.png" height="50" width="50" /> </div></a>
           <div className={styles.transformingLivesOfPeopleA}>
-            Transforming lives of people across all walks of life with
-            out-of-the-box ideas peeking into the possibilities of today’s
-            Artificial Intelligence and bringing those ideas alive in the form
-            of valuable applications.z
+          Transforming lives across the globe by adventuring Artificial Intelligence.
           </div>
           <div 
             className={styles.needAnswersNeedHelpJust}
@@ -166,27 +206,20 @@ export const Page1Home: FunctionComponent = () => {
           <div className={styles.followUsDiv}>{`Follow Us `}</div>
           <div className={styles.getInTouchWithUs}>Get In touch with Us</div>
           <div className={styles.groupDiv}>
-            <div className={styles.fbcomaaaDiv}>fb.com/aaa</div>
+            <a href="https://twitter.com/AiTensors"><div className={styles.fbcomaaaDiv}>https://twitter.com/AiTensors</div></a>
+            <img
+              className={styles.featherfacebookIcon}
+              alt=""
+              src="twitter.svg"
+            />
+          </div>          
+          <div className={styles.groupDiv2}>
+          <a href="https://www.linkedin.com/company/82789169/"><div className={styles.fbcomaaaDiv}>
+              https://www.linkedin.com/company/82789169/</div></a>
             <img
               className={styles.featherfacebookIcon}
               alt=""
               src="linkedin.svg"
-            />
-          </div>
-          <div className={styles.groupDiv1}>
-            <div className={styles.aaaDiv}>@aaa</div>
-            <img
-              className={styles.featherfacebookIcon}
-              alt=""
-              src="featherinstagram.svg"
-            />
-          </div>
-          <div className={styles.groupDiv2}>
-            <div className={styles.fbcomaaaDiv}>@aaa</div>
-            <img
-              className={styles.featherfacebookIcon}
-              alt=""
-              src="feathertwitter.svg"
             />
           </div>
           <div className={styles.xFormGroupDiv}>
@@ -201,19 +234,7 @@ export const Page1Home: FunctionComponent = () => {
         </div>
         <div className={styles.rectangleDiv2} />
         <div className={styles.groupDiv3}>
-          <div className={styles.socialDiv}>
-            
-            <img
-              className={styles.elementsButtonsIcon48}
-              alt=""
-              src="elements--buttons--icon--48px.svg"
-            />
-            <img
-              className={styles.elementsButtonsIcon48}
-              alt=""
-              src="elements--buttons--icon--48px-copy.svg"
-            />
-          </div>
+          
           <div className={styles.emailDiv}>
             <div className={styles.infoaivectorsorgDiv}>admin@aitensors.org</div>
             <div className={styles.emailDiv1}>Email</div>
@@ -235,59 +256,73 @@ export const Page1Home: FunctionComponent = () => {
             <div className={styles.phoneDiv1}>Phone</div>
           </div>
         </div>
+
+        {/* <form onSubmit={onSubmitHandler}>
+          <div><label htmlFor="first_name">First Name</label></div>
+          <div><input id="first_name" onChange={(e)=>inputChangeHandler(setFirstName, e)} type="text"/></div>
+          <input type="submit"/>
+        </form> */}
+        <form id="contactusformid" onSubmit={onSubmitHandler}>
         <div className={styles.formDiv}>
           <div className={styles.buttonDiv}>
             <div className={styles.elementsButtonsPrimary}>
               <div className={styles.elementsButtonsPrimary}>
-                <div className={styles.baseDiv} />
-                <div className={styles.buttonTextDiv} >Send</div>
+                <div className={styles.buttonTextDiv}>
+                  <input type="submit" value="Send" />
+                </div>
               </div>
             </div>
           </div>
+
           <div className={styles.formDiv1}>
             <div className={styles.elementsInputsLarge60px}>
-              <div className={styles.elementsButtonsPrimary}>
-                <div className={styles.baseDiv1} />
-                <div className={styles.kinesDiv}>
-                  <div className={styles.rectangleDiv3} />
-                  <div className={styles.rectangleCopyDiv} />
+              <div className={styles.elementsButtonsPrimary}>               
+                <div className={styles.textFieldDiv}>                  
+                  <textarea id="message" className="textarea" name="message" placeholder="Message" required ></textarea>
                 </div>
-                <div className={styles.textFieldDiv}>Message</div>
               </div>
             </div>
             <div className={styles.elementsInputsLarge60px1}>
               <div className={styles.elementsButtonsPrimary}>
-                <div className={styles.baseDiv1} />
-                <div className={styles.typeYourEMail}>Email</div>
+                <div className={styles.typeYourEMail} id="form-control">
+                  <input id="email" onChange={(e)=>inputChangeHandler(setEmail, e)} className="form-control" placeholder="Email" type="email" name="email" pattern="^[Aa-Zz0-9._%+-]+@[Aa-Zz0-9.-]+\.[Aa-Zz]{2,4}$" required/>
+                </div>
               </div>
             </div>
             <div className={styles.elementsInputsLarge60px2}>
               <div className={styles.elementsButtonsPrimary}>
-                <div className={styles.baseDiv1} />
-                <div className={styles.typeYourEMail}>Name</div>
+                <div className={styles.typeYourEMail} id="form-control">
+                  <input id="name" onChange={(e)=>inputChangeHandler(setName, e)} className="form-control" placeholder="Name" type="text" name="name" required/>
+                </div>
               </div>
             </div>
+          {/* <div className={styles.buttonDiv}>
+            <div className={styles.elementsButtonsPrimary}>
+              <div className={styles.elementsButtonsPrimary}>
+                <div className={styles.baseDiv} />
+                <div className={styles.buttonTextDiv}>send
+                  <input type="submit" value="Send" /></div>
+              </div>
+            </div>
+          </div>              */}
           </div>
         </div>
+        </form>
         <div className={styles.createScreensDirectlyInMet}>
           We are happy to help you out if you have any queries and concerns.
         </div>
-        <div className={styles.cONTACTDiv} data-scroll-to="CONTACTContainer">CONTACT</div>
+        <div className={styles.cONTACTDiv} data-scroll-to="CONTACTContainer" id="ContactDiv">CONTACT</div>
         <b className={styles.getInTouch}>Get in touch</b>
         <div className={styles.contactDiv1}>
-          <div className={styles.groupDiv4}>
-            <div className={styles.oURTEAMDiv}>OUR TEAM</div>
-          </div>
+          
           <b className={styles.thePeopleBehindOptimus}>
             The People behind Optimus
           </b>
           <div className={styles.createScreensDirectlyInMet1}>
-            Optimus is not just software. Optimistic people working with optimum
-            efficiency have resulted in Optimus today. Our exuberant team, who
-            have tirelessly pursued excellence on it for years. Our team's sole
-            focus is to make Optimus one of the most comprehensive tools for
-            household, and other social needs. They shaped a vision into an
-            everyday application.
+          Meet our team of aspirant professionals who have shaped 
+          Optimus from an idea into an everyday application. 
+          They are a fine example of dedication and passion. 
+          Inspiration-filled endeavours made them pursue this milestone for a long time.
           </div>
         </div>
         <div className={styles.teamDiv}>
@@ -408,21 +443,16 @@ export const Page1Home: FunctionComponent = () => {
               <img className={styles.groupIcon6} alt="" src="group-27.svg" />
             </div>
           </div>
-          <b className={styles.meetOptimusB}>Meet Optimus</b>
+          <b className={styles.meetOptimusB}> </b>
           <div className={styles.theSmartestAIVirtualAssist}>
             <p className={styles.ePanchavatiTownship}>
-              <span className={styles.theSmartest}>{`The smartest  `}</span>
-              <span>{`AI virtual assistant `}</span>
+              <span className={styles.theSmartest}>{`Meet the Virtual  `}</span><br/>
+              <span>{`Assistant “Optimus”`}</span>
             </p>
-            <p className={styles.ofTheFuture}>
-              <span>of the future.</span>
-            </p>
+            
           </div>
           <div className={styles.weLiveInADigitalConnecte}>
-            We live in a digital, connected world that is ever-evolving. Optimus
-            is a brand-new invention of the 21st Century. Be it at work or at
-            home, Optimus will be your best ally to do your tasks and enjoy
-            things better.
+          The AI-backed voice-assisted Virtual Assistant for all your digital tasks. Be it at work or at home, Optimus will be your best ally to do your tasks and enjoy things better.
           </div>
           <div className={styles.groupDiv23} onClick={onRectangleRectangle18Click}>
             <div className={styles.rectangleDiv18} />
@@ -457,41 +487,37 @@ export const Page1Home: FunctionComponent = () => {
           <div className={styles.cOMPANYDiv} onClick={onCOMPANYTextClick}>
             COMPANY
           </div>
-          <b className={styles.lOGOB}>LOGO</b>
+          <div className={styles.logomain}>
+            <img src="logo.png" height="50" width="50"/></div>
         </div>
         <div className={styles.groupDiv24}>
           <div className={styles.groupDiv25}>
-            <b className={styles.everyVoiceCounts}>
-              <p className={styles.ePanchavatiTownship}>Every voice counts</p>
-            </b>
+            <span className={styles.ePanchavatiTownship}>Every voice counts</span>
+            
             <div className={styles.whatCanYouDoWithOptimus}>
-              <span>{`What can you do with Optimus?  To put it in one word..., `}</span>
-              <i className={styles.conversation}>conversation.</i>
               <span>
                 {" "}
-                A human like conversationalist who doesn't have eyes or ears or
-                a tongue but can do all the watching, looking, hearing and
-                speaking to assist you with daily activities, chores, schedules,
-                reminders, suggestions, travel, work, education, entertainment,
-                shopping, music, market trends, business development and a lot
-                more.
-              </span>
+                Need to switch off the AC or read out an email? Just voice it to do something
+                 which you usually do yourself by reaching out to the Smartphone or PC or TV.
+              </span><br/>
+              <br />
+              <span> Converse with Optimus like the way you converse with any human being and see the results instantly.</span>
             </div>
           </div>
         </div>
         <div className={styles.groupDiv26}>
           <div className={styles.greetYourOptimusAndBeAmaz}>
             {" "}
-            Greet your Optimus and be amazed to feel how it responds to you.
-            Your Smart Assistant can accompany you through all sorts of
-            activities, and predicts your mood too.!
+            Please yourself with a companion ready to greet you anytime to
+             remind you of its presence. Optimus can predict your moods by 
+             observing your voice modulation and pitch.
           </div>
           <b className={styles.aGreetingCompanion}>A Greeting Companion</b>
         </div>
         <div className={styles.groupDiv27}>
           <div
             className={styles.greetYourOptimusAndBeAmaz}
-          >{`Optimus is a cutting-edge Virtual Assistant that monitors everything in your home. This engrossed viewer never needs to take a break. `}</div>
+          >{`Optimus is observing your home all day and every day. This engrossed viewer never needs a break.`}</div>
           <b className={styles.aGreetingCompanion}>Eyes Everywhere</b>
         </div>
         <img
@@ -501,12 +527,10 @@ export const Page1Home: FunctionComponent = () => {
         />
         <div className={styles.groupDiv28}>
           <div className={styles.optimusIsAStandaloneDevice}>
-            Optimus is a standalone device that helps you in real-time
-            translating your voice into any language and responds to you in that
-            very language, try it out.
+          Optimus is multilingual. It comes with the ability to listen and respond to you in globally renowned languages. 
           </div>
           <b className={styles.worldsFirstMultilingualSma}>
-            World’s First Multilingual Smart Assistant
+          Integrity with languages
           </b>
         </div>
         <div className={styles.groupDiv29}>
@@ -519,13 +543,13 @@ export const Page1Home: FunctionComponent = () => {
             <p className={styles.ePanchavatiTownship}></p>
           </div>
           <b className={styles.worldsFirstMultilingualSma}>
-            Ask a Question, Get a Answer
+            Ask a Question, Get an Answer
           </b>
         </div>
         <div className={styles.groupDiv30}>
           <div
             className={styles.optimusIsAStandaloneDevice}
-          >{`Design Optimus with our easy-to-use interface, or choose a pre-designed model and customize it in seconds. `}</div>
+          >{`Design Optimus with our easy-to-use interface and customize it or choose a pre-designed model.`}</div>
           <b className={styles.worldsFirstMultilingualSma}>
             Design your perfect assistant!
           </b>
@@ -540,14 +564,13 @@ export const Page1Home: FunctionComponent = () => {
           <div className={styles.groupDiv32}>
             <div className={styles.theDaysOfAskingSomeoneTo}>
               <p className={styles.ePanchavatiTownship}>
-                The days of asking someone to click a pic for you or setting a
-                timer to the camera are long gone. Voice your Optimus anytime to
-                get the job done.
+              Optimus can take pictures and record videos when you want. 
+              Voice your Optimus anytime to get the job done.
               </p>
               <p className={styles.ePanchavatiTownship}></p>
             </div>
             <b className={styles.voiceAssistedPhotographyB}>
-              Voice-Assisted Photography
+            Instant Photography
             </b>
           </div>
           <img
@@ -717,7 +740,7 @@ export const Page1Home: FunctionComponent = () => {
                 <div className={styles.downloadDiv}>Download</div>
               </div>
             </div>
-            <b className={styles.pricingB} data-scroll-to="pricingContainer">Pricing</b>
+            <b className={styles.pricingB} data-scroll-to="pricingContainer">Optimus is worth a Subscription Try </b>
           </div>
           <div className={styles.downloadDiv3}>
             <div className={styles.groupDiv38} data-scroll-to="groupContainer">
@@ -765,6 +788,7 @@ export const Page1Home: FunctionComponent = () => {
           
         </div>
         <b className={styles.omnipresentInYourHome}>Omnipresent in Your Home</b>
+        
         <div className={styles.dEVICESYOUCANUSE}>DEVICES YOU CAN USE</div>
         <div className={styles.competitors2Div}>
           <div className={styles.groupDiv42}>
@@ -778,7 +802,7 @@ export const Page1Home: FunctionComponent = () => {
           <div className={styles.optimusIsUniqueAndOneOfI}>
             <p
               className={styles.ePanchavatiTownship}
-            >{`Optimus is unique and one of its kind. With the application of Computer Vision driven NLP technology, Optimus stands firm and tall, compared to any Smart Assistant in the market. Our team’s creativity lies in providing a service that is "super" intelligent making Optimist the trendsetter. You need a machine, `}</p>
+            >{`Applications of Natural Language Processing and Computer Vision make Optimus unique and one of its kind among all the virtual smart assistants. All you need in this fast-paced world is a machine that does your tasks and has a personality to match your mood. `}</p>
             <p className={styles.thatHasA}>
               that has a personality to match your mood.
             </p>
@@ -795,11 +819,10 @@ export const Page1Home: FunctionComponent = () => {
               </div>
             </div>
             <b className={styles.trackAnyHashtags}>
-              <p className={styles.ePanchavatiTownship}>What people say</p>
+              <p className={styles.ePanchavatiTownship}>Optimus has its </p>
               <p className={styles.ePanchavatiTownship}>
-                about our smart assistant
+              own Fanbase
               </p>
-              <p className={styles.thatHasA}>Optimus</p>
             </b>
             <div className={styles.dontWasteTimeOn}>
               Trusted by Users across the globe
@@ -869,20 +892,15 @@ export const Page1Home: FunctionComponent = () => {
         <div className={styles.aboutUsDiv}>
           <div className={styles.aboutDiv} data-scroll-to="aboutContainer">
             <div className={styles.groupDiv47}>
-              <b className={styles.inviteAGeniusToYourHome}>
+              <p><span className={styles.inviteAGeniusToYourHome}>
                 Invite a genius to your home
-              </b>
+              </span></p>
               <div className={styles.pRODUCTDiv1}>PRODUCT</div>
               <div className={styles.cOMPANYDiv1}>
                 COMPANY
               </div>
               <div className={styles.seeAndListenToOptimusThe}>
-                See and listen to Optimus the way you like it. A friend who
-                never gets tired or bored and helps you with daily tasks like
-                monitoring your house, performing a google search, operating
-                smart devices, switching ON your TV or AC and many others. This
-                latest grandchild of Artificial Intelligence will make your life
-                effective by adding more value to your vocals.
+              Assign to your virtual friend the common day-to-day tasks and let it take care of them for you all day and every day.
               </div>
               <Link to="/product"><div className={styles.groupDiv48}>
                 <div className={styles.rectangleDiv25}/>

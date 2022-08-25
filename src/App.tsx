@@ -73,6 +73,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Page1Home />} />
 
+      <Route path="/homepage" element={<Page1Home />} />
+
       <Route path="/mainbanner3" element={<MainBanner3 />} />
 
       <Route path="/FrameComponent" element={<FrameComponent />} />
