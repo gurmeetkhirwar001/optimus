@@ -11,7 +11,6 @@ import styles from "./css/Page1Home.module.css";
 import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
  
-
 export const Page1Home: FunctionComponent = () => {
   const [isT2Open, setT2Open] = useState(false);
   const [isT3Open, setT3Open] = useState(false);
@@ -206,21 +205,21 @@ export const Page1Home: FunctionComponent = () => {
           <div className={styles.followUsDiv}>{`Follow Us `}</div>
           <div className={styles.getInTouchWithUs}>Get In touch with Us</div>
           <div className={styles.groupDiv}>
-            <a href="https://twitter.com/AiTensors"><div className={styles.fbcomaaaDiv}>https://twitter.com/AiTensors</div></a>
-            <img
+            <div className={styles.fbcomaaaDiv}>https://twitter.com/AiTensors</div>
+            <a href="https://twitter.com/AiTensors"><img
               className={styles.featherfacebookIcon}
               alt=""
               src="twitter.svg"
-            />
+            /></a>
           </div>          
           <div className={styles.groupDiv2}>
-          <a href="https://www.linkedin.com/company/82789169/"><div className={styles.fbcomaaaDiv}>
-              https://www.linkedin.com/company/82789169/</div></a>
-            <img
+          <div className={styles.fbcomaaaDiv}>
+              https://www.linkedin.com/company/82789169/</div>
+            <a href="https://www.linkedin.com/company/82789169/"><img
               className={styles.featherfacebookIcon}
               alt=""
               src="linkedin.svg"
-            />
+            /></a>
           </div>
           <div className={styles.xFormGroupDiv}>
             <div className={styles.labelDiv}>

@@ -170,19 +170,19 @@ export const Competitors: FunctionComponent = () => {
         <div className={styles.getInTouchWithUs}>Get In touch with Us</div>
         <div className={styles.groupDiv9}>
           <div className={styles.fbcomaaaDiv}>https://twitter.com/AiTensors</div>
-            <img
+            <a href="https://twitter.com/AiTensors"><img
               className={styles.featherfacebookIcon}
               alt=""
               src="twitter.svg"
-            />
+            /></a>
         </div>
         <div className={styles.groupDiv11}>
           <div className={styles.fbcomaaaDiv}>https://www.linkedin.com/company/82789169/</div>
-            <img
+            <a href="https://www.linkedin.com/company/82789169/"><img
               className={styles.featherfacebookIcon}
               alt=""
               src="linkedin.svg"
-            />
+            /></a>
         </div>
         
       </div>
