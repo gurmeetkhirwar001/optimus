@@ -10,6 +10,8 @@ import { Company } from "./Company";
 import styles from "./css/Page1Home.module.css";
 import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
  
 export const Page1Home: FunctionComponent = () => {
   const [isT2Open, setT2Open] = useState(false);
@@ -246,7 +248,7 @@ export const Page1Home: FunctionComponent = () => {
               <p className={styles.ePanchavatiTownship}>
                 Suite 300 PMB1084, 
               </p>
-              <p className={styles.thatHasA}>Ann Arbor ,MI 48108, USA</p>
+              <p className={styles.thatHasA}>Ann Arbor,MI 48108, USA</p>
             </div>
             <div className={styles.emailDiv3}>Address</div>
           </div>
@@ -458,12 +460,17 @@ export const Page1Home: FunctionComponent = () => {
             <div className={styles.rectangleDiv19}/>
             <div className={styles.downloadNowDiv}>Download Now</div>
           </div>
-          <img className={styles.bluee011Icon} alt="" src="Banner.gif" />
-          <img
-            className={styles.blueMainBannerr2}
-            alt=""
-            src="Banner.gif"
-          />
+          <Carousel className={styles.blueMainBannerr2}>
+            <div>
+              <img src="bluee01-1@2x.png" />
+            </div>
+            <div>
+              <img src="banner2.png" />
+            </div>
+            <div>
+              <img src="banner-3-3@2x.png" />
+            </div>
+          </Carousel>
         </div>
         <div className={styles.navBarDiv}>
           <div className={styles.cONTACTDiv1} onClick={onCONTACTText1Click}>
