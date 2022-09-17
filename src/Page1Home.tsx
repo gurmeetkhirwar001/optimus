@@ -594,7 +594,7 @@ export const Page1Home: FunctionComponent = () => {
             <div className={styles.categoryDiv}>
               <div className={styles.frameDiv1}>
                 <div className={styles.helperTextDiv}>Premium</div>
-                <b className={styles.b1}>$0</b>
+                <b className={styles.b1}>$250</b>
               </div>
               <div className={styles.frameDiv2}>
                 <div className={styles.pointsDiv}>
@@ -611,7 +611,7 @@ export const Page1Home: FunctionComponent = () => {
                     alt=""
                     src="point.svg"
                   />
-                  <div className={styles.visitorsDiv}>99 $/Month</div>
+                  <div className={styles.visitorsDiv}>250 $/Month</div>
                 </div>
                 <div className={styles.pointsDiv}>
                   <img
@@ -689,7 +689,7 @@ export const Page1Home: FunctionComponent = () => {
             <div className={styles.categoryDiv2}>
               <div className={styles.frameDiv10}>
                 <div className={styles.helperTextDiv}>Advanced</div>
-                <b className={styles.b1}>$0</b>
+                <b className={styles.b1}>$500</b>
               </div>
               <div className={styles.frameDiv11}>
                 <div className={styles.pointsDiv}>
@@ -706,7 +706,7 @@ export const Page1Home: FunctionComponent = () => {
                     alt=""
                     src="point7.svg"
                   />
-                  <div className={styles.visitorsDiv6}>999 $/Year</div>
+                  <div className={styles.visitorsDiv6}>500 $/Year</div>
                 </div>
                 <div className={styles.pointsDiv}>
                   <img
