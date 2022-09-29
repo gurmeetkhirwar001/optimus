@@ -17,6 +17,7 @@ import {Payment1} from "./payment/src/Payment1";
 import {Payment2} from "./payment/src/Payment2";
 import {DownloadScreen} from "./payment/src/DownloadScreen";
 import { ProceedPaymentFree } from "./payment/src/ProceedPaymentFree";
+import ForSeniors from "./Seniors/src/pages/ForSeniors";
 
 
 
@@ -96,6 +97,8 @@ function App() {
       <Route path="/downloadscreen" element= {<DownloadScreen/>} />
 
       <Route path="/ProceedPaymentFree" element={<ProceedPaymentFree/>} />
+      
+      <Route path="/ForSeniors" element={<ForSeniors/>} />
       
     </Routes>
   );
