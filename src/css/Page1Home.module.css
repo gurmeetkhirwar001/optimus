@@ -1178,9 +1178,17 @@
 }
 .cONTACTDiv1 {
   top: 0;
-  left: 916px;
+  left: 836px;
   line-height: 30px;
   cursor: pointer;
+}
+.sENIORDiv1 {
+  top: 0;
+  left: 946px;
+  line-height: 30px;
+  cursor: pointer;
+  position: absolute;
+  display: inline-block;
 }
 .cONTACTDiv1,
 .pRICINGDiv,
@@ -1190,11 +1198,11 @@
 }
 .pRICINGDiv {
   top: 0;
-  left: 788px;
+  left: 738px;
   line-height: 30px;
 }
 .tESTIMONIALSDiv {
-  left: 607px;
+  left: 577px;
 }
 .cOMPETITORSDiv,
 .pRODUCTDiv,
@@ -1205,11 +1213,11 @@
 }
 .cOMPETITORSDiv {
   position: absolute;
-  left: 463px;
+  left: 423px;
   display: inline-block;
 }
 .pRODUCTDiv {
-  left: 322px;
+  left: 302px;
 }
 .cOMPANYDiv,
 .pRODUCTDiv {
