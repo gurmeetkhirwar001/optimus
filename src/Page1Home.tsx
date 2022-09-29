@@ -474,6 +474,9 @@ export const Page1Home: FunctionComponent = () => {
           </Carousel>
         </div>
         <div className={styles.navBarDiv}>
+          <Link to="/ForSeniors"><div className={styles.sENIORDiv1}>
+            SENIORS
+          </div></Link>
           <div className={styles.cONTACTDiv1} onClick={onCONTACTText1Click}>
             CONTACT
           </div>
