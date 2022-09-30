@@ -427,7 +427,7 @@ export const Page1Home: FunctionComponent = () => {
           <div className={styles.theSmartestAIVirtualAssist}>
             <p className={styles.ePanchavatiTownship}>
               <span className={styles.theSmartest}>{`Meet the Virtual  `}</span><br/>
-              <span>{`Assistant �Optimus�`}</span>
+              <span>{`Assistant “Optimus”`}</span>
             </p>
             
           </div>
@@ -816,7 +816,7 @@ export const Page1Home: FunctionComponent = () => {
               Trusted by Users across the globe
             </div>
             <div className={styles.div3} data-scroll-to="text">
-              �
+              “
             </div>
             <div className={styles.groupDiv44}>
               <div className={styles.groupDiv45}>
