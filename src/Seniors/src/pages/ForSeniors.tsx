@@ -228,9 +228,7 @@ const ForSeniors: FunctionComponent = () => {
       />
       <img className={styles.icon} alt="" src="../3648586-1@2x.png" />
       <img className={styles.icon1} alt="" src="../2565-1.svg" />
-      <img className={styles.untitled11Icon} alt="" src="../untitled1-1.svg" />
-      <div className={styles.textonImage}>AI</div>
-      <div className={styles.textonImage1}>Care Taker</div>
+      <img className={styles.untitled11Icon} alt="" src="../123.png" />
       <img
         className={styles.oldWomanWithMigraineTakingIcon}
         alt=""
