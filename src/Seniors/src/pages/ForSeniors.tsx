@@ -147,37 +147,37 @@ const ForSeniors: FunctionComponent = () => {
       <div className={styles.groupDiv18}>
         <div
           className={styles.optimusIsACuttingEdgeVirt}
-        >{`Optimus is a cutting-edge Virtual Assistant that monitors everything in your home. This engrossed viewer never needs to take a break. `}</div>
+        >{`Optimus camera detects senior sleep pattern and analyses and sends notification to care taker on daily or weekly. `}</div>
         <b className={styles.sleepBehaviour}>Sleep Behaviour</b>
       </div>
       <div className={styles.groupDiv19}>
         <div
           className={styles.optimusIsACuttingEdgeVirt}
-        >{`Optimus is a cutting-edge Virtual Assistant that monitors everything in your home. This engrossed viewer never needs to take a break. `}</div>
-        <b className={styles.sleepBehaviour}>{`Vision `}</b>
+        >{`Optimus eyes and voice helps low vision seniors by reading and speaking expiry dates of food packages, and many more. `}</div>
+        <b className={styles.sleepBehaviour}>Vision </b>
       </div>
       <div className={styles.groupDiv20}>
         <div
           className={styles.optimusIsACuttingEdgeVirt}
-        >{`Optimus is a cutting-edge Virtual Assistant that monitors everything in your home. This engrossed viewer never needs to take a break. `}</div>
+        >{`Seniors using tech is not quite often, so Optimus custom skill set (Amazon Alexa) helps checking route, calling cab and many more with simple questions. `}</div>
         <b className={styles.sleepBehaviour}>Transportation</b>
       </div>
       <div className={styles.groupDiv21}>
         <div
           className={styles.optimusIsACuttingEdgeVirt}
-        >{`Optimus is a cutting-edge Virtual Assistant that monitors everything in your home. This engrossed viewer never needs to take a break. `}</div>
+        >{`Optimus voice alerts seniors about medication, and optimus camera detects medication consumption and notifies care taker if the user is missing a schedule. `}</div>
         <b className={styles.sleepBehaviour}>Medication Schedule</b>
       </div>
       <div className={styles.groupDiv22}>
         <div
           className={styles.optimusIsACuttingEdgeVirt}
-        >{`Optimus is a cutting-edge Virtual Assistant that monitors everything in your home. This engrossed viewer never needs to take a break. `}</div>
+        >{`Optimus eyes detects senior anomaly behaviors and notifies care taker if necessary. `}</div>
         <b className={styles.sleepBehaviour}>Prediction Anomalies</b>
       </div>
       <div className={styles.groupDiv23}>
         <div
           className={styles.optimusIsACuttingEdgeVirt}
-        >{`Optimus is a cutting-edge Virtual Assistant that monitors everything in your home. This engrossed viewer never needs to take a break. `}</div>
+        >{`Optimus custom NLP skill set(Amazon Alexa) for seniors, helps understanding nutritions. `}</div>
         <b className={styles.sleepBehaviour}>Nutrition</b>
       </div>
       <div className={styles.groupDiv24}>
