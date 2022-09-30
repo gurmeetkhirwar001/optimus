@@ -207,23 +207,13 @@ export const Page1Home: FunctionComponent = () => {
           <div className={styles.linksDiv}>Links</div>
           <div className={styles.followUsDiv}>{`Follow Us `}</div>
           <div className={styles.getInTouchWithUs}>Get In touch with Us</div>
-          <div className={styles.groupDiv}>
-            <div className={styles.fbcomaaaDiv}>https://twitter.com/AiTensors</div>
-            <a href="https://twitter.com/AiTensors"><img
-              className={styles.featherfacebookIcon}
-              alt=""
-              src="twitter.svg"
-            /></a>
+          <div className={styles.groupDiv}>            
+            <a href="https://twitter.com/AiTensors"><div className={styles.fbcomaaaDiv}>Twitter</div></a>
           </div>          
           <div className={styles.groupDiv2}>
-          <div className={styles.fbcomaaaDiv}>
-              https://www.linkedin.com/company/82789169/</div>
-            <a href="https://www.linkedin.com/company/82789169/"><img
-              className={styles.featherfacebookIcon}
-              alt=""
-              src="linkedin.svg"
-            /></a>
-          </div>
+            <a href="https://www.linkedin.com/company/82789169/">
+            <div className={styles.fbcomaaaDiv}>Linkedin</div></a>
+          </div>          
           <div className={styles.xFormGroupDiv}>
             <div className={styles.labelDiv}>
               <div className={styles.helperTextDiv}>Default Label</div>
@@ -332,19 +322,6 @@ export const Page1Home: FunctionComponent = () => {
             <img
               className={styles.rectangleIcon}
               alt=""
-              src="20220805-231349-1-1@2x.png"
-            />
-            <div className={styles.rectangleDiv4} />
-            <div className={styles.createScreensDirectlyInMet2}>
-              Swati Bansal
-            </div>
-            <i className={styles.createScreensDirectlyInMet3}>Architect</i>
-          </div>
-          <div className={styles.groupDiv6}>
-            <div className={styles.rectangleDiv5} />
-            <img
-              className={styles.rectangleIcon}
-              alt=""
               src="2418-1-1@2x.png"
             />
             <div className={styles.rectangleDiv6} />
@@ -353,6 +330,7 @@ export const Page1Home: FunctionComponent = () => {
             </div>
             <i className={styles.createScreensDirectlyInMet3}>Data Scientist</i>
           </div>
+          
           <div className={styles.groupDiv7}>
             <img
               className={styles.rectangleIcon}
@@ -449,7 +427,7 @@ export const Page1Home: FunctionComponent = () => {
           <div className={styles.theSmartestAIVirtualAssist}>
             <p className={styles.ePanchavatiTownship}>
               <span className={styles.theSmartest}>{`Meet the Virtual  `}</span><br/>
-              <span>{`Assistant “Optimus”`}</span>
+              <span>{`Assistant �Optimus�`}</span>
             </p>
             
           </div>
@@ -473,10 +451,7 @@ export const Page1Home: FunctionComponent = () => {
             </div>
           </Carousel>
         </div>
-        <div className={styles.navBarDiv}>
-          <Link to="/ForSeniors"><div className={styles.sENIORDiv1}>
-            SENIORS
-          </div></Link>
+        <div className={styles.navBarDiv}>          
           <div className={styles.cONTACTDiv1} onClick={onCONTACTText1Click}>
             CONTACT
           </div>
@@ -494,6 +469,9 @@ export const Page1Home: FunctionComponent = () => {
           <div className={styles.pRODUCTDiv} onClick={onPRODUCTTextClick}>
             PRODUCT
           </div>
+          <Link to="/ForSeniors"><div className={styles.sENIORDiv1}>
+            SENIORS
+          </div></Link>
           <div className={styles.cOMPANYDiv} onClick={onCOMPANYTextClick}>
             COMPANY
           </div>
@@ -838,7 +816,7 @@ export const Page1Home: FunctionComponent = () => {
               Trusted by Users across the globe
             </div>
             <div className={styles.div3} data-scroll-to="text">
-              “
+              �
             </div>
             <div className={styles.groupDiv44}>
               <div className={styles.groupDiv45}>
