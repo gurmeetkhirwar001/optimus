@@ -2,299 +2,214 @@
 .rectangleDiv1 {
   position: absolute;
   left: 0;
-  width: 1440px;
+  width: 1531px;
 }
 .rectangleDiv {
   top: 0;
   background-color: rgba(160, 164, 171, 0.1);
-  height: 395px;
+  height: 393.01px;
 }
 .rectangleDiv1 {
-  top: 334px;
+  top: 332.32px;
   background-color: #ebbb3c;
   border: 1px solid #ebbb3c;
   box-sizing: border-box;
-  height: 63px;
+  height: 62.68px;
 }
 .logoDiv {
   position: absolute;
-  top: 49.49px;
+  top: 49.24px;
   left: 165px;
   font-size: 32px;
   font-weight: 600;
   color: #468cf6;
   display: inline-block;
   width: 120px;
-  height: 48.66px;
+  height: 48.41px;
 }
+.transformingLivesAcrossThe {
+  top: 113.54px;
+  left: 165px;
+  width: 255px;
+  height: 80.59px;
+}
+.companyDiv,
 .copyright2022Div,
 .needAnswersNeedHelpJust,
-.transformingLivesOfPeopleA {
+.transformingLivesAcrossThe {
   position: absolute;
-  top: 114.11px;
-  left: 165px;
   line-height: 171.5%;
   display: inline-block;
-  width: 255px;
 }
-.copyright2022Div,
 .needAnswersNeedHelpJust {
-  top: 100px;
+  top: 99.5px;
   left: 1020px;
+  width: 255px;
+  height: 53.73px;
+}
+.companyDiv,
+.copyright2022Div {
+  height: 26.86px;
 }
 .copyright2022Div {
-  top: 352px;
+  top: 350.23px;
   left: 653px;
   font-weight: 600;
   color: #fff;
   width: 133px;
 }
-.companyDiv,
+.companyDiv {
+  top: 108.45px;
+  left: 451px;
+  width: 255px;
+}
+.competitorsDiv,
+.contactDiv {
+  left: 451px;
+  height: 26.86px;
+}
 .competitorsDiv,
 .contactDiv,
-.pricingDiv,
-.productDiv {
+.followUsDiv,
+.getInTouchWithUs,
+.linksDiv,
+.pricingDiv {
   position: absolute;
-  top: 109px;
+  line-height: 171.5%;
+  display: inline-block;
+  width: 255px;
+}
+.pricingDiv {
+  left: 451px;
+  height: 26.86px;
+}
+.productDiv {
+  top: 142.28px;
+}
+.productDiv,
+.seniorsDiv {
+  position: absolute;
   left: 451px;
   line-height: 171.5%;
   display: inline-block;
   width: 255px;
+  height: 26.86px;
 }
-.competitorsDiv,
-.contactDiv,
-.pricingDiv,
-.productDiv {
-  top: 152px;
+.competitorsDiv {
+  top: 180.09px;
 }
-.competitorsDiv,
-.contactDiv,
 .pricingDiv {
-  top: 195px;
-}
-.contactDiv,
-.pricingDiv {
-  top: 238px;
+  top: 218.89px;
 }
 .contactDiv {
-  top: 281px;
+  top: 254.71px;
+}
+.seniorsDiv {
+  top: 294.51px;
 }
 .followUsDiv,
+.getInTouchWithUs,
 .linksDiv {
-  top: 53px;
+  top: 52.73px;
   font-size: 18px;
   font-weight: 600;
   color: #0e0e2c;
+  height: 30.84px;
 }
 .linksDiv {
-  position: absolute;
   left: 454px;
-  line-height: 171.5%;
-  display: inline-block;
-  width: 255px;
 }
 .followUsDiv {
   left: 735px;
 }
-.fbcomaaaDiv,
-.followUsDiv,
 .getInTouchWithUs {
-  position: absolute;
-  line-height: 171.5%;
-  display: inline-block;
-  width: 255px;
-}
-.getInTouchWithUs {
-  top: 53px;
   left: 1020px;
-  font-size: 18px;
-  font-weight: 600;
-  color: #0e0e2c;
 }
-.fbcomaaaDiv {
-  top: 1px;
-  left: 36px;
-}
-.featherfacebookIcon {
+.groupDiv,
+.twitterDiv {
   position: absolute;
+  width: 185px;
+  height: 26.86px;
+}
+.twitterDiv {
   top: 0;
   left: 0;
-  width: 28px;
-  height: 28px;
-  overflow: hidden;
-}
-.groupDiv {
-  position: absolute;
-  top: 108px;
-  left: 735px;
-  width: 291px;
-  height: 28px;
-}
-.aaaDiv {
-  position: absolute;
-  top: 0;
-  left: 36px;
   line-height: 171.5%;
   display: inline-block;
-  width: 255px;
 }
-.groupDiv1,
-.groupDiv2 {
-  position: absolute;
-  top: 196px;
-  left: 735px;
-  width: 291px;
-  height: 28px;
-}
-.groupDiv2 {
-  top: 196px;
-}
-.helperTextDiv {
-  position: relative;
-  font-weight: 600;
-  display: inline-block;
-}
-.labelDiv {
-  border-radius: 4px;
-  width: 252px;
-  display: none;
-  flex-direction: row;
-  padding: 2px 4px 2px 0;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: flex-start;
-  color: #0e0e2c;
-}
-.feathersearchIcon,
-.groupIcon {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
-  display: none;
-}
-.feathersearchIcon {
-  overflow: hidden;
-}
-.labelDiv1 {
-  flex: 1;
-  position: relative;
-  display: flex;
-  align-items: center;
-  height: 32px;
-}
-.featherplusIcon {
-  position: relative;
-  width: 18px;
-  height: 18px;
-  flex-shrink: 0;
-  overflow: hidden;
-}
-.frameDiv {
-  display: none;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.feathersendIcon {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
-  overflow: hidden;
-}
-.inputeDiv {
-  align-self: stretch;
-  border-radius: 4px;
-  background-color: #fff;
-  border: 1px solid #767676;
-  box-sizing: border-box;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  padding: 8px 16px;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 8px;
-}
-.helperTextDiv2 {
-  position: relative;
-  display: inline-block;
-}
-.helperTextDiv1 {
-  border-radius: 4px;
-  width: 252px;
-  display: none;
-  flex-direction: row;
-  padding: 2px 8px;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: 12px;
-}
-.xFormGroupDiv {
-  position: absolute;
-  top: 170px;
-  left: 1020px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 8px;
-  font-size: 14px;
-  color: #b1b1b1;
+.groupDiv {
+  top: 108.45px;
+  left: 734px;
 }
 .footerDiv {
   position: absolute;
+}
+.groupDiv1,
+.linkedInDiv {
+  position: absolute;
+  width: 175px;
+  height: 26.86px;
+}
+.linkedInDiv {
+  top: 0;
+  left: 0;
+  line-height: 171.5%;
+  display: inline-block;
+}
+.groupDiv1 {
+  top: 151.23px;
+  left: 734px;
+}
+.footerDiv {
   top: 3810px;
-  left: -3px;
-  width: 1531px;
-  height: 397px;
+  left: 0;
+  width: 1440px;
+  height: 395px;
   font-size: 16px;
   color: rgba(14, 14, 44, 0.8);
   font-family: Poppins;
 }
 .rectangleDiv2 {
   position: absolute;
-  top: -193px;
-  left: 701px;
+  top: -106.68px;
+  left: 332.86px;
   background-color: #2e67bc;
-  width: 586px;
-  height: 896px;
+  width: 278.25px;
+  height: 495.26px;
   display: none;
 }
 .ellipseIcon {
   position: absolute;
-  top: 648px;
-  left: 793px;
-  width: 10px;
-  height: 10px;
+  top: 358.18px;
+  left: 376.54px;
+  width: 4.75px;
+  height: 5.53px;
 }
-.groupIcon1,
+.groupIcon,
 .image48Div {
   position: absolute;
-  top: 633px;
-  left: 1096px;
-  width: 96px;
-  height: 40px;
+  top: 349.89px;
+  left: 520.42px;
+  width: 45.58px;
+  height: 22.11px;
 }
 .image48Div {
-  top: 102.01px;
+  top: 53.7px;
   left: -6px;
   border-radius: 30px;
   background-color: #fff;
   border: 6px solid #0a014c;
   box-sizing: border-box;
-  width: 312px;
-  height: 662px;
+  width: 154.45px;
+  height: 371.29px;
 }
-.groupIcon2,
+.groupIcon1,
 .iconlyLightNotification {
   position: absolute;
   max-width: 100%;
   max-height: 100%;
 }
-.groupIcon2 {
+.groupIcon1 {
   height: 65.56%;
   width: 77.33%;
   top: 31.8%;
@@ -304,11 +219,11 @@
   opacity: 0.5;
 }
 .iconlyLightNotification {
-  height: 4.88%;
+  height: 4.57%;
   width: 7.81%;
   top: 0;
   right: 0;
-  bottom: 95.12%;
+  bottom: 95.43%;
   left: 92.19%;
 }
 .jumpStartDiv,
@@ -318,79 +233,96 @@
   display: inline-block;
 }
 .jumpStartDiv {
-  top: 140.01px;
+  top: 77.39px;
   letter-spacing: -0.01em;
   font-weight: 600;
+  width: 44.16px;
+  height: 24.32px;
 }
 .yourPortfolioLooksGreatTod {
-  top: 164.01px;
+  top: 90.66px;
   font-size: 10px;
   color: #ababab;
+  width: 70.75px;
+  height: 13.27px;
 }
-.groupDiv4 {
+.groupDiv3 {
   position: absolute;
-  height: 23.22%;
+  height: 24.8%;
   width: 85.33%;
   top: 0;
   right: 7.33%;
-  bottom: 76.78%;
+  bottom: 75.2%;
   left: 7.33%;
 }
 .portfolioBalanceDiv {
   top: 0;
   letter-spacing: -0.01em;
   display: inline-block;
+  width: 44.63px;
+  height: 16.58px;
+}
+.div {
+  left: 0;
 }
 .div,
+.div1 {
+  position: absolute;
+}
 .portfolioBalanceDiv,
 .vectorIcon {
   position: absolute;
   left: 0;
 }
 .div {
-  top: 20px;
+  top: 11.06px;
   font-size: 22px;
   letter-spacing: -0.01em;
   font-weight: 500;
   color: #373737;
   display: inline-block;
+  width: 48.43px;
+  height: 29.85px;
 }
 .vectorIcon {
-  top: 5px;
-  width: 6px;
-  height: 3px;
+  top: 2.76px;
+  width: 2.85px;
+  height: 1.66px;
 }
 .div1 {
-  position: absolute;
   top: 0;
-  left: 10px;
+  left: 4.75px;
   letter-spacing: -0.01em;
   display: inline-block;
+  width: 33.24px;
+  height: 13.27px;
 }
-.groupDiv7 {
+.groupDiv6,
+.todayMay222021 {
   position: absolute;
-  top: 51px;
-  left: 2px;
-  width: 80px;
-  height: 12px;
+  top: 28.19px;
+  left: 0.95px;
+  width: 37.99px;
+  height: 13.27px;
   font-size: 10px;
   color: #20cb5c;
 }
 .todayMay222021 {
-  position: absolute;
-  top: 68px;
+  top: 37.59px;
   left: 0;
   font-size: 9px;
   letter-spacing: -0.01em;
   color: #888da1;
   display: inline-block;
+  width: 41.79px;
+  height: 12.16px;
 }
-.groupDiv6 {
+.groupDiv5 {
   position: absolute;
-  top: 38.29px;
-  left: 20px;
-  width: 102px;
-  height: 79px;
+  top: 21.16px;
+  left: 9.5px;
+  width: 48.43px;
+  height: 49.75px;
   text-align: left;
   font-size: 12px;
   color: #353535;
@@ -405,34 +337,51 @@
   top: 0;
   left: 0;
   font-size: 12px;
+  width: 46.06px;
+  height: 16.58px;
 }
 .div2 {
-  top: 27px;
-  left: 32px;
+  top: 14.92px;
+  left: 15.19px;
   font-weight: 500;
   color: #35363d;
+  width: 18.99px;
+  height: 14.37px;
 }
+.moreDetailsDiv,
 .vectorIcon1 {
   position: absolute;
-  top: 4px;
-  left: 72px;
-  width: 6px;
-  height: 3px;
 }
-.groupDiv8,
-.groupDiv9 {
+.vectorIcon1 {
+  top: 2.21px;
+  left: 34.19px;
+  width: 3.32px;
+  height: 1.42px;
+}
+.moreDetailsDiv {
+  top: 0;
+  left: 0;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  width: 29.91px;
+  height: 14.37px;
+}
+.groupDiv7,
+.groupDiv8 {
   position: absolute;
-  top: 27px;
-  left: 156px;
-  width: 72px;
-  height: 13px;
-  color: #444;
 }
 .groupDiv8 {
-  top: 356.29px;
-  left: 20px;
-  width: 228px;
-  height: 40px;
+  top: 14.92px;
+  left: 74.07px;
+  width: 34.19px;
+  height: 14.37px;
+  color: #444;
+}
+.groupDiv7 {
+  top: 196.94px;
+  left: 9.5px;
+  width: 108.26px;
+  height: 29.3px;
   text-align: left;
   font-size: 11px;
   color: #373737;
@@ -443,25 +392,27 @@
   left: 0;
   border-radius: 10px;
   background-color: #5643eb;
-  width: 32px;
-  height: 20px;
+  width: 15.19px;
+  height: 11.05px;
 }
 .hDiv {
   position: absolute;
-  top: 2px;
-  left: 9px;
+  top: 1.11px;
+  left: 4.27px;
   font-weight: 500;
   display: inline-block;
+  width: 6.17px;
+  height: 16.58px;
 }
-.groupDiv10,
+.groupDiv9,
 .rectangleDiv4 {
   position: absolute;
-  width: 32px;
-  height: 20px;
+  width: 15.19px;
 }
-.groupDiv10 {
-  top: 306.29px;
-  left: 17px;
+.groupDiv9 {
+  top: 169.3px;
+  left: 8.07px;
+  height: 17.69px;
   font-size: 12px;
   color: #fefefe;
 }
@@ -471,102 +422,127 @@
   border-radius: 10px;
   border: 1px solid #5643eb;
   box-sizing: border-box;
+  height: 11.05px;
 }
 .hDiv1 {
   position: absolute;
-  top: 4px;
-  left: 6.5px;
+  top: 2.21px;
+  left: 3.09px;
   display: inline-block;
+  width: 9.02px;
+  height: 6.63px;
+}
+.groupDiv10,
+.wDiv {
+  position: absolute;
+  top: 169.3px;
+  left: 27.07px;
+  width: 15.19px;
+  height: 11.05px;
+}
+.wDiv {
+  top: 2.21px;
+  left: 4.51px;
+  display: inline-block;
+  width: 6.17px;
+  height: 13.27px;
 }
 .groupDiv11 {
   position: absolute;
-  top: 306.29px;
-  left: 57px;
-  width: 32px;
-  height: 20px;
+  top: 168.75px;
+  left: 46.06px;
 }
-.wDiv {
-  position: absolute;
-  top: 4px;
-  left: 9.5px;
-  display: inline-block;
+.groupDiv11,
+.groupDiv12 {
+  width: 15.19px;
+  height: 15.48px;
 }
 .groupDiv12,
-.groupDiv13 {
-  position: absolute;
-  top: 305.29px;
-  left: 97px;
-  width: 32px;
-  height: 20px;
-}
-.groupDiv13 {
-  top: 306.29px;
-  left: 137px;
-}
 .yDiv {
   position: absolute;
-  top: 4px;
-  left: 10.5px;
+}
+.groupDiv12 {
+  top: 169.3px;
+  left: 65.05px;
+}
+.yDiv {
+  top: 2.21px;
+  left: 4.99px;
   display: inline-block;
+  width: 5.22px;
+  height: 6.63px;
+}
+.allDiv,
+.groupDiv13 {
+  position: absolute;
+}
+.groupDiv13 {
+  top: 169.3px;
+  left: 84.05px;
+  width: 15.19px;
+  height: 11.05px;
+}
+.allDiv {
+  top: 2.21px;
+  left: 4.51px;
+  display: inline-block;
+  width: 5.7px;
+  height: 6.63px;
 }
 .groupDiv14,
-.groupDiv15,
 .rectangleDiv9 {
   position: absolute;
-  top: 306.29px;
-  left: 177px;
-  width: 32px;
-  height: 20px;
-}
-.groupDiv15,
-.rectangleDiv9 {
-  top: 305.29px;
-  left: 217px;
+  top: 168.75px;
+  left: 103.04px;
+  width: 15.19px;
+  height: 11.05px;
 }
 .rectangleDiv9 {
-  top: 340.29px;
-  left: 20px;
+  top: 188.09px;
+  left: 9.5px;
   background: linear-gradient(
     -90deg,
     rgba(87, 68, 235, 0) 15.6%,
     #5643eb 54.51%,
     rgba(86, 67, 235, 0) 87.52%
   );
-  width: 230px;
-  height: 1px;
+  width: 109.21px;
+  height: 0.55px;
   opacity: 0.5;
 }
-.groupIcon3,
+.groupIcon2,
 .rectangleDiv10 {
   position: absolute;
   top: 0;
-  left: 20px;
-  width: 22px;
-  height: 401.29px;
+  left: 9.5px;
+  width: 10.45px;
+  height: 221.81px;
 }
 .rectangleDiv10 {
   left: 0;
   border-radius: 8px;
   background: linear-gradient(90deg, #4832f2, #5b46f4);
-  width: 110px;
-  height: 28px;
+  width: 52.23px;
+  height: 15.48px;
 }
 .sendDiv {
   position: absolute;
-  top: 8px;
-  left: 43px;
+  top: 4.42px;
+  left: 20.42px;
   letter-spacing: -0.01em;
   display: inline-block;
+  width: 11.4px;
+  height: 13.27px;
 }
-.groupDiv16,
+.groupDiv15,
 .rectangleDiv11 {
   position: absolute;
-  width: 110px;
-  height: 28px;
+  width: 52.23px;
 }
-.groupDiv16 {
-  top: 416.29px;
-  left: 20px;
+.groupDiv15 {
+  top: 230.1px;
+  left: 9.5px;
+  height: 17.69px;
   color: #fff;
 }
 .rectangleDiv11 {
@@ -574,82 +550,86 @@
   left: 0;
   border-radius: 8px;
   background: linear-gradient(90deg, #468cf6, #5797f9);
+  height: 15.48px;
 }
 .withdrawDiv {
   position: absolute;
-  top: 8px;
-  left: 33px;
+  top: 4.42px;
+  left: 15.67px;
   letter-spacing: -0.01em;
   display: inline-block;
+  width: 21.37px;
+  height: 13.27px;
 }
-.groupDiv17 {
+.groupDiv16 {
   position: absolute;
-  top: 416.29px;
-  left: 140px;
-  width: 110px;
-  height: 28px;
+  top: 230.1px;
+  left: 66.48px;
+  width: 52.23px;
+  height: 17.69px;
   color: #fff;
 }
+.groupIcon3 {
+  position: absolute;
+  top: 254.98px;
+  left: 59.35px;
+  width: 9.5px;
+  height: 11.05px;
+}
+.groupDiv4,
 .groupIcon4 {
   position: absolute;
-  top: 461.29px;
-  left: 125px;
-  width: 20px;
-  height: 20px;
+  width: 119.18px;
 }
-.groupDiv5,
-.groupIcon5 {
-  position: absolute;
-  top: 96.95px;
+.groupIcon4 {
+  top: 53.59px;
   left: 0;
-  width: 251px;
-  height: 214.84px;
+  height: 118.75px;
 }
-.groupDiv5 {
-  top: 175.72px;
-  left: 15px;
-  height: 481.29px;
+.groupDiv4 {
+  top: 97.13px;
+  left: 7.12px;
+  height: 266.03px;
   text-align: center;
   font-size: 10px;
   color: #5643eb;
 }
-.groupDiv3 {
+.groupDiv2 {
   position: absolute;
-  top: -190.01px;
-  left: 1156px;
-  width: 300px;
-  height: 758.01px;
+  top: -105.03px;
+  left: 548.91px;
+  width: 142.45px;
+  height: 418.99px;
   display: none;
-  color: #353535;
 }
-.loremIpsumDolorSitAmetCo,
-.meetOptimusB {
+.aICaregiverForElders {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 40px;
+  font-size: 42px;
   line-height: 50px;
   display: inline-block;
-  width: 722px;
-  height: 90px;
   color: #1d2d3f;
+  width: 547px;
+  height: 50px;
 }
-.loremIpsumDolorSitAmetCo {
-  top: 78px;
-  left: 1px;
+.usingOptimusToAvoidInciden {
+  position: absolute;
+  top: 83px;
+  left: calc(50% - 283px);
   font-size: 20px;
   line-height: 30px;
   color: #787878;
   display: inline-block;
-  width: 495px;
-  height: 175px;
+  width: 463px;
+  height: 228px;
 }
 .bluee011Icon {
   position: absolute;
-  top: 161px;
-  left: 801px;
-  width: 643px;
-  height: 643px;
+  top: 223.17px;
+  left: 460.69px;
+  width: 305.32px;
+  height: 355.42px;
   object-fit: cover;
   display: none;
 }
@@ -657,57 +637,92 @@
   position: absolute;
   top: 300px;
   left: 153px;
-  width: 1192px;
-  height: 673px;
+  width: 566px;
+  height: 372px;
   font-size: 18px;
-  color: #1d2d3f;
+  color: #353535;
 }
-.everyVoiceCounts1 {
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-.everyVoiceCounts {
+.cONTACTDiv {
   position: absolute;
   top: 0;
-  left: calc(50% - 176px);
-  line-height: 50px;
-  display: inline-block;
-  width: 399px;
-  height: 41.07px;
-}
-.conversation {
-  font-weight: 700;
-  color: #ffaf18;
-}
-.groupDiv18,
-.groupDiv19,
-.whatCanYouDoWithOptimus {
-  position: absolute;
-  left: calc(50% - 493px);
-  width: 986px;
-}
-.whatCanYouDoWithOptimus {
-  top: 78.4px;
-  font-size: 20px;
+  left: 830.04px;
   line-height: 30px;
   display: inline-block;
-  height: 75.6px;
-  color: #787878;
+  width: 85.14px;
 }
-.groupDiv18,
-.groupDiv19 {
+.pRICINGDiv {
+  left: 714.5px;
+  width: 71.87px;
+}
+.cOMPANYDiv,
+.cOMPETITORSDiv,
+.pRICINGDiv,
+.pRODUCTDiv,
+.sENIORSDiv,
+.tESTIMONIALSDiv {
+  position: absolute;
   top: 0;
-  height: 154px;
+  line-height: 30px;
+  display: inline-block;
 }
-.groupDiv18 {
-  top: 681px;
-  left: calc(50% - 516px);
-  text-align: center;
-  font-size: 42px;
-  color: #2cbddd;
+.tESTIMONIALSDiv {
+  left: 548.36px;
+  width: 130.48px;
+}
+.cOMPETITORSDiv {
+  left: 376.14px;
+  width: 127.16px;
+}
+.pRODUCTDiv,
+.sENIORSDiv {
+  left: 249.23px;
+  width: 86.25px;
+}
+.sENIORSDiv {
+  left: 130.18px;
+}
+.cOMPANYDiv {
+  left: 0;
+  width: 89.56px;
+}
+.navBarDiv {
+  position: absolute;
+  top: 36px;
+  left: 331.82px;
+  width: 915.18px;
+  height: 30px;
+  font-size: 16px;
+  color: #353535;
 }
 .fallDetectionB,
-.optimusIsACuttingEdgeVirt {
+.fallsAreTheLeadingCauseOf {
+  position: absolute;
+  display: inline-block;
+}
+.fallsAreTheLeadingCauseOf {
+  top: 51px;
+  left: calc(50% - 245px);
+  line-height: 30px;
+  width: 490px;
+}
+.fallDetectionB {
+  top: 0;
+  left: calc(50% - 239.33px);
+  font-size: 25px;
+  line-height: 20px;
+  color: #1d2d3f;
+  width: 446.9px;
+  height: 20px;
+}
+.groupDiv17 {
+  position: absolute;
+  top: 773px;
+  left: calc(50% - 537px);
+  width: 490px;
+  height: 231px;
+}
+.optimusIsACuttingEdgeVirt,
+.sleepBehaviour {
   position: absolute;
   top: 51px;
   left: calc(50% - 199.5px);
@@ -715,7 +730,7 @@
   display: inline-block;
   width: 395px;
 }
-.fallDetectionB {
+.sleepBehaviour {
   top: 0;
   left: calc(50% - 194.5px);
   font-size: 25px;
@@ -724,53 +739,44 @@
   width: 394px;
   height: 20px;
 }
-.groupDiv20 {
+.groupDiv18,
+.groupDiv19 {
   position: absolute;
-  top: 970px;
+  top: 1532px;
   left: calc(50% - 521px);
   width: 399px;
   height: 171px;
 }
+.groupDiv19 {
+  top: 2274px;
+  left: calc(50% - 517px);
+}
+.groupDiv20 {
+  top: 2985px;
+  left: calc(50% - 530px);
+}
+.groupDiv20,
 .groupDiv21,
 .groupDiv22,
-.groupDiv23,
-.groupDiv24,
-.groupDiv25,
-.groupDiv26 {
+.groupDiv23 {
   position: absolute;
-  top: 1672px;
-  left: calc(50% - 521px);
   width: 399px;
   height: 171px;
 }
-.groupDiv22,
-.groupDiv23,
-.groupDiv24,
-.groupDiv25,
-.groupDiv26 {
-  top: 2368px;
+.groupDiv21 {
+  top: 773px;
+  left: calc(50% - -113px);
 }
-.groupDiv23,
-.groupDiv24,
-.groupDiv25,
-.groupDiv26 {
-  top: 3063px;
+.groupDiv22 {
+  top: 1542px;
+  left: calc(50% - -133px);
 }
-.groupDiv24,
-.groupDiv25,
-.groupDiv26 {
-  top: 970px;
-  left: calc(50% - -125px);
-}
-.groupDiv25,
-.groupDiv26 {
-  top: 1672px;
-}
-.groupDiv26 {
-  top: 2368px;
+.groupDiv23 {
+  top: 2274px;
+  left: calc(50% - -129px);
 }
 .ezgif6Icon,
-.groupDiv27 {
+.groupDiv24 {
   position: absolute;
   top: 3520px;
   left: 265px;
@@ -781,19 +787,19 @@
   object-fit: cover;
   display: none;
 }
-.groupDiv27 {
+.groupDiv24 {
   width: 0;
   height: 0;
 }
-.rectangleDiv12,
-.rectangleDiv13,
-.rectangleDiv14,
-.rectangleDiv15,
-.rectangleDiv16 {
+.rectangleDiv12 {
   position: absolute;
   top: 650px;
-  left: 0;
   background-color: #d9d9d9;
+}
+.rectangleDiv12,
+.rectangleDiv13,
+.rectangleDiv14 {
+  left: 0;
   width: 1496px;
   height: 136px;
 }
@@ -801,11 +807,13 @@
 .rectangleDiv14,
 .rectangleDiv15,
 .rectangleDiv16 {
+  position: absolute;
+  background-color: #d9d9d9;
+}
+.rectangleDiv13 {
   top: 1352px;
 }
-.rectangleDiv14,
-.rectangleDiv15,
-.rectangleDiv16 {
+.rectangleDiv14 {
   top: 2048px;
 }
 .rectangleDiv15,
@@ -819,7 +827,7 @@
   top: 0;
   left: 28px;
 }
-.groupDiv28 {
+.groupDiv25 {
   position: absolute;
   top: 1866px;
   left: -28px;
@@ -828,7 +836,8 @@
   display: none;
 }
 .rectangleDiv17,
-.rectangleDiv18 {
+.rectangleDiv18,
+.rectangleDiv19 {
   position: absolute;
   top: 0;
   left: 0;
@@ -836,41 +845,43 @@
   width: 444px;
   height: 348px;
 }
-.rectangleDiv18 {
+.rectangleDiv18,
+.rectangleDiv19 {
   top: 702px;
 }
-.rectangleDiv19,
+.rectangleDiv19 {
+  top: 1398px;
+}
+.rectangleDiv20 {
+  left: 0;
+}
 .rectangleDiv20,
 .rectangleDiv21,
 .rectangleDiv22,
 .rectangleDiv23 {
   position: absolute;
-  top: 1398px;
-  left: 0;
   background-color: #d9d9d9;
   width: 444px;
   height: 348px;
 }
-.rectangleDiv20,
-.rectangleDiv21,
-.rectangleDiv22,
-.rectangleDiv23 {
+.rectangleDiv20 {
   top: 2093px;
 }
-.rectangleDiv21,
-.rectangleDiv22,
-.rectangleDiv23 {
+.rectangleDiv21 {
   top: 0;
   left: 658px;
 }
 .rectangleDiv22,
 .rectangleDiv23 {
+  left: 658px;
+}
+.rectangleDiv22 {
   top: 702px;
 }
 .rectangleDiv23 {
   top: 1398px;
 }
-.groupDiv29 {
+.groupDiv26 {
   position: absolute;
   top: 2160px;
   left: 154px;
@@ -878,96 +889,84 @@
   height: 2441px;
   display: none;
 }
-.elderManWithCaneFallingDoIcon {
+.analysisOfDataBlockchain1Icon,
+.w023N0032929bP12929ConveIcon {
   position: absolute;
-  top: 1247px;
-  left: 125px;
-  width: 469px;
-  height: 339px;
   overflow: hidden;
 }
-.analysisOfDataBlockchain1Icon,
-.vectorIcon2 {
-  position: absolute;
-  max-width: 100%;
-  max-height: 100%;
+.w023N0032929bP12929ConveIcon {
+  top: 1002px;
+  left: 253px;
+  width: 391px;
+  height: 406px;
 }
 .analysisOfDataBlockchain1Icon {
   height: 5.28%;
   width: 28.54%;
-  top: 43.17%;
+  top: 39.84%;
   right: 46.88%;
-  bottom: 51.56%;
+  bottom: 54.88%;
   left: 24.58%;
-  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+.rectangleDiv24 {
+  position: absolute;
+  top: 106px;
+  left: 742px;
+  background-color: #468cf6;
+  width: 547px;
+  height: 566px;
 }
 .vectorIcon2 {
+  position: absolute;
   height: 0.37%;
   width: 0.05%;
   top: 28.89%;
   right: 17.52%;
   bottom: 70.74%;
   left: 82.43%;
+  max-width: 100%;
+  max-height: 100%;
 }
-.oldWomanSufferingFromHeadaIcon {
+.oldWomanSufferingFromHeadaIcon,
+.retiredWomenFellDownByHeaIcon {
   position: absolute;
-  top: 1753px;
+  top: 1613px;
   left: 97px;
   width: 538px;
   height: 598px;
   overflow: hidden;
 }
-.oldPersonSmoking11,
 .retiredWomenFellDownByHeaIcon {
-  position: absolute;
-  top: 1933px;
-  left: 784px;
+  top: 1803px;
+  left: 792px;
   width: 493px;
   height: 329px;
-  overflow: hidden;
-}
-.oldPersonSmoking11 {
-  top: 2511px;
-  left: 169px;
-  width: 455px;
-  height: 455px;
 }
 .icon,
-.icon1 {
+.oldPersonSmoking11 {
   position: absolute;
+  left: 173px;
+}
+.oldPersonSmoking11 {
+  top: 2417px;
+  width: 455px;
+  height: 455px;
+  overflow: hidden;
 }
 .icon {
-  top: 3248px;
-  left: 182px;
+  top: 3170px;
   width: 575px;
   height: 368px;
   object-fit: cover;
 }
 .icon1 {
-  top: 2582px;
-  left: 840px;
+  position: absolute;
+  top: 2488px;
+  left: 844px;
   width: 330px;
   height: 383px;
-  overflow: hidden;
-}
-.groupIcon6 {
-  position: absolute;
-  height: 6.91%;
-  width: 29.58%;
-  top: 28.9%;
-  right: 12.78%;
-  bottom: 64.18%;
-  left: 57.64%;
-  max-width: 100%;
-  max-height: 100%;
-}
-.calender1Icon,
-.untitled11Icon {
-  position: absolute;
-  top: 1175px;
-  left: 1118px;
-  width: 111px;
-  height: 111px;
   overflow: hidden;
 }
 .untitled11Icon {
@@ -976,86 +975,42 @@
   width: 411px;
   height: 411px;
 }
-.cONTACTDiv,
-.pRICINGDiv,
-.sENIORDiv {
+.calender1Icon,
+.oldWomanWithMigraineTakingIcon,
+.untitled11Icon {
   position: absolute;
-  top: 0;
-  left: 850px;
-  line-height: 30px;
-  display: inline-block;
-  width: 85.9px;
-}
-.pRICINGDiv,
-.sENIORDiv {
-  left: 960px;
-}
-.pRICINGDiv {
-  left: 740px;
-  width: 72.51px;
-}
-.cOMPANYDiv,
-.cOMPETITORSDiv,
-.lOGOB,
-.pRODUCTDiv,
-.tESTIMONIALSDiv {
-  position: absolute;
-  top: 0;
-  left: 580px;
-  line-height: 30px;
-  display: inline-block;
-  width: 131.64px;
-}
-.cOMPANYDiv,
-.cOMPETITORSDiv,
-.lOGOB,
-.pRODUCTDiv {
-  left: 430px;
-  width: 128.29px;
-}
-.cOMPANYDiv,
-.lOGOB,
-.pRODUCTDiv {
-  left: 310px;
-  width: 87.02px;
-}
-.cOMPANYDiv,
-.lOGOB {
-  left: 180px;
-  width: 90.36px;
-}
-.lOGOB {
-  top: 4px;
-  left: 28px;
-  font-size: 22px;
-  letter-spacing: -0.01em;
-  line-height: 22px;
-  font-family: Exo;
-  color: #f6da46;
-  width: 63.59px;
-}
-.navBarDiv {
-  position: absolute;
-  top: 48px;
-  left: 130px;
-  width: 1143.9px;
-  height: 30px;
-  font-size: 16px;
-  color: #353535;
-}
-.forSeniorsDiv1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-  width: 1440px;
-  height: 4207px;
   overflow: hidden;
+}
+.oldWomanWithMigraineTakingIcon {
+  top: 985px;
+  left: 807px;
+  width: 540px;
+  height: 386px;
+}
+.calender1Icon {
+  height: 2.64%;
+  width: 7.71%;
+  top: 23.6%;
+  right: 34.31%;
+  bottom: 72.76%;
+  left: 75.99%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 27px;
+  left: 167px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
 }
 .forSeniorsDiv {
   position: relative;
+  background-color: #fff;
   width: 100%;
   height: 4207px;
+  overflow: hidden;
   text-align: left;
   font-size: 20px;
   color: #787878;
