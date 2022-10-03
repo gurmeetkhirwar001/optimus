@@ -191,7 +191,7 @@ export const Page1Home: FunctionComponent = () => {
           <div className={styles.rectangleDiv} />
           <div className={styles.rectangleDiv1} />
           <a href="https://www.aitensors.org/"><div className={styles.logoDiv}>
-            <img src="logo.png" height="50" width="50" /> </div></a>
+            <img src="chatbot.png" height="50" width="50" /> </div></a>
           <div className={styles.transformingLivesOfPeopleA}>
           Transforming lives across the globe by adventuring Artificial Intelligence.
           </div>
@@ -476,7 +476,7 @@ export const Page1Home: FunctionComponent = () => {
             COMPANY
           </div>
           <div className={styles.logomain}>
-            <img src="logo.png" height="50" width="50"/></div>
+            <img src="chatbot.png" height="50" width="50"/></div>
         </div>
         <div className={styles.groupDiv24}>
           <div className={styles.groupDiv25}>
