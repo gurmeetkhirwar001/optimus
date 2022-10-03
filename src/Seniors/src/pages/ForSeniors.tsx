@@ -8,7 +8,7 @@ const ForSeniors: FunctionComponent = () => {
       <div className={styles.footerDiv}>
         <div className={styles.rectangleDiv} />
         <div className={styles.rectangleDiv1} />
-        <Link to="/"><div className={styles.logoDiv}><img src="logo.png" height="50" width="50" /></div></Link>
+        <Link to="/"><div className={styles.logoDiv}><img src="chatbot.png" height="50" width="50" /></div></Link>
         <div className={styles.transformingLivesAcrossThe}>
           Transforming lives across the globe by adventuring Artificial
           Intelligence.
@@ -130,13 +130,13 @@ const ForSeniors: FunctionComponent = () => {
         <img className={styles.bluee011Icon} alt="" src="../bluee01-1@2x.png" />
       </div>
       <div className={styles.navBarDiv}>
-        <div className={styles.cONTACTDiv}>CONTACT</div>
+        {/* <div className={styles.cONTACTDiv}>CONTACT</div>
         <div className={styles.pRICINGDiv}>PRICING</div>
-        <div className={styles.tESTIMONIALSDiv}>TESTIMONIALS</div>
+        <div className={styles.tESTIMONIALSDiv}>TESTIMONIALS</div> */}
         <Link to="/competitors"><div className={styles.cOMPETITORSDiv}>COMPETITORS</div></Link>
         <Link to="/product"><div className={styles.pRODUCTDiv}>PRODUCT</div></Link>
         <div className={styles.sENIORSDiv}>SENIORS</div>
-        <div className={styles.cOMPANYDiv}>COMPANY</div>
+        {/* <div className={styles.cOMPANYDiv}>COMPANY</div> */}
       </div>
       <div className={styles.groupDiv17}>
         <div
@@ -238,7 +238,7 @@ const ForSeniors: FunctionComponent = () => {
       <Link to="/"><img 
         className={styles.rectangleIcon}
         alt=""
-        src="../rectangle-190@2x.png"
+        src="../chatbot.png"
       /></Link>
     </div>
   );
