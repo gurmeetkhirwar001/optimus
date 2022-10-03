@@ -363,15 +363,18 @@ https://iconscout.com/icon/kakao-1884642
           COMPETITORS
         </div></Link>
         <div className={styles.pRODUCTDiv}>PRODUCT</div>
+        <Link to="/ForSeniors"><div className={styles.sENIORDiv1}>
+          SENIORS
+        </div></Link>
         <div className={styles.cOMPANYDiv}>COMPANY</div>
         <Link to="/"><div className={styles.logomain}>
-          <img src="logo.png" height="50" width="50" />
+          <img src="chatbot.png" height="60" width="60" />
         </div></Link>
       </div>
       <div className={styles.footerDiv}>
         <div className={styles.rectangleDiv4} />
         <div className={styles.rectangleDiv5} />
-        <div className={styles.logoDiv}><img src="logo.png" height="50" width="50" /> </div>
+        <div className={styles.logoDiv}><img src="chatbot.png" height="50" width="50" /> </div>
         <div className={styles.transformingLivesOfPeopleA}>
         Transforming lives across the globe by adventuring Artificial Intelligence.
         </div>
@@ -380,6 +383,7 @@ https://iconscout.com/icon/kakao-1884642
         >{`Need Answers? Need help ? Just email us `}</div>
         <div className={styles.copyright2022Div}>Copyright 2022</div>
         <div className={styles.companyDiv}>Company</div>
+        <div className={styles.seniorsDiv1}>Seniors</div>
         <div className={styles.productDiv1}>Product</div>
         <div className={styles.competitorsDiv}>Competitors</div>
         <div className={styles.pricingDiv}>Pricing</div>
@@ -387,21 +391,11 @@ https://iconscout.com/icon/kakao-1884642
         <div className={styles.linksDiv}>Links</div>
         <div className={styles.followUsDiv}>{`Follow Us `}</div>
         <div className={styles.getInTouchWithUs}>Get In touch with Us</div>
-        <div className={styles.groupDiv31}>
-          <div className={styles.fbcomaaaDiv}>https://twitter.com/AiTensors</div>
-            <a href="https://twitter.com/AiTensors"><img
-              className={styles.featherfacebookIcon}
-              alt=""
-              src="twitter.svg"
-            /></a>
+        <div className={styles.groupDiv31}>       
+            <a href="https://twitter.com/AiTensors"><div className={styles.fbcomaaaDiv}>Twitter</div></a>
         </div>
-        <div className={styles.groupDiv33}>
-          <div className={styles.fbcomaaaDiv}>https://www.linkedin.com/company/82789169/</div>
-            <a href="https://www.linkedin.com/company/82789169/"><img
-              className={styles.featherfacebookIcon}
-              alt=""
-              src="linkedin.svg"
-            /></a>
+        <div className={styles.groupDiv33}>          
+            <a href="https://www.linkedin.com/company/82789169/"><div className={styles.fbcomaaaDiv}>Linkedin</div></a>
         </div>
         
       </div>
