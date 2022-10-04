@@ -152,7 +152,7 @@ export const Competitors: FunctionComponent = () => {
       <div className={styles.footerDiv}>
         <div className={styles.rectangleDiv} />
         <div className={styles.rectangleDiv1} />
-        <div className={styles.logoDiv}><Link to="/"><img src="logo.png" height="50" width="50"/></Link></div>
+        <div className={styles.logoDiv}><Link to="/"><img src="chatbot1.png" height="50" width="50"/></Link></div>
         <div className={styles.transformingLivesOfPeopleA}>
         Transforming lives across the globe by adventuring Artificial Intelligence.
         </div>
@@ -161,6 +161,7 @@ export const Competitors: FunctionComponent = () => {
         >{`Need Answers? Need help ? Just email us `}</div>
         <div className={styles.copyright2022Div}>Copyright 2022</div>
         <div className={styles.companyDiv}>Company</div>
+        <div className={styles.seniorsDiv1}>Seniors</div>
         <a href="/product"><div className={styles.productDiv}>Product</div></a>
         <div className={styles.competitorsDiv1}>Competitors</div>
         <div className={styles.pricingDiv}>Pricing</div>
@@ -169,20 +170,10 @@ export const Competitors: FunctionComponent = () => {
         <div className={styles.followUsDiv}>{`Follow Us `}</div>
         <div className={styles.getInTouchWithUs}>Get In touch with Us</div>
         <div className={styles.groupDiv9}>
-          <div className={styles.fbcomaaaDiv}>https://twitter.com/AiTensors</div>
-            <a href="https://twitter.com/AiTensors"><img
-              className={styles.featherfacebookIcon}
-              alt=""
-              src="twitter.svg"
-            /></a>
+            <a href="https://twitter.com/AiTensors"><div className={styles.fbcomaaaDiv}>Twitter</div></a>
         </div>
         <div className={styles.groupDiv11}>
-          <div className={styles.fbcomaaaDiv}>https://www.linkedin.com/company/82789169/</div>
-            <a href="https://www.linkedin.com/company/82789169/"><img
-              className={styles.featherfacebookIcon}
-              alt=""
-              src="linkedin.svg"
-            /></a>
+            <a href="https://www.linkedin.com/company/82789169/"><div className={styles.fbcomaaaDiv}>LinkedIn</div></a>
         </div>
         
       </div>
@@ -193,10 +184,13 @@ export const Competitors: FunctionComponent = () => {
         <div className={styles.cOMPETITORSDiv} onClick={onCOMPETITORSTextClick}>
           COMPETITORS
         </div>
-        <div className={styles.pRODUCTDiv}>PRODUCT</div>
+        <Link to="/product"><div className={styles.pRODUCTDiv}>PRODUCT</div></Link>
+        <Link to="/ForSeniors"><div className={styles.sENIORDiv1}>
+          SENIORS
+        </div></Link>
         <div className={styles.cOMPANYDiv}>COMPANY</div>
         <Link to="/"><div className={styles.logomain}>
-          <img src="logo.png" height="50" width="50"/>
+          <img src="chatbot.png" height="50" width="50"/>
         </div></Link>
       </div>
     </div>
