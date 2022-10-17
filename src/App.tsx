@@ -4,7 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import { Page1Home } from "./Page1Home";
+import { Page1Home } from "./Page1Home1";
 import { MainBanner3 } from "./MainBanner3";
 import { FrameComponent } from "./FrameComponent";
 import { MainBanner2 } from "./MainBanner2";

@@ -1,9 +1,14 @@
 .rectangleDiv,
 .rectangleDiv1 {
-  /* width: 1528px; */
+  position: absolute;
+  left: 0;
+  width: 1528px;
 }
 
 .rectangleDiv {
+  top: 0;
+  background-color: rgba(160, 164, 171, 0.1);
+  height: 395px;
 }
 
 .rectangleDiv1 {
@@ -15,6 +20,9 @@
 }
 
 .logoDiv {
+  position: absolute;
+  top: 49.49px;
+  left: 165px;
   font-size: 32px;
   font-weight: 600;
   color: #468cf6;
@@ -26,63 +34,103 @@
 .copyright2022Div,
 .needAnswersNeedHelpJust,
 .transformingLivesOfPeopleA {
+  position: absolute;
+  top: 114.11px;
+  left: 165px;
+  line-height: 171.5%;
   display: inline-block;
-  margin-top: 1rem;
+  width: 255px;
+}
+
+.copyright2022Div,
+.needAnswersNeedHelpJust {
+  top: 100px;
+  left: 1020px;
 }
 
 .copyright2022Div {
-  background-color: #ebbb3c;
-  border: 1px solid #ebbb3c;
-  width: 100%;
-  text-align: center;
-  padding: 1rem;
-}
-
-.copyright2022Div {
+  top: 352px;
+  left: 653px;
   font-weight: 600;
   color: #fff;
+  width: 133px;
 }
 
 .companyDiv,
-.productDiv,
+.competitorsDiv,
+.contactDiv,
 .pricingDiv,
-.competitorsDiv {
-  margin-bottom: 0.8rem;
+.productDiv {
+  position: absolute;
+  top: 109px;
+  left: 451px;
+  line-height: 171.5%;
+  display: inline-block;
+  width: 255px;
+}
+
+.competitorsDiv,
+.contactDiv,
+.pricingDiv,
+.productDiv {
+  top: 152px;
+}
+
+.competitorsDiv,
+.contactDiv,
+.pricingDiv {
+  top: 195px;
+}
+
+.contactDiv,
+.pricingDiv {
+  top: 238px;
+}
+
+.contactDiv {
+  top: 281px;
 }
 
 .followUsDiv,
 .linksDiv {
-  /* top: 53px; */
+  top: 53px;
   font-size: 18px;
   font-weight: 600;
   color: #0e0e2c;
 }
 
 .linksDiv {
+  position: absolute;
+  left: 454px;
   line-height: 171.5%;
+  display: inline-block;
   width: 255px;
-  margin-bottom: 1rem;
 }
 
 .followUsDiv {
   left: 735px;
-  margin-bottom: 1rem;
 }
 
 .fbcomaaaDiv,
 .followUsDiv,
 .getInTouchWithUs {
+  position: absolute;
   line-height: 171.5%;
+  display: inline-block;
+  width: 255px;
 }
 
 .getInTouchWithUs {
+  top: 53px;
+  left: 1020px;
   font-size: 18px;
   font-weight: 600;
   color: #0e0e2c;
 }
 
 .fbcomaaaDiv {
-  margin-bottom: 0.8rem;
+  top: 1px;
+  left: 6px;
 }
 
 .featherfacebookIcon {
@@ -92,6 +140,14 @@
   width: 28px;
   height: 28px;
   overflow: hidden;
+}
+
+.groupDiv {
+  position: absolute;
+  top: 108px;
+  left: 735px;
+  width: 291px;
+  height: 28px;
 }
 
 .aaaDiv {
@@ -105,6 +161,11 @@
 
 .groupDiv1,
 .groupDiv2 {
+  position: absolute;
+  top: 152px;
+  left: 735px;
+  width: 291px;
+  height: 28px;
 }
 
 .groupDiv2 {
@@ -218,24 +279,21 @@
   color: #b1b1b1;
 }
 
-.footerDivs {
-  text-align: left;
+.footerDiv {
+  position: absolute;
+  top: 7998px;
+  left: -1px;
+  width: 1440px;
+  height: 397px;
   font-size: 16px;
   color: rgba(14, 14, 44, 0.8);
   font-family: Poppins;
-  background-color: rgba(160, 164, 171, 0.1);
-}
-
-.footerDiv {
-  padding: 2rem;
-}
-
-.footerDiv a {
-  text-decoration: none;
-  color: rgba(14, 14, 44, 0.8);
 }
 
 .rectangleDiv2 {
+  position: absolute;
+  top: 6960px;
+  left: -10px;
   background-color: #f7faff;
   width: 1451px;
   height: 464px;
@@ -261,26 +319,37 @@
   gap: 15px;
 }
 
-.infoaivectorsorgDiv .ePanchavatiTownship {
-  color: #1d2d3f;
+.emailDiv1,
+.infoaivectorsorgDiv {
+  position: absolute;
+  left: 0;
+  display: inline-block;
 }
 
 .infoaivectorsorgDiv {
+  top: 24px;
   line-height: 30px;
   font-weight: 600;
-  font-size: 20px;
 }
 
 .emailDiv1 {
+  height: 38.89%;
+  width: 32.43%;
+  top: 0;
+  right: 67.57%;
+  bottom: 61.11%;
   font-size: 14px;
   letter-spacing: -0.4px;
   line-height: 20px;
   color: #696969;
   text-align: left;
-  margin-top: 1rem;
+  opacity: 0.5;
 }
 
 .emailDiv {
+  position: absolute;
+  top: 80px;
+  left: 5px;
   width: 185px;
   height: 54px;
 }
@@ -288,27 +357,15 @@
 .ePanchavatiTownship {
   margin-block-start: 0;
   margin-block-end: 0;
-  font-size: 20px;
-  color: #787878;
-  font-family: Inter;
-  width: 395px;
-  word-break: break-word;
-}
-
-.ePanchavatiTownship2 {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  font-size: 20px;
-  color: #787878;
-  font-family: Inter;
-  width: 837px;
-  word-break: break-word;
 }
 
 .emailDiv3 {
   height: 18.42%;
   width: 18.52%;
-
+  top: 0;
+  right: 81.48%;
+  bottom: 81.58%;
+  left: 0;
   font-size: 14px;
   letter-spacing: -0.4px;
   line-height: 20px;
@@ -320,10 +377,12 @@
 .b,
 .emailDiv2,
 .emailDiv3 {
-  /* position: absolute; */
+  position: absolute;
 }
 
 .emailDiv2 {
+  top: 160px;
+  left: 5px;
   width: 324px;
   height: 114px;
   text-align: left;
@@ -334,33 +393,59 @@
   top: 24px;
   left: 0;
   line-height: 30px;
-  font-size: 20px;
-  font-weight: 500;
+  display: inline-block;
+}
+
+.phoneDiv,
+.phoneDiv1 {
+  position: absolute;
+  top: 0;
 }
 
 .phoneDiv1 {
   height: 38.89%;
   width: 35.29%;
-
+  right: 61.76%;
+  bottom: 61.11%;
+  left: 2.94%;
   font-size: 14px;
   letter-spacing: -0.4px;
   line-height: 20px;
   color: #696969;
   text-align: left;
   display: inline-block;
+  opacity: 0.5;
+}
+
+.phoneDiv {
+  left: 0;
+  width: 170px;
+  height: 54px;
 }
 
 .groupDiv3 {
+  position: absolute;
+  width: 22.85%;
+  top: calc(50% - -3345.5px);
+  right: 5.28%;
+  left: 71.88%;
+  height: 348px;
+  text-align: center;
   color: #1d2d3f;
 }
 
 .baseDiv,
 .buttonTextDiv {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
 }
 
 .baseDiv {
   height: 100%;
-
+  top: 0;
+  bottom: 0;
   border-radius: 8px;
   background-color: #468cf6;
 }
@@ -373,6 +458,18 @@
   line-height: 28px;
   font-weight: 600;
   display: inline-block;
+}
+
+.baseDiv1,
+.buttonDiv,
+.elementsButtonsPrimary {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .baseDiv1,
@@ -430,25 +527,55 @@
 }
 
 .textFieldDiv {
+  position: absolute;
+  width: calc(100% - 36px);
+  top: calc(50% - 54px);
+  right: 18px;
+  left: 18px;
   letter-spacing: -0.4px;
   line-height: 28px;
   display: inline-block;
 }
 
 .elementsInputsLarge60px {
+  position: absolute;
+  height: 64.81%;
+  width: 99.84%;
+  top: 35.19%;
+  right: 0;
+  bottom: 0;
+  left: 0.16%;
 }
 
 .typeYourEMail {
+  position: absolute;
+  width: calc(100% - 36px);
+  top: calc(50% - 14px);
+  right: 18px;
+  left: 18px;
   letter-spacing: -0.4px;
   line-height: 28px;
   display: inline-block;
 }
 
-.getTouch {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.elementsInputsLarge60px1,
+.elementsInputsLarge60px2,
+.formDiv,
+.formDiv1 {
+  position: absolute;
+  height: 27.78%;
+  width: 48.66%;
+  top: 0;
+  right: 0;
+  bottom: 72.22%;
+  left: 51.34%;
+}
+
+.elementsInputsLarge60px2,
+.formDiv,
+.formDiv1 {
+  right: 51.34%;
+  left: 0;
 }
 
 .formDiv,
@@ -473,37 +600,47 @@
 }
 
 .createScreensDirectlyInMet {
+  position: absolute;
+  height: 0.55%;
+  width: 34.65%;
+  top: 89.77%;
+  right: 54.31%;
+  bottom: 9.68%;
+  left: 11.04%;
   line-height: 30px;
   display: inline-block;
-  font-size: 20px;
-  color: #787878;
 }
 
 .cONTACTDiv {
+  top: 7408px;
+  left: 681px;
   font-size: 16px;
   font-weight: 600;
   color: #468cf6;
   text-align: center;
 }
 
+.cONTACTDiv,
+.getInTouch,
 .oURTEAMDiv {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  position: absolute;
+  display: inline-block;
 }
 
 .getInTouch {
+  top: 7453px;
+  left: calc(50% - 125px);
   font-size: 42px;
   line-height: 50px;
   color: #ffaf18;
-  /* text-align: center; */
+  text-align: center;
+  width: 264px;
 }
 
 .oURTEAMDiv {
   top: 0;
   left: 0;
   font-weight: 600;
-  margin-bottom: 3rem;
 }
 
 .groupDiv4 {
@@ -516,6 +653,9 @@
 }
 
 .thePeopleBehindOptimus {
+  position: absolute;
+  top: 49px;
+  left: calc(50% - 213.5px);
   font-size: 42px;
   line-height: 50px;
   display: inline-block;
@@ -524,19 +664,32 @@
 }
 
 .createScreensDirectlyInMet1 {
+  position: absolute;
+  height: 50.96%;
+  width: 100%;
+  top: 49.04%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  line-height: 26px;
   color: #696969;
   display: inline-block;
-  margin-top: 1rem;
-  width: 410px;
-  line-height: 28px;
 }
 
 .contactDiv1 {
+  position: absolute;
+  top: 6922px;
+  left: 158px;
+  width: 429px;
+  height: 365px;
   font-size: 16px;
   color: #468cf6;
 }
 
 .rectangleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
   border-radius: 17px;
   width: 182px;
   height: 230px;
@@ -544,34 +697,47 @@
 }
 
 .rectangleDiv4 {
+  position: absolute;
+  top: 157px;
+  left: 39px;
   border-radius: 5px;
   background-color: #2cbcdc;
   width: 170px;
   height: 40px;
-  position: absolute;
-  bottom: 10%;
-  left: 15%;
 }
 
 .createScreensDirectlyInMet2,
 .createScreensDirectlyInMet3 {
-  /* line-height: 26px; */
+  position: absolute;
+  height: 11.3%;
+  width: 61.24%;
+  top: 67.83%;
+  right: 17.22%;
+  bottom: 20.87%;
+  left: 21.53%;
+  line-height: 26px;
+  display: inline-block;
 }
 
 .createScreensDirectlyInMet3 {
+  width: 42.58%;
+  top: 75.22%;
+  right: 1.44%;
+  bottom: 13.48%;
+  left: 55.98%;
   font-size: 14px;
+  letter-spacing: -1px;
   font-weight: 500;
 }
 
 .groupDiv5,
 .rectangleDiv5,
 .rectangleDiv6 {
+  position: absolute;
+  top: 0;
+  left: 100px;
   width: 209px;
   height: 230px;
-}
-
-.groupDiv5 {
-  position: relative;
 }
 
 .rectangleDiv5,
@@ -582,34 +748,37 @@
 }
 
 .rectangleDiv6 {
+  top: 157px;
+  left: 39px;
   border-radius: 5px;
   background-color: #ffae19;
   width: 170px;
   height: 40px;
-  padding: 3px;
-  position: absolute;
-  bottom: 10%;
-  left: 20%;
 }
 
 .groupDiv6,
 .groupDiv7,
 .teamDiv {
+  position: absolute;
+  top: 115px;
+  left: 249px;
   width: 209px;
   height: 230px;
 }
 
-.groupDiv7 {
-  position: relative;
+.groupDiv7,
+.teamDiv {
+  top: 0;
+  left: 498px;
 }
 
 .teamDiv {
-  width: 500px;
+  top: 6942px;
+  left: 660px;
+  width: 707px;
   height: 345px;
   font-size: 16px;
   color: #fff;
-  display: flex;
-  justify-content: space-around;
 }
 
 .rectangleDiv8 {
@@ -929,12 +1098,10 @@
 .rectangleDiv15 {
   top: 302px;
   left: 20px;
-  background: linear-gradient(
-    -90deg,
-    rgba(87, 68, 235, 0) 15.6%,
-    #5643eb 54.51%,
-    rgba(86, 67, 235, 0) 87.52%
-  );
+  background: linear-gradient(-90deg,
+      rgba(87, 68, 235, 0) 15.6%,
+      #5643eb 54.51%,
+      rgba(86, 67, 235, 0) 87.52%);
   width: 230px;
   height: 1px;
   opacity: 0.5;
@@ -977,10 +1144,6 @@
   top: 378px;
   left: 20px;
   color: #fff;
-}
-
-.dFlex {
-  display: flex;
 }
 
 .rectangleDiv17 {
@@ -1064,38 +1227,36 @@
   margin-block-end: 0;
 }
 
-.theSmartest {
-  color: #1d2d3f;
-  font-size: 40px;
-  font-weight: 500;
-}
-
 .theSmartestAIVirtualAssist {
+  position: absolute;
+  top: 246px;
+  left: 1px;
   font-size: 40px;
   line-height: 50px;
   font-weight: 500;
   white-space: pre-wrap;
   display: inline-block;
-
+  width: 722px;
+  height: 90px;
   color: #2cbcdc;
-}
-
-.theOpti {
-  color: #2cbcdc;
-  font-size: 40px;
-  font-weight: 500;
 }
 
 .weLiveInADigitalConnecte {
+  position: absolute;
+  top: 366px;
+  left: 0;
   font-size: 20px;
   line-height: 30px;
   color: #787878;
   display: inline-block;
   width: 495px;
-  margin-top: 1rem;
+  height: 175px;
 }
 
 .rectangleDiv18 {
+  position: absolute;
+  top: 0;
+  left: 0;
   border-radius: 14px;
   background-color: #fff;
   box-shadow: 0 35px 55px -12px rgba(57, 49, 117, 0.1);
@@ -1104,15 +1265,14 @@
 }
 
 .rectangleDiv19 {
+  position: absolute;
+  top: 17.37px;
+  left: 335px;
   border-radius: 12px;
   background-color: #0a2342;
-  width: 200px;
+  width: 160px;
   height: 75.27px;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
 }
 
 .downloadNowDiv {
@@ -1126,8 +1286,9 @@
 }
 
 .groupDiv23 {
-  display: flex;
-  justify-content: flex-end;
+  position: absolute;
+  top: 521px;
+  left: 1px;
   width: 525px;
   height: 110.01px;
   text-align: center;
@@ -1136,7 +1297,7 @@
 
 .blueMainBannerr2,
 .bluee011Icon {
-  /* position: absolute; */
+  position: absolute;
   object-fit: cover;
 }
 
@@ -1149,6 +1310,8 @@
 }
 
 .blueMainBannerr2 {
+  top: 0;
+  left: 638px;
   width: 582px;
   height: 609.91px;
 }
@@ -1164,56 +1327,74 @@
 }
 
 .cONTACTDiv1 {
+  top: 0;
+  left: 986px;
   line-height: 30px;
   cursor: pointer;
 }
 
 .sENIORDiv1 {
+  top: 0;
+  left: 302px;
   line-height: 30px;
   cursor: pointer;
+  position: absolute;
   display: inline-block;
 }
 
 .cONTACTDiv1,
 .pRICINGDiv,
 .tESTIMONIALSDiv {
-  /* position: absolute; */
+  position: absolute;
   display: inline-block;
 }
 
-.tESTIMONIALSDiv {
-  /* left: 708px; */
+.pRICINGDiv {
+  top: 0;
+  left: 876px;
+  line-height: 30px;
 }
 
-.navItem {
-  padding-left: 3rem;
+.tESTIMONIALSDiv {
+  left: 708px;
 }
 
 .cOMPETITORSDiv,
 .pRODUCTDiv,
 .tESTIMONIALSDiv {
+  top: 0;
   line-height: 30px;
   cursor: pointer;
 }
 
 .cOMPETITORSDiv {
+  position: absolute;
+  left: 547px;
   display: inline-block;
 }
 
 .pRODUCTDiv {
-  /* left: 423px; */
+  left: 423px;
 }
 
 .cOMPANYDiv,
 .pRODUCTDiv {
+  position: absolute;
   display: inline-block;
 }
 
 .logomain {
+  position: absolute;
+  display: inline-block;
   padding-left: 28px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  padding-top: 1px;
 }
 
 .cOMPANYDiv {
+  top: 0;
+  left: 178px;
   line-height: 30px;
   cursor: pointer;
 }
@@ -1229,6 +1410,9 @@
 }
 
 .navBarDiv {
+  position: absolute;
+  top: 36px;
+  left: 135px;
   width: 993px;
   height: 30px;
   font-size: 16px;
@@ -1250,22 +1434,21 @@
   color: #ffaf18;
 }
 
-.groupDiv25 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.groupDiv24,
+.groupDiv25,
+.whatCanYouDoWithOptimus {
+  position: absolute;
+  left: calc(50% - 493px);
+  width: 986px;
 }
 
 .whatCanYouDoWithOptimus {
-  width: 885px;
+  top: 84px;
   font-size: 20px;
   line-height: 30px;
   display: inline-block;
   height: 81px;
   color: #787878;
-  word-break: break-word;
-  margin-top: 2rem;
 }
 
 .groupDiv24,
@@ -1284,16 +1467,17 @@
 
 .aGreetingCompanion,
 .greetYourOptimusAndBeAmaz {
+  position: absolute;
+  top: 51px;
+  left: calc(50% - 199.5px);
   line-height: 30px;
   display: inline-block;
-  text-align: left;
-  font-size: 20px;
-  color: #787878;
-  font-family: Inter;
-  margin-top: 2rem;
+  width: 395px;
 }
 
 .aGreetingCompanion {
+  top: 0;
+  left: calc(50% - 194.5px);
   font-size: 25px;
   line-height: 20px;
   color: #1d2d3f;
@@ -1303,15 +1487,23 @@
 
 .groupDiv26,
 .groupDiv27 {
+  position: absolute;
+  top: 2610px;
+  left: calc(50% - 443px);
   width: 399px;
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
-  flex-direction: column;
-  height: 34vh;
+  height: 201px;
+}
+
+.groupDiv27 {
+  top: 1955px;
+  left: calc(50% - 444px);
+  height: 171px;
 }
 
 .aiReadingBooksCopy1 {
+  position: absolute;
+  top: 1891px;
+  left: 834px;
   width: 268px;
   height: 268px;
   object-fit: cover;
@@ -1319,49 +1511,49 @@
 
 .optimusIsAStandaloneDevice,
 .worldsFirstMultilingualSma {
+  position: absolute;
+  top: 51px;
+  left: calc(50% - 264.5px);
   line-height: 30px;
   display: inline-block;
-  width: 290px;
-  word-break: break-word;
-
-  font-size: 20px;
-  color: #787878;
-  font-family: Inter;
+  width: 395px;
 }
 
 .worldsFirstMultilingualSma {
+  top: 0;
+  left: calc(50% - 263.5px);
   font-size: 25px;
   line-height: 20px;
   color: #1d2d3f;
   width: 528px;
   height: 20px;
-  margin-bottom: 2rem;
 }
 
 .groupDiv28,
 .groupDiv29,
 .groupDiv30 {
+  position: absolute;
+  top: 2949px;
+  left: calc(50% - -44px);
   width: 529px;
   height: 171px;
 }
 
-.groupDiv29 {
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
-  height: 38vh;
+.groupDiv29,
+.groupDiv30 {
+  top: 3633px;
+  height: 231px;
 }
 
-.groupDiv28,
 .groupDiv30 {
-  display: flex;
-  justify-content: center;
-  align-items: left;
-  flex-direction: column;
-  height: 36vh;
+  top: 2291px;
+  height: 141px;
 }
 
 .aiThinking1 {
+  position: absolute;
+  top: 3546px;
+  left: 286px;
   width: 327px;
   height: 327px;
   object-fit: cover;
@@ -1377,6 +1569,9 @@
 
 .theDaysOfAskingSomeoneTo,
 .voiceAssistedPhotographyB {
+  position: absolute;
+  top: 52px;
+  left: calc(50% - 268px);
   line-height: 30px;
   display: inline-block;
   width: 414px;
@@ -1384,24 +1579,27 @@
 }
 
 .voiceAssistedPhotographyB {
+  top: 0;
+  left: calc(50% - 267px);
   font-size: 25px;
   line-height: 20px;
   color: #1d2d3f;
   width: 535px;
   height: 22px;
-  margin-bottom: 2rem;
 }
 
 .groupDiv32 {
+  position: absolute;
+  top: 1108px;
+  left: calc(50% - 449.5px);
   width: 536px;
   height: 164px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 36vh;
 }
 
 .aiCapturingDatas21 {
+  position: absolute;
+  top: 1013px;
+  left: 566px;
   width: 333px;
   height: 333px;
   object-fit: cover;
@@ -1442,6 +1640,9 @@
 }
 
 .frameDiv1 {
+  position: absolute;
+  top: 32px;
+  left: calc(50% - 54px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1465,13 +1666,15 @@
 }
 
 .frameDiv2 {
+  position: absolute;
+  top: 154px;
+  left: 36px;
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
   text-align: left;
   font-size: 20px;
   color: #787878;
-  padding: 1rem;
 }
 
 .downloadNowDiv1 {
@@ -1483,6 +1686,7 @@
 
 .buttonDiv2,
 .rectangleDiv20 {
+  position: absolute;
   border-radius: 8px;
 }
 
@@ -1503,19 +1707,17 @@
 }
 
 .rectangleDiv20 {
+  top: 0;
+  left: 0;
   background-color: #0a2342;
-  height: 58px;
   width: 185px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 8%;
-  left: 22%;
-  color: #fff;
+  height: 58px;
 }
 
 .downloadDiv {
+  position: absolute;
+  top: 21px;
+  left: 49px;
   line-height: 16px;
   font-weight: 500;
   display: inline-block;
@@ -1523,36 +1725,37 @@
 }
 
 .groupDiv34 {
+  position: absolute;
+  top: 376px;
+  left: 68px;
+  width: 185px;
   height: 58px;
   font-size: 16px;
   color: #fefdff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  border: 12%;
-  bottom: 10%;
-  left: 22%;
 }
 
 .categoryDiv {
+  position: absolute;
+  top: 240px;
+  left: 160px;
   border-radius: 16px;
   background-color: #fff;
   box-shadow: 0 10px 20px rgba(0, 40, 100, 0.25);
   width: 328px;
   height: 475px;
-  margin-top: 6rem;
-  position: relative;
 }
 
 .frameDiv6,
 .frameDiv7 {
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 .frameDiv6 {
+  top: 32px;
+  left: calc(50% - 27.5px);
   height: 94px;
   align-items: center;
   gap: 16px;
@@ -1567,7 +1770,6 @@
   align-items: flex-start;
   gap: 24px;
   color: #787878;
-  padding: 1rem;
 }
 
 .downloadNowDiv2 {
@@ -1594,15 +1796,20 @@
 }
 
 .categoryDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
   border-radius: 16px;
   background-color: #fff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
   width: 328px;
   height: 428px;
-  position: relative;
 }
 
 .groupDiv36 {
+  position: absolute;
+  top: 340px;
+  left: 71px;
   width: 185px;
   height: 58px;
   text-align: center;
@@ -1611,14 +1818,19 @@
 }
 
 .groupDiv35 {
+  position: absolute;
+  top: 103px;
+  left: 560px;
   width: 328px;
   height: 428px;
   text-align: left;
   font-size: 20px;
-  position: relative;
 }
 
 .frameDiv10 {
+  position: absolute;
+  top: 32px;
+  left: calc(50% - 62px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1635,17 +1847,19 @@
 
 .buttonDiv4,
 .frameDiv11 {
+  position: absolute;
   text-align: left;
 }
 
 .frameDiv11 {
+  top: 154px;
+  left: 36px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 24px;
   color: #787878;
-  padding: 1rem;
 }
 
 .buttonDiv4 {
@@ -1664,6 +1878,9 @@
 }
 
 .groupDiv37 {
+  position: absolute;
+  top: 417px;
+  left: 70px;
   width: 185px;
   height: 58px;
   font-size: 16px;
@@ -1671,51 +1888,62 @@
 }
 
 .categoryDiv2 {
+  position: absolute;
+  top: 240px;
+  left: 960px;
   border-radius: 16px;
   background-color: #fff;
   box-shadow: 0 10px 20px rgba(0, 40, 100, 0.25);
-  height: 500px;
-
+  width: 328px;
+  height: 516px;
   font-size: 18px;
-  margin-top: 6rem;
-  position: relative;
 }
 
 .pricingB,
 .pricingDiv2 {
+  position: absolute;
+  left: 0;
+  width: 1440px;
 }
 
 .pricingB {
-  margin-top: 2rem;
+  top: 0;
   font-size: 42px;
   line-height: 50px;
   display: inline-block;
   color: #2cbddd;
-  text-align: center;
-  margin-bottom: 3rem;
-  display: flex;
-  justify-content: center;
+}
+
+.pricingDiv2 {
+  top: -933px;
+  height: 756px;
 }
 
 .startYourTrialToday {
+  position: absolute;
+  top: 47px;
+  left: 0;
   line-height: 50px;
   display: inline-block;
   width: 505px;
-  margin: 1rem 0;
 }
 
 .dOWNLOADDiv,
 .letYourHomeHaveAVoiceAv {
+  position: absolute;
+  left: 4px;
   display: inline-block;
 }
 
 .dOWNLOADDiv {
+  top: 0;
   font-size: 16px;
   font-weight: 600;
   color: #2e67bc;
 }
 
 .letYourHomeHaveAVoiceAv {
+  top: 127px;
   font-size: 20px;
   line-height: 30px;
   color: #787878;
@@ -1723,19 +1951,25 @@
 }
 
 .image54Icon {
+  position: absolute;
+  top: 277px;
+  left: 67px;
   width: 135px;
   height: 135px;
   object-fit: cover;
-  margin: 2rem 3rem;
 }
 
 .groupDiv38 {
+  position: absolute;
+  top: 37px;
+  left: 0;
   width: 505px;
   height: 412px;
 }
 
 .dOWNLOAD1Icon,
 .sCAN1Icon {
+  position: absolute;
   object-fit: cover;
 }
 
@@ -1748,24 +1982,28 @@
 }
 
 .sCAN1Icon {
+  top: 0;
+  left: 672px;
   width: 464px;
   height: 486px;
 }
 
+.downloadDiv3,
 .pricingDiv1 {
+  position: absolute;
+  top: -80px;
+  left: 152px;
+  width: 1136px;
   height: 486px;
   text-align: left;
   font-size: 42px;
   color: #ffaf18;
 }
 
-.downloadDiv3 {
-  text-align: left;
-  font-size: 42px;
-  color: #ffaf18;
-}
-
 .pricingDiv1 {
+  top: 6345px;
+  left: -2px;
+  width: 1440px;
   height: 668px;
   text-align: center;
   font-size: 25px;
@@ -1773,38 +2011,50 @@
 }
 
 .sedEgetLectusTinciduntCon {
+  position: absolute;
+  top: 49px;
+  left: 0;
   line-height: 50px;
   display: inline-block;
   width: 505px;
 }
 
 .devicesYouCanUse {
+  position: absolute;
+  top: 0;
+  left: 176px;
   font-size: 16px;
   font-weight: 600;
   display: inline-block;
-  text-transform: uppercase;
 }
 
-.groupDiv39 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
+.groupDiv39,
 .rectangleDiv23 {
+  position: absolute;
+  top: 40px;
+  left: 481px;
   width: 505px;
+  height: 149px;
 }
 
 .rectangleDiv23 {
+  top: 0;
+  left: 0;
+  background-color: #f7faff;
+  width: 1463px;
+  height: 626px;
 }
 
 .frameDiv16,
 .frameDiv17 {
+  position: absolute;
   width: 336px;
+  height: 244px;
 }
 
 .frameDiv17 {
+  top: 0;
+  left: 0;
   border-radius: 10px;
   background-color: #f7faff;
   overflow: hidden;
@@ -1818,21 +2068,16 @@
 .groupDiv41,
 .tVDiv,
 .tv21 {
+  position: absolute;
   width: 35.88px;
   height: 43.64px;
 }
 
 .tVDiv {
+  top: 0;
+  left: 0;
   font-weight: 500;
   display: inline-block;
-  text-align: center;
-  font-size: 20px;
-  color: #000;
-}
-
-.groupDiv41 {
-  position: relative;
-  z-index: -1;
 }
 
 .groupDiv41,
@@ -1842,6 +2087,8 @@
 }
 
 .tv21 {
+  top: 0;
+  left: 0;
   width: 192px;
   height: 182px;
   overflow: hidden;
@@ -1849,66 +2096,94 @@
 
 .devicesDiv,
 .groupDiv40 {
+  position: absolute;
+  top: 246px;
+  left: 615px;
+  width: 192px;
+  height: 229px;
   text-align: left;
   font-size: 20px;
   color: #121212;
 }
 
 .devicesDiv {
+  top: 3927px;
+  left: -23px;
+  width: 1463px;
+  height: 626px;
   text-align: center;
   font-size: 42px;
   color: #f7faff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
-.devicesYouCanUse,
+.dEVICESYOUCANUSE,
 .omnipresentInYourHome {
+  position: absolute;
   text-align: center;
   display: inline-block;
 }
 
 .omnipresentInYourHome {
+  top: 4058px;
+  left: 353px;
   font-size: 42px;
   line-height: 50px;
   color: #1d2d3f;
   width: 701px;
-  margin-top: 2rem;
 }
 
-.devicesYouCanUse {
+.dEVICESYOUCANUSE {
+  top: 4009px;
+  left: 579px;
   font-size: 16px;
   font-weight: 600;
   color: #2e67bc;
 }
 
 .groupDiv42 {
-  /* width: 361px; */
+  position: absolute;
+  top: 0;
+  left: 546px;
+  width: 361px;
   height: 19px;
-  margin-top: 4rem;
+}
+
+.ourSuperIntelligentAssistan {
+  position: absolute;
+  top: 49px;
+  left: calc(50% - 719.5px);
+  font-size: 42px;
+  line-height: 50px;
+  display: inline-block;
+  color: #ffaf18;
+  width: 1439px;
+  height: 53px;
+}
+
+.thatHasA {
   margin: 0;
 }
 
 .optimusIsUniqueAndOneOfI {
+  position: absolute;
+  top: 132px;
+  left: calc(50% - 488.5px);
   font-size: 20px;
   line-height: 30px;
   color: #787878;
   display: inline-block;
-  /* width: 986.09px; */
+  width: 986.09px;
 }
 
 .competitors2Div {
+  position: absolute;
+  top: 4635px;
+  left: 1px;
+  width: 1439px;
+  height: 252px;
   text-align: center;
   font-size: 16px;
   color: #2e67bc;
-  margin-top: 5rem;
-}
-
-.ePanchavatiTownship22 {
-  font-size: 42px;
-  color: #2cbddd;
 }
 
 .rectangleDiv24 {
@@ -1958,6 +2233,11 @@
 }
 
 .testimonialsDiv {
+  position: absolute;
+  top: 51px;
+  left: 189px;
+  width: 758.09px;
+  height: 226px;
   text-align: center;
   font-size: 16px;
 }
@@ -2163,6 +2443,9 @@
 }
 
 .inviteAGeniusToYourHome {
+  position: absolute;
+  top: 50px;
+  left: 0;
   font-size: 42px;
   line-height: 50px;
   display: inline-block;
@@ -2171,17 +2454,24 @@
 
 .cOMPANYDiv1,
 .pRODUCTDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
   font-weight: 600;
   color: #2e67bc;
   display: inline-block;
 }
 
 .cOMPANYDiv1 {
+  left: 115px;
   color: #cee0fa;
   cursor: pointer;
 }
 
 .seeAndListenToOptimusThe {
+  position: absolute;
+  top: 181px;
+  left: 0;
   font-size: 20px;
   line-height: 30px;
   color: #787878;
@@ -2191,18 +2481,18 @@
 
 .groupDiv48,
 .rectangleDiv25 {
+  position: absolute;
+  left: 0;
   width: 155px;
   height: 58px;
 }
 
 .rectangleDiv25 {
+  top: 0;
   border-radius: 8px;
   background-color: #0a2342;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
+  left: 18px;
 }
 
 .groupDiv48 {
@@ -2212,6 +2502,9 @@
 }
 
 .groupDiv47 {
+  position: absolute;
+  top: 106px;
+  left: 823px;
   width: 505px;
   height: 494px;
 }
@@ -2264,8 +2557,8 @@
 .aboutUsFinall1,
 .aboutUsFinall51,
 .aboutUssFinal1 {
-  /* position: absolute; */
-  /* object-fit: cover; */
+  position: absolute;
+  object-fit: cover;
 }
 
 .aboutUsFinall1 {
@@ -2277,18 +2570,26 @@
 }
 
 .aboutUsFinall51 {
+  top: 0;
+  left: 8px;
   width: 835px;
   height: 659px;
 }
 
 .aboutDiv,
 .aboutUsDiv {
+  position: absolute;
+  top: 11px;
+  left: -8px;
+  width: 1328px;
+  height: 659px;
 }
 
 .aboutUsDiv {
   top: 896px;
   left: 0;
-
+  width: 1440px;
+  height: 611px;
   font-size: 16px;
   color: #ffaf18;
 }
@@ -2296,6 +2597,9 @@
 .aiHello1,
 .aiParcelDeliveryCopy1,
 .aiTranslatesLanguages1 {
+  position: absolute;
+  top: 2213px;
+  left: 282px;
   width: 298px;
   height: 298px;
   object-fit: cover;
@@ -2303,11 +2607,15 @@
 
 .aiHello1,
 .aiTranslatesLanguages1 {
+  top: 2548px;
+  left: 825px;
   width: 266px;
   height: 266px;
 }
 
 .aiTranslatesLanguages1 {
+  top: 2898px;
+  left: 263px;
   width: 280px;
   height: 280px;
 }
@@ -2324,7 +2632,9 @@
   font-family: Inter;
 }
 
+
 textarea {
+  position: absolute;
   width: 620px;
   height: 140px;
   padding: 12px 20px;
@@ -2334,13 +2644,17 @@ textarea {
   background-color: #eff2f6;
   font-size: 20px;
   font-family: Inter;
+  top: -15px;
+  left: -17px;
 }
 
-input[type='submit'] {
+input[type=submit] {
+  position: absolute;
   background-color: #468cf6;
   height: 60px;
   width: 305px;
-
+  top: -20px;
+  right: 20px;
   font-weight: 600;
   border: 2px solid #468cf6;
   border-radius: 4px;
@@ -2351,24 +2665,10 @@ input[type='submit'] {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
+
 }
 
-input[type='text'],
-select {
-  width: 280px;
-  padding: 12px 20px;
-  display: inline-block;
-  border: 1px solid #eff2f6;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-bottom: 30px;
-  background-color: #eff2f6;
-  font-size: 20px;
-  font-family: Inter;
-}
-
-input[type='email'],
-select {
+input[type=text], select {
   width: 280px;
   padding: 12px 20px;
   margin: -10px -14px;
@@ -2380,199 +2680,29 @@ select {
   background-color: #eff2f6;
   font-size: 20px;
   font-family: Inter;
-  margin-left: 3rem;
 }
 
-.flexHeight {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: left;
-  height: 100vh;
-}
-
-.topNav {
-  margin-top: 2rem;
-}
-
-.aboutUs {
-  margin-top: 3rem;
-}
-
-.designView {
-  width: 900px;
-  margin: 5rem auto;
-}
-
-.imgAbsolute {
-  position: absolute;
-  top: 79%;
-}
-
-.subscrib {
-  margin-top: 3rem;
-  position: relative;
-}
-
-.peopleBehind {
-  margin-top: 5rem;
-}
-
-.ourSuperIntelligentAssistan {
-  color: #ffaf18;
-  font-size: 40px;
-  font-weight: 700;
-  padding: 1rem;
+input[type=email], select {
+  width: 280px;
+  padding: 12px 20px;
+  margin: -10px -14px;
+  display: inline-block;
+  border: 1px solid #eff2f6;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  background-color: #eff2f6;
+  font-size: 20px;
+  font-family: Inter;
+  right: 15px;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
-  .aboutUsFinall51 {
-    width: 378px;
-    height: 352px;
-  }
-
-  .voiceAssistedPhotographyB {
-    width: auto;
-  }
-  .theOpti {
-    font-size: 30px;
-  }
-
-  .weLiveInADigitalConnecte {
-    width: 318px;
-  }
-
-  .groupDiv23 {
-    width: 300px;
-  }
-
-  .blueMainBannerr2 {
-    width: 326px;
-    height: 423px;
-  }
-
-  .inviteAGeniusToYourHome {
-    font-size: 25px;
-  }
-
-  .seeAndListenToOptimusThe {
-    width: 359px;
-    word-break: break-word;
-  }
-
-  .whatCanYouDoWithOptimus {
-    width: 360px;
-  }
-
-  .designView {
-    width: 317px !important;
-    margin: 13rem auto;
-  }
-
-  textarea {
-    width: 326px;
-  }
-
-  .omnipresentInYourHome {
-    width: 360px;
-  }
-
-  .optimusIsUniqueAndOneOfI {
-    width: 360px;
-  }
-
-  .categoryDiv {
-    margin-top: 0;
-  }
-
-  .createScreensDirectlyInMet .d-flex {
+  .top-topbanner {
+    display: flex;
+    justify-content: center;
     flex-direction: column;
   }
 
-  .teamDiv {
-    flex-direction: column;
 
-    margin-top: 6rem;
-  }
-
-  .getTouch {
-    margin-top: 3rem;
-  }
-
-  .dFlex {
-    flex-direction: column;
-  }
-
-  .subscribe {
-    margin-bottom: 53rem;
-  }
-
-  .ePanchavatiTownship2 {
-    width: 340px !important;
-  }
-
-  .groupDiv32,
-  .groupDiv29 {
-    width: 420px;
-  }
-
-  .rectangleDiv19 {
-    width: 486px;
-  }
-
-  .flexHeight {
-    height: 68vh;
-  }
-
-  .groupDiv38 {
-    height: 476px;
-  }
-
-  .startYourTrialToday,
-  .thePeopleBehindOptimus {
-    font-size: 32px;
-  }
-
-  .letYourHomeHaveAVoiceAv {
-    width: 340px;
-    word-break: break-all;
-  }
-
-  .sCAN1Icon {
-    width: 320px;
-    height: 336px;
-  }
-
-  .createScreensDirectlyInMet1 {
-    width: 287px;
-    word-break: break-word;
-  }
-
-  .ePanchavatiTownship {
-    width: 269px;
-  }
-
-  .worldsFirstMultilingualSma {
-    width: 275px;
-    margin-bottom: 3rem;
-    line-height: 28px;
-  }
-
-  .groupDiv26,
-  .groupDiv27 {
-    align-items: left !important;
-  }
-
-  .greetYourOptimusAndBeAmaz {
-    width: 317px;
-  }
-
-  .greetYourOptimusAndBeAmaz {
-    margin-top: 2rem;
-  }
-
-  input[type='email'],
-  select {
-    margin-left: 0rem !important;
-  }
 }

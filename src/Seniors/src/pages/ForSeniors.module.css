@@ -4,11 +4,25 @@
   left: 0;
   width: 1531px;
 }
+
 .rectangleDiv {
   top: 0;
   background-color: rgba(160, 164, 171, 0.1);
   height: 393.01px;
 }
+
+.footerDivs {
+  text-align: left;
+  font-size: 16px;
+  color: rgba(14, 14, 44, 0.8);
+  font-family: Poppins;
+  background-color: rgba(160, 164, 171, 0.1);
+}
+
+.footerDiv {
+  padding: 2rem;
+}
+
 .rectangleDiv1 {
   top: 332.32px;
   background-color: #ebbb3c;
@@ -16,159 +30,138 @@
   box-sizing: border-box;
   height: 62.68px;
 }
+
 .logoDiv {
-  position: absolute;
-  top: 49.24px;
-  left: 165px;
   font-size: 32px;
   font-weight: 600;
   color: #468cf6;
-  display: inline-block;
-  width: 120px;
-  height: 48.41px;
+  margin-bottom: 2rem;
+
 }
+
 .transformingLivesAcrossThe {
   top: 113.54px;
   left: 165px;
   width: 255px;
   height: 80.59px;
 }
+
+
 .companyDiv,
-.copyright2022Div,
-.needAnswersNeedHelpJust,
-.transformingLivesAcrossThe {
-  position: absolute;
-  line-height: 171.5%;
-  display: inline-block;
-}
-.needAnswersNeedHelpJust {
-  top: 99.5px;
-  left: 1020px;
-  width: 255px;
-  height: 53.73px;
-}
-.companyDiv,
+.copyright2022Div {}
+
 .copyright2022Div {
-  height: 26.86px;
-}
-.copyright2022Div {
-  top: 350.23px;
-  left: 653px;
   font-weight: 600;
   color: #fff;
-  width: 133px;
+  background-color: #ebbb3c;
+  border: 1px solid #ebbb3c;
+  padding: p;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
 }
-.companyDiv {
-  top: 108.45px;
-  left: 451px;
-  width: 255px;
+
+.companyDiv, .productDiv, .competitorsDiv, .pricingDiv, .groupDiv {
+  margin-bottom: .5rem;
 }
+
 .competitorsDiv,
-.contactDiv {
-  left: 451px;
-  height: 26.86px;
-}
+.contactDiv {}
+
 .competitorsDiv,
 .contactDiv,
 .followUsDiv,
 .getInTouchWithUs,
 .linksDiv,
+.pricingDiv {}
+
 .pricingDiv {
-  position: absolute;
-  line-height: 171.5%;
-  display: inline-block;
-  width: 255px;
-}
-.pricingDiv {
-  left: 451px;
   height: 26.86px;
 }
-.productDiv {
-  top: 142.28px;
-}
+
+.productDiv {}
+
 .productDiv,
-.seniorsDiv {
-  position: absolute;
-  left: 451px;
-  line-height: 171.5%;
-  display: inline-block;
-  width: 255px;
-  height: 26.86px;
-}
-.competitorsDiv {
-  top: 180.09px;
-}
-.pricingDiv {
-  top: 218.89px;
-}
-.contactDiv {
-  top: 254.71px;
-}
+.seniorsDiv {}
+
+.competitorsDiv {}
+
+.pricingDiv {}
+
+.contactDiv {}
+
 .seniorsDiv {
   top: 294.51px;
 }
+
 .followUsDiv,
 .getInTouchWithUs,
 .linksDiv {
-  top: 52.73px;
+
   font-size: 18px;
   font-weight: 600;
   color: #0e0e2c;
-  height: 30.84px;
+  margin-bottom: 1.6rem;
 }
+
 .linksDiv {
   left: 454px;
 }
-.followUsDiv {
-  left: 735px;
-}
-.getInTouchWithUs {
-  left: 1020px;
-}
+
+.followUsDiv {}
+
+.getInTouchWithUs {}
+
 .groupDiv,
-.twitterDiv {
-  position: absolute;
-  width: 185px;
-  height: 26.86px;
-}
+.twitterDiv {}
+
 .twitterDiv {
   top: 0;
   left: 0;
   line-height: 171.5%;
   display: inline-block;
 }
-.groupDiv {
-  top: 108.45px;
-  left: 734px;
-}
+
+.groupDiv {}
+
 .footerDiv {
-  position: absolute;
+  /* position: absolute; */
+  margin-top: 5rem;
+
 }
+
+.footerDiv a {
+  text-decoration: none;
+  color: rgba(14, 14, 44, 0.8);
+
+
+}
+
 .groupDiv1,
 .linkedInDiv {
   position: absolute;
   width: 175px;
   height: 26.86px;
 }
+
 .linkedInDiv {
   top: 0;
   left: 0;
   line-height: 171.5%;
   display: inline-block;
 }
+
 .groupDiv1 {
   top: 151.23px;
   left: 734px;
 }
+
 .footerDiv {
-  top: 3810px;
-  left: 0;
-  width: 1440px;
-  height: 395px;
   font-size: 16px;
   color: rgba(14, 14, 44, 0.8);
   font-family: Poppins;
 }
+
 .rectangleDiv2 {
   position: absolute;
   top: -106.68px;
@@ -178,13 +171,12 @@
   height: 495.26px;
   display: none;
 }
+
 .ellipseIcon {
-  position: absolute;
-  top: 358.18px;
-  left: 376.54px;
   width: 4.75px;
   height: 5.53px;
 }
+
 .groupIcon,
 .image48Div {
   position: absolute;
@@ -193,6 +185,7 @@
   width: 45.58px;
   height: 22.11px;
 }
+
 .image48Div {
   top: 53.7px;
   left: -6px;
@@ -203,12 +196,14 @@
   width: 154.45px;
   height: 371.29px;
 }
+
 .groupIcon1,
 .iconlyLightNotification {
   position: absolute;
   max-width: 100%;
   max-height: 100%;
 }
+
 .groupIcon1 {
   height: 65.56%;
   width: 77.33%;
@@ -218,6 +213,7 @@
   left: 11.33%;
   opacity: 0.5;
 }
+
 .iconlyLightNotification {
   height: 4.57%;
   width: 7.81%;
@@ -226,12 +222,14 @@
   bottom: 95.43%;
   left: 92.19%;
 }
+
 .jumpStartDiv,
 .yourPortfolioLooksGreatTod {
   position: absolute;
   left: 0;
   display: inline-block;
 }
+
 .jumpStartDiv {
   top: 77.39px;
   letter-spacing: -0.01em;
@@ -239,6 +237,7 @@
   width: 44.16px;
   height: 24.32px;
 }
+
 .yourPortfolioLooksGreatTod {
   top: 90.66px;
   font-size: 10px;
@@ -246,6 +245,7 @@
   width: 70.75px;
   height: 13.27px;
 }
+
 .groupDiv3 {
   position: absolute;
   height: 24.8%;
@@ -255,6 +255,7 @@
   bottom: 75.2%;
   left: 7.33%;
 }
+
 .portfolioBalanceDiv {
   top: 0;
   letter-spacing: -0.01em;
@@ -262,18 +263,22 @@
   width: 44.63px;
   height: 16.58px;
 }
+
 .div {
   left: 0;
 }
+
 .div,
 .div1 {
   position: absolute;
 }
+
 .portfolioBalanceDiv,
 .vectorIcon {
   position: absolute;
   left: 0;
 }
+
 .div {
   top: 11.06px;
   font-size: 22px;
@@ -284,11 +289,13 @@
   width: 48.43px;
   height: 29.85px;
 }
+
 .vectorIcon {
   top: 2.76px;
   width: 2.85px;
   height: 1.66px;
 }
+
 .div1 {
   top: 0;
   left: 4.75px;
@@ -297,6 +304,7 @@
   width: 33.24px;
   height: 13.27px;
 }
+
 .groupDiv6,
 .todayMay222021 {
   position: absolute;
@@ -307,6 +315,7 @@
   font-size: 10px;
   color: #20cb5c;
 }
+
 .todayMay222021 {
   top: 37.59px;
   left: 0;
@@ -317,6 +326,7 @@
   width: 41.79px;
   height: 12.16px;
 }
+
 .groupDiv5 {
   position: absolute;
   top: 21.16px;
@@ -327,12 +337,14 @@
   font-size: 12px;
   color: #353535;
 }
+
 .availableBalanceDiv,
 .div2 {
   position: absolute;
   letter-spacing: -0.01em;
   display: inline-block;
 }
+
 .availableBalanceDiv {
   top: 0;
   left: 0;
@@ -340,6 +352,7 @@
   width: 46.06px;
   height: 16.58px;
 }
+
 .div2 {
   top: 14.92px;
   left: 15.19px;
@@ -348,16 +361,19 @@
   width: 18.99px;
   height: 14.37px;
 }
+
 .moreDetailsDiv,
 .vectorIcon1 {
   position: absolute;
 }
+
 .vectorIcon1 {
   top: 2.21px;
   left: 34.19px;
   width: 3.32px;
   height: 1.42px;
 }
+
 .moreDetailsDiv {
   top: 0;
   left: 0;
@@ -366,10 +382,12 @@
   width: 29.91px;
   height: 14.37px;
 }
+
 .groupDiv7,
 .groupDiv8 {
   position: absolute;
 }
+
 .groupDiv8 {
   top: 14.92px;
   left: 74.07px;
@@ -377,6 +395,7 @@
   height: 14.37px;
   color: #444;
 }
+
 .groupDiv7 {
   top: 196.94px;
   left: 9.5px;
@@ -386,6 +405,7 @@
   font-size: 11px;
   color: #373737;
 }
+
 .rectangleDiv3 {
   position: absolute;
   top: 0;
@@ -395,6 +415,7 @@
   width: 15.19px;
   height: 11.05px;
 }
+
 .hDiv {
   position: absolute;
   top: 1.11px;
@@ -404,11 +425,13 @@
   width: 6.17px;
   height: 16.58px;
 }
+
 .groupDiv9,
 .rectangleDiv4 {
   position: absolute;
   width: 15.19px;
 }
+
 .groupDiv9 {
   top: 169.3px;
   left: 8.07px;
@@ -416,6 +439,7 @@
   font-size: 12px;
   color: #fefefe;
 }
+
 .rectangleDiv4 {
   top: 0;
   left: 0;
@@ -424,6 +448,7 @@
   box-sizing: border-box;
   height: 11.05px;
 }
+
 .hDiv1 {
   position: absolute;
   top: 2.21px;
@@ -432,6 +457,7 @@
   width: 9.02px;
   height: 6.63px;
 }
+
 .groupDiv10,
 .wDiv {
   position: absolute;
@@ -440,6 +466,7 @@
   width: 15.19px;
   height: 11.05px;
 }
+
 .wDiv {
   top: 2.21px;
   left: 4.51px;
@@ -447,24 +474,29 @@
   width: 6.17px;
   height: 13.27px;
 }
+
 .groupDiv11 {
   position: absolute;
   top: 168.75px;
   left: 46.06px;
 }
+
 .groupDiv11,
 .groupDiv12 {
   width: 15.19px;
   height: 15.48px;
 }
+
 .groupDiv12,
 .yDiv {
   position: absolute;
 }
+
 .groupDiv12 {
   top: 169.3px;
   left: 65.05px;
 }
+
 .yDiv {
   top: 2.21px;
   left: 4.99px;
@@ -472,16 +504,19 @@
   width: 5.22px;
   height: 6.63px;
 }
+
 .allDiv,
 .groupDiv13 {
   position: absolute;
 }
+
 .groupDiv13 {
   top: 169.3px;
   left: 84.05px;
   width: 15.19px;
   height: 11.05px;
 }
+
 .allDiv {
   top: 2.21px;
   left: 4.51px;
@@ -489,6 +524,7 @@
   width: 5.7px;
   height: 6.63px;
 }
+
 .groupDiv14,
 .rectangleDiv9 {
   position: absolute;
@@ -497,19 +533,19 @@
   width: 15.19px;
   height: 11.05px;
 }
+
 .rectangleDiv9 {
   top: 188.09px;
   left: 9.5px;
-  background: linear-gradient(
-    -90deg,
-    rgba(87, 68, 235, 0) 15.6%,
-    #5643eb 54.51%,
-    rgba(86, 67, 235, 0) 87.52%
-  );
+  background: linear-gradient(-90deg,
+      rgba(87, 68, 235, 0) 15.6%,
+      #5643eb 54.51%,
+      rgba(86, 67, 235, 0) 87.52%);
   width: 109.21px;
   height: 0.55px;
   opacity: 0.5;
 }
+
 .groupIcon2,
 .rectangleDiv10 {
   position: absolute;
@@ -518,6 +554,7 @@
   width: 10.45px;
   height: 221.81px;
 }
+
 .rectangleDiv10 {
   left: 0;
   border-radius: 8px;
@@ -525,6 +562,7 @@
   width: 52.23px;
   height: 15.48px;
 }
+
 .sendDiv {
   position: absolute;
   top: 4.42px;
@@ -534,17 +572,20 @@
   width: 11.4px;
   height: 13.27px;
 }
+
 .groupDiv15,
 .rectangleDiv11 {
   position: absolute;
   width: 52.23px;
 }
+
 .groupDiv15 {
   top: 230.1px;
   left: 9.5px;
   height: 17.69px;
   color: #fff;
 }
+
 .rectangleDiv11 {
   top: 0;
   left: 0;
@@ -552,6 +593,7 @@
   background: linear-gradient(90deg, #468cf6, #5797f9);
   height: 15.48px;
 }
+
 .withdrawDiv {
   position: absolute;
   top: 4.42px;
@@ -561,6 +603,7 @@
   width: 21.37px;
   height: 13.27px;
 }
+
 .groupDiv16 {
   position: absolute;
   top: 230.1px;
@@ -569,6 +612,7 @@
   height: 17.69px;
   color: #fff;
 }
+
 .groupIcon3 {
   position: absolute;
   top: 254.98px;
@@ -576,16 +620,19 @@
   width: 9.5px;
   height: 11.05px;
 }
+
 .groupDiv4,
 .groupIcon4 {
   position: absolute;
   width: 119.18px;
 }
+
 .groupIcon4 {
   top: 53.59px;
   left: 0;
   height: 118.75px;
 }
+
 .groupDiv4 {
   top: 97.13px;
   left: 7.12px;
@@ -594,36 +641,28 @@
   font-size: 10px;
   color: #5643eb;
 }
+
 .groupDiv2 {
-  position: absolute;
-  top: -105.03px;
-  left: 548.91px;
-  width: 142.45px;
-  height: 418.99px;
-  display: none;
+  /* display: none; */
 }
+
 .aICaregiverForElders {
-  position: absolute;
-  top: 0;
-  left: 0;
+
   font-size: 42px;
   line-height: 50px;
   display: inline-block;
   color: #1d2d3f;
-  width: 547px;
-  height: 50px;
+  margin-bottom: 2rem;
+
 }
+
 .usingOptimusToAvoidInciden {
-  position: absolute;
-  top: 83px;
-  left: calc(50% - 283px);
   font-size: 20px;
   line-height: 30px;
   color: #787878;
-  display: inline-block;
-  width: 463px;
-  height: 228px;
+
 }
+
 .bluee011Icon {
   position: absolute;
   top: 223.17px;
@@ -633,6 +672,7 @@
   object-fit: cover;
   display: none;
 }
+
 .homeBannerDiv {
   position: absolute;
   top: 300px;
@@ -642,6 +682,7 @@
   font-size: 18px;
   color: #353535;
 }
+
 .cONTACTDiv {
   position: absolute;
   top: 0;
@@ -650,41 +691,50 @@
   display: inline-block;
   width: 85.14px;
 }
+
 .pRICINGDiv {
-  left: 714.5px;
   width: 71.87px;
 }
+
+.listDiv {
+  padding-right: 1.5rem;
+  font-size: 16px;
+}
+
+.listDiv a {
+  text-decoration: none;
+  color: #787878;
+
+}
+
 .cOMPANYDiv,
 .cOMPETITORSDiv,
 .pRICINGDiv,
 .pRODUCTDiv,
 .sENIORSDiv,
-.tESTIMONIALSDiv {
-  position: absolute;
-  top: 0;
-  line-height: 30px;
-  display: inline-block;
-}
+.tESTIMONIALSDiv {}
+
 .tESTIMONIALSDiv {
   left: 548.36px;
   width: 130.48px;
 }
-.cOMPETITORSDiv {
-  left: 800.04px;
-  width: 127.16px;
-}
+
+.cOMPETITORSDiv {}
+
 .pRODUCTDiv,
 .sENIORSDiv {
-  left: 670.5px;
   width: 86.25px;
 }
+
 .sENIORSDiv {
   left: 548.36px;
 }
+
 .cOMPANYDiv {
   left: 0;
   width: 89.56px;
 }
+
 .navBarDiv {
   position: absolute;
   top: 36px;
@@ -694,108 +744,78 @@
   font-size: 16px;
   color: #353535;
 }
+
 .fallDetectionB,
+.fallsAreTheLeadingCauseOf {}
+
 .fallsAreTheLeadingCauseOf {
-  position: absolute;
-  display: inline-block;
-}
-.fallsAreTheLeadingCauseOf {
-  top: 51px;
-  left: calc(50% - 245px);
+
   line-height: 30px;
-  width: 490px;
+  margin-top: 1.5rem;
+  width: 466px;
+  word-break: break-word;
 }
+
 .fallDetectionB {
-  top: 0;
-  left: calc(50% - 239.33px);
+
   font-size: 25px;
   line-height: 20px;
   color: #1d2d3f;
   width: 446.9px;
-  height: 20px;
 }
-.groupDiv17 {
-  position: absolute;
-  top: 773px;
-  left: calc(50% - 537px);
-  width: 490px;
-  height: 231px;
-}
+
+.groupDiv17 {}
+
 .optimusIsACuttingEdgeVirt,
 .sleepBehaviour {
-  position: absolute;
-  top: 51px;
-  left: calc(50% - 199.5px);
   line-height: 30px;
-  display: inline-block;
-  width: 395px;
+  width: 400px;
+  word-break: break-all;
+  margin-top: 1.5rem;
 }
+
 .sleepBehaviour {
-  top: 0;
-  left: calc(50% - 194.5px);
   font-size: 25px;
   line-height: 20px;
   color: #1d2d3f;
-  width: 394px;
-  height: 20px;
 }
-.groupDiv18,
-.groupDiv19 {
-  position: absolute;
-  top: 1532px;
-  left: calc(50% - 521px);
-  width: 399px;
-  height: 171px;
+
+.topSpace {
+  margin-top: 12rem;
 }
-.groupDiv19 {
-  top: 2274px;
-  left: calc(50% - 517px);
-}
+
 .groupDiv20 {
   top: 2985px;
   left: calc(50% - 530px);
 }
-.groupDiv20,
-.groupDiv21,
-.groupDiv22,
-.groupDiv23 {
-  position: absolute;
-  width: 399px;
-  height: 171px;
-}
-.groupDiv21 {
-  top: 773px;
-  left: calc(50% - -113px);
-}
-.groupDiv22 {
-  top: 1542px;
-  left: calc(50% - -133px);
-}
-.groupDiv23 {
-  top: 2274px;
-  left: calc(50% - -129px);
-}
+
+
+
 .ezgif6Icon,
 .groupDiv24 {
   position: absolute;
   top: 3520px;
   left: 265px;
 }
+
 .ezgif6Icon {
   width: 333px;
   height: 333px;
   object-fit: cover;
   display: none;
 }
+
 .groupDiv24 {
   width: 0;
   height: 0;
 }
+
 .rectangleDiv12 {
   position: absolute;
   top: 650px;
   background-color: #d9d9d9;
 }
+
 .rectangleDiv12,
 .rectangleDiv13,
 .rectangleDiv14 {
@@ -803,6 +823,7 @@
   width: 1496px;
   height: 136px;
 }
+
 .rectangleDiv13,
 .rectangleDiv14,
 .rectangleDiv15,
@@ -810,12 +831,15 @@
   position: absolute;
   background-color: #d9d9d9;
 }
+
 .rectangleDiv13 {
   top: 1352px;
 }
+
 .rectangleDiv14 {
   top: 2048px;
 }
+
 .rectangleDiv15,
 .rectangleDiv16 {
   top: 7px;
@@ -823,10 +847,12 @@
   width: 196px;
   height: 370px;
 }
+
 .rectangleDiv16 {
   top: 0;
   left: 28px;
 }
+
 .groupDiv25 {
   position: absolute;
   top: 1866px;
@@ -835,6 +861,7 @@
   height: 2184px;
   display: none;
 }
+
 .rectangleDiv17,
 .rectangleDiv18,
 .rectangleDiv19 {
@@ -845,16 +872,20 @@
   width: 444px;
   height: 348px;
 }
+
 .rectangleDiv18,
 .rectangleDiv19 {
   top: 702px;
 }
+
 .rectangleDiv19 {
   top: 1398px;
 }
+
 .rectangleDiv20 {
   left: 0;
 }
+
 .rectangleDiv20,
 .rectangleDiv21,
 .rectangleDiv22,
@@ -864,23 +895,29 @@
   width: 444px;
   height: 348px;
 }
+
 .rectangleDiv20 {
   top: 2093px;
 }
+
 .rectangleDiv21 {
   top: 0;
   left: 658px;
 }
+
 .rectangleDiv22,
 .rectangleDiv23 {
   left: 658px;
 }
+
 .rectangleDiv22 {
   top: 702px;
 }
+
 .rectangleDiv23 {
   top: 1398px;
 }
+
 .groupDiv26 {
   position: absolute;
   top: 2160px;
@@ -889,27 +926,22 @@
   height: 2441px;
   display: none;
 }
+
 .analysisOfDataBlockchain1Icon,
+.w023N0032929bP12929ConveIcon {}
+
 .w023N0032929bP12929ConveIcon {
-  position: absolute;
-  overflow: hidden;
-}
-.w023N0032929bP12929ConveIcon {
-  top: 1002px;
-  left: 253px;
   width: 391px;
   height: 406px;
 }
+
 .analysisOfDataBlockchain1Icon {
-  height: 5.28%;
-  width: 28.54%;
-  top: 39.84%;
-  right: 46.88%;
-  bottom: 54.88%;
-  left: 24.58%;
-  max-width: 100%;
-  max-height: 100%;
+  width: 40%;
+  width: 28%;
+  position: absolute;
+  left: 17%;
 }
+
 .rectangleDiv24 {
   position: absolute;
   top: 106px;
@@ -917,6 +949,7 @@
   width: 547px;
   height: 566px;
 }
+
 .vectorIcon2 {
   position: absolute;
   height: 0.37%;
@@ -928,64 +961,59 @@
   max-width: 100%;
   max-height: 100%;
 }
+
 .oldWomanSufferingFromHeadaIcon,
 .retiredWomenFellDownByHeaIcon {
-  position: absolute;
-  top: 1613px;
-  left: 97px;
+
   width: 538px;
   height: 598px;
-  overflow: hidden;
 }
+
+
+
 .retiredWomenFellDownByHeaIcon {
-  top: 1803px;
-  left: 792px;
+
   width: 493px;
   height: 329px;
 }
+
 .icon,
+.oldPersonSmoking11 {}
+
 .oldPersonSmoking11 {
-  position: absolute;
-  left: 173px;
-}
-.oldPersonSmoking11 {
-  top: 2417px;
+
   width: 455px;
   height: 455px;
-  overflow: hidden;
 }
+
 .icon {
-  top: 3170px;
   width: 575px;
   height: 368px;
-  object-fit: cover;
+  margin-bottom: 4rem;
 }
+
 .icon1 {
-  position: absolute;
-  top: 2488px;
-  left: 844px;
+
   width: 330px;
   height: 383px;
-  overflow: hidden;
 }
+
 .untitled11Icon {
-  top: 173px;
-  left: 801px;
+
   width: 511px;
   height: 469px;
 }
+
 .calender1Icon,
 .oldWomanWithMigraineTakingIcon,
-.untitled11Icon {
-  position: absolute;
-  overflow: hidden;
-}
+.untitled11Icon {}
+
 .oldWomanWithMigraineTakingIcon {
-  top: 985px;
-  left: 807px;
+
   width: 540px;
   height: 386px;
 }
+
 .calender1Icon {
   height: 2.64%;
   width: 7.71%;
@@ -996,6 +1024,7 @@
   max-width: 100%;
   max-height: 100%;
 }
+
 .rectangleIcon {
   position: absolute;
   top: 27px;
@@ -1004,12 +1033,10 @@
   height: 60px;
   object-fit: cover;
 }
+
 .forSeniorsDiv {
   position: relative;
-  background-color: #fff;
   width: 100%;
-  height: 4207px;
-  overflow: hidden;
   text-align: left;
   font-size: 20px;
   color: #787878;
